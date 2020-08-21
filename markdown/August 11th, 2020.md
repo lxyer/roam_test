@@ -1,0 +1,5 @@
+- [readwise](https://readwise.io/)可以方便的导入[[kindle]]中的高亮，[[pocket]]和[[Instapaper]]中的高亮
+- 今天擦了擦桌子，我的Logic MX Master鼠标突然不能用了，
+- {{[[TODO]]}} [怎样把b站的视频贴到公众号?](https://www.zhihu.com/question/344650153)#upPlan
+- [[邢佳佳]]入职了
+- 

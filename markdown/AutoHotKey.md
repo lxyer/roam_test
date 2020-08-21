@@ -1,0 +1,2 @@
+- [中文在线文档](https://ahkcn.github.io/docs/AutoHotkey.htm)
+- [有搜索功能中文文档]()

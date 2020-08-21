@@ -1,0 +1,18 @@
+- Roam Research 源自 [[Zettelkasten]]，也就是 [[slip-box]]
+- [[快捷键]]
+    - alt+d 跳转到[[Daily Notes]]
+    - Ctrl + u  [[全文搜索]]
+    - shift+alt+上下方向键  移动块
+    - Ctrl + Alt + 1,2,3,0  标题级别设置
+    - Ctrl + Enter  待办/完成样式设置
+    - Ctrl + b 内容加粗
+    - Ctrl + i  内容加斜
+    - Ctrl + k 添加 HTML 超链接
+    - Ctrl + h 添加高亮/强调样式
+    - 空白处，先按crtl+c，再按crtl+b 隐藏双链标记[[
+    - Shift+click 在right sidebar打开page
+    - Ctrl+方向键进行前后跳转
+- [快捷键](https://hintsnet.com/pimgeek/2020/05/23/roam-research-keyboard-shortcuts-summary/)
+- [query用法](https://mp.weixin.qq.com/s/w_rqGvFJXKMeMEAPLisiiQ)
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FisiCQFTu1o.png?alt=media&token=33f265ad-051e-4e85-812b-e4b673720781)
+- 配合插件[[roam-highlighter]]

@@ -1,0 +1,20 @@
+- 视频下载
+    - https://www.freemake.com/
+    - https://www.gihosoft.com/free-youtube-downloader.html
+    - https://zh.savefrom.net/
+    - https://www.y2mate.com/en24
+    - https://github.com/PizzaWaffles/Automatic-Youtube-Downloader
+    - [CR TubeGet](http://www.cr-soft.net/v0923.html) 可以免费使用
+    -  Youtube Best Video Downloader 2
+    - Xtreme Download Manager
+    - https://www.freedownloadmanager.org/zh/download.htm   win Mac都是免费的
+- 字幕下载
+    - https://www.toolbxs.com/zh-TW/downloader/youtube_subtitle/search?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvHd_rYvvD4E
+    - https://zhuwei.me/y2b/
+- 视频搬运
+    - [智影](http://zenvideo.cn/)
+    - [4K Video Downloader](https://www.4kdownload.com/zh-cn/products/product-videodownloader)自动下载 YouTube 订阅
+    - 哔哩哔哩投稿工具
+    - [[Final Cut Pro]]设置字幕https://jingyan.baidu.com/article/37bce2bec681185002f3a2ab.html
+    - 使用[[Final Cut Pro]]的字幕插件，制作片头
+    - 

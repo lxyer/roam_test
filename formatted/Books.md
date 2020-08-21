@@ -1,0 +1,9 @@
+- 阅读愿望清单
+    - [《Python编程》](<《Python编程》.md>)
+    - [《How to take smart notes》](<《How to take smart notes》.md>)
+    - [《设计模式之禅》](<《设计模式之禅》.md>)
+    - {{[query](<query.md>): {and: [Reading list](<Reading list.md>)}}}
+- 已读完
+    - [《如何阅读一本书》](<《如何阅读一本书》.md>)
+    - [《刻意练习:如何从新手到大师》](<《刻意练习:如何从新手到大师》.md>)
+    - {{[query](<query.md>): {and: [Readed](<Readed.md>)}}}

@@ -1,0 +1,2 @@
+- [[Daily Notes]]的格式和[[Roam Research]]保持一致,在设置中设置Date Formate 为MMMM Do, YYYY
+- https://obsidian.md/

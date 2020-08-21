@@ -1,0 +1,9 @@
+- 阅读愿望清单
+    - [[《Python编程》]]
+    - [[《How to take smart notes》]]
+    - [[《设计模式之禅》]]
+    - {{[[query]]: {and: [[Reading list]]}}}
+- 已读完
+    - [[《如何阅读一本书》]]
+    - [[《刻意练习:如何从新手到大师》]]
+    - {{[[query]]: {and: [[Readed]]}}}
