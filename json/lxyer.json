@@ -22614,8 +22614,8 @@
           },
           {
             "edit-email": "489322130@qq.com",
-            "edit-time": 1598941038717,
-            "string": "\u5fb7\u56fd\u793e\u4f1a\u5b66\u8005 Niklas Luhmann\uff08\u5362\u66fc\uff09\u4f7f\u7528 Zettelkasten \u5361\u7247\u76d2\u7b14\u8bb0\u6cd5\u5199\u4e86 70 \u591a\u672c\u4e66\u548c 400 \u591a\u7bc7\u5b66\u672f\u6587\u7ae0",
+            "edit-time": 1598954257206,
+            "string": "\u5fb7\u56fd\u793e\u4f1a\u5b66\u8005 Niklas Luhmann\uff08[[\u5362\u66fc]]\uff09\u4f7f\u7528 [[Zettelkasten]] \u5361\u7247\u76d2\u7b14\u8bb0\u6cd5\u5199\u4e86 70 \u591a\u672c\u4e66\u548c 400 \u591a\u7bc7\u5b66\u672f\u6587\u7ae0",
             "uid": "s_K2gf6MK"
           },
           {
@@ -22800,5 +22800,12 @@
     "edit-email": "489322130@qq.com",
     "edit-time": 1598941767888,
     "title": "prezi"
+  },
+  {
+    "create-email": "489322130@qq.com",
+    "create-time": 1598954252267,
+    "edit-email": "489322130@qq.com",
+    "edit-time": 1598954252269,
+    "title": "\u5362\u66fc"
   }
 ]
