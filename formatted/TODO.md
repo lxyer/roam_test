@@ -6,7 +6,7 @@
 ## [August 17th, 2020](<August 17th, 2020.md>)
 - {{[TODO](<TODO.md>)}
 
-## [August 21st, 2020](<August 21st, 2020.md>)
+## [August 27th, 2020](<August 27th, 2020.md>)
 - {{[query](<query.md>):  {and: [TODO](<TODO.md>)
 
 ## [August 3rd, 2020](<August 3rd, 2020.md>)

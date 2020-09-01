@@ -1,6 +1,6 @@
 
 # Backlinks
-## [August 21st, 2020](<August 21st, 2020.md>)
+## [August 27th, 2020](<August 27th, 2020.md>)
 - {{[query](<query.md>):
 
 - {{[query](<query.md>):  {and: [TODO](<TODO.md>) {not: [query](<query.md>)}

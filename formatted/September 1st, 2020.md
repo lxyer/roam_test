@@ -1,0 +1,18 @@
+- #[Quick Capture](<Quick Capture.md>)
+    - 使用[拆书](<拆书.md>)网站，对书籍进行分享
+    - [记账](<记账.md>)APP评测
+    - [快速记录](<快速记录.md>)软件最佳实践
+- ____ — via [从卡片链接到大脑联想，基于 Obsidian 的卡片盒笔记法实践 - 少数派](https://sspai.com/post/60802) [+Roam](<+Roam.md>)
+    - [Zettelkasten](<Zettelkasten.md>)是一种比标签更高级的卡片笔记方法
+    - 德国社会学者 Niklas Luhmann（卢曼）使用 Zettelkasten 卡片盒笔记法写了 70 多本书和 400 多篇学术文章
+    - 永久笔记（[Permanent Notes](<Permanent Notes.md>)）是最重要的一步，回顾每一个卡片笔记，同时思考它们与你所学的内容、你的兴趣、思考或研究的关系。你的目标不是收集尽可能多的笔记，而是为你现有的想法、论点和讨论增加新的价值。
+    - 唐·诺曼，全球最具影响力的设计师，《设计心理学》的作者，苹果的前用户[体验架构师](<体验架构师.md>)，在他的《Things That Make Us Smart 让我们变聪明的事情: 在机器时代捍卫人类属性》一书中提到：「人们高估了独立思考的能力。 没有外部帮助，记忆、思维和推理都会受到限制... ...真正的力量来自于设计能够提高认知能力的外部辅助设备。」
+    - 本文中的四步实践
+        - 第一步：必须用自己的话写笔记卡片，以确保你将来能够理解。[Literature Notes](<Literature Notes.md>)
+        - 第二步：无论何时添加新笔记，主动查找可链接到的已有笔记。[Bibliographical Notes](<Bibliographical Notes.md>)
+        - 第三步：通过添加新笔记并联系旧笔记，延续之前的连续性思考。[Permanent Notes](<Permanent Notes.md>)
+        - 第四步：使用 [Anki](<Anki.md>)间隔重复加深记忆，主动由大脑触发远程联想。[Spaced Repetition](<Spaced Repetition.md>)
+        - [mdanki](<mdanki.md>)可以把[roam](<roam.md>)或者[Obsidian](<Obsidian.md>)中的[markdown](<markdown.md>)文档转换为[Anki](<Anki.md>)词库
+- [卡片盒笔记，卢曼相关的介绍](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
+- 我给我妈买了一张[流量卡](<流量卡.md>)，要不她手机流量总超。
+- 今天要买一个[prezi](<prezi.md>)的破解软件

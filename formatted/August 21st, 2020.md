@@ -1,4 +1,3 @@
-- {{[query](<query.md>):  {and: [TODO](<TODO.md>) {not: [query](<query.md>)}}}}
 - ____ — via [《会记笔记就会写作》完全版-上](https://mp.weixin.qq.com/s?__biz=MzI1NTA4Nzk5Mw==&mid=2247483737&idx=1&sn=39b37468fd4bdb3f20589489ecf63118&chksm=ea3a054fdd4d8c59e0625583d5b5b21e1b0f5beed9aece9424d80b4de86e79a2d1a1e31c8b8f&scene=158[rd](<rd.md>)) [+Roam](<+Roam.md>)
     - [写作](<写作.md>)如此重要，但我们却甚少思考写作本身。
     - [写作](<写作.md>)不是研究、学习、思考后的产物，它是所有这些工作的工具，就像樵夫的斧、渔夫的网、侠客的剑。
