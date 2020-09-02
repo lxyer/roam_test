@@ -27,7 +27,7 @@
             - 不必拘泥于记录的方式和位置，一定要定期把常用的APP中记录的临时笔记进行整理归类
         - 步骤二：做文献笔记
             - 读书遇到的名言或者对你以后很有帮助的内容进行记录
-            - 可以摘抄，如果是理念类的内容使用自己的话进行记录，可以起到书面费曼的效果
+            - 可以摘抄，如果是理念类的内容使用自己的话进行记录，可以起到书面[费曼](<费曼.md>)的效果
             - 这本书原书名为：《How to Take Smart Notes: One Simple Technique to Boost Writing,Learning andThinking – for Students, Academics and Nonfiction》原作者：Sönke Ahrens。
         - 步骤三：做永久笔记
             - 把之前做的临时笔记和文献笔记进行提炼输出
