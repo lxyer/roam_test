@@ -1,7 +1,7 @@
 
 # Backlinks
 ## [August 17th, 2020](<August 17th, 2020.md>)
-- [ ] 阅读《横向领导力》#[Reading list](<Reading list.md>)
+- [ ] 阅读[《横向领导力》](<《横向领导力》.md>)#[Reading list](<Reading list.md>)
 
 ## [August 4th, 2020](<August 4th, 2020.md>)
 - [《如何高效学习》](<《如何高效学习》.md>)#[Reading list](<Reading list.md>)
