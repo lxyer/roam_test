@@ -6,9 +6,6 @@
 ## [August 17th, 2020](<August 17th, 2020.md>)
 - {{[TODO](<TODO.md>)}
 
-## [August 27th, 2020](<August 27th, 2020.md>)
-- {{[query](<query.md>):  {and: [TODO](<TODO.md>)
-
 ## [August 3rd, 2020](<August 3rd, 2020.md>)
 - {{[TODO](<TODO.md>)}
 
@@ -30,6 +27,9 @@
 
 ## [Redis](<Redis.md>)
 - {{[TODO](<TODO.md>)}
+
+## [September 3rd, 2020](<September 3rd, 2020.md>)
+- {{[query](<query.md>):  {and: [TODO](<TODO.md>)
 
 ## [西蒙学习法](<西蒙学习法.md>)
 - {{[TODO](<TODO.md>)}
