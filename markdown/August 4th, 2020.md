@@ -58,9 +58,9 @@
 - [[外包人员管理]]
 - {{{[[DONE]]}}}} [[DevOps]]
 - {{[[TODO]]}} [超强的学习能力是怎样练就的？ - 知乎](https://www.zhihu.com/question/35103080/answer/614119072) #[[Roam-Highlights]]
-- {{[[TODO]]}} [[中国人民大学]][[在职研究生]]题库考试,网络与通讯报名了,考试时间为:9月11号,考试地点:清华dslu东路甲7号 中国人民大学继续教育学院教学区
-    - 9月11日晚（18：30-21：30），9月12日、13日上午（9：00-12：00）下午（14：00-17:00）晚（18：30-21：00）；9月14日晚（18：30-21：30）。
-    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FwQ58F3W8VX.png?alt=media&token=18106e09-ef10-4d79-9071-6dd6a75a5a75)
+- {{[[TODO]]}} [[中国人民大学]][[在职研究生]]题库考试,网络与通讯报名了,考试时间为:9月11号,考试地点:中国人民大学继续教育学院，地址：北京市海淀区清华东路甲7号
+    9月11日晚（18：30-21：30），9月12日、13日上午（9：00-12：00）下午（14：00-17:00）晚（18：30-21：00）；9月14日晚（18：30-21：30）。
+    ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FwQ58F3W8VX.png?alt=media&token=18106e09-ef10-4d79-9071-6dd6a75a5a75)
 - [[《硅谷增长黑客实战笔记》]]#[[Reading list]]
 - [[《增长黑客》]]#[[Reading list]]
 - 
