@@ -1,3 +1,3 @@
-- #[[Quick Capture]]
+- #[Quick Capture](<Quick Capture.md>)
     - 电子笔记目录设置
     - 实现查看历史上同一天发生了什么？
