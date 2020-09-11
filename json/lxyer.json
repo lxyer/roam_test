@@ -20964,10 +20964,18 @@
         "children": [
           {
             "create-email": "489322130@qq.com",
+            "create-time": 1599801273297,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1599801295446,
+            "string": "```css\n@import url('https://cdn.jsdelivr.net/gh/JimmyLv/styled-roam@master/card.min.css');```",
+            "uid": "7HF33ZI2Z"
+          },
+          {
+            "create-email": "489322130@qq.com",
             "create-time": 1597569815120,
             "edit-email": "489322130@qq.com",
-            "edit-time": 1598859351746,
-            "string": "```css\n@import url('https://lxyer.github.io/roam-research-themes/greenKeyWord/index.css');```",
+            "edit-time": 1599801261306,
+            "string": "```html\n@import url('https://lxyer.github.io/roam-research-themes/greenKeyWord/index.css');```",
             "uid": "97HqXWm-q"
           }
         ],
