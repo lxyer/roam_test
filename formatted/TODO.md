@@ -28,6 +28,9 @@
 ## [Redis](<Redis.md>)
 - {{[TODO](<TODO.md>)}
 
+## [September 13th, 2020](<September 13th, 2020.md>)
+- {{[TODO](<TODO.md>)}
+
 ## [September 3rd, 2020](<September 3rd, 2020.md>)
 - {{[query](<query.md>):  {and: [TODO](<TODO.md>)
 
