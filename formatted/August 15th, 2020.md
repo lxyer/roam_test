@@ -4,7 +4,7 @@
 
 # Backlinks
 ## [August 5th, 2020](<August 5th, 2020.md>)
-- [ ] 使用PPT制作动画开场[August 15th, 2020](<August 15th, 2020.md>)
+- [x] 使用PPT制作动画开场[August 15th, 2020](<August 15th, 2020.md>)
 
 ## [视频制作](<视频制作.md>)
 - **[due](<due.md>):**[August 15th, 2020](<August 15th, 2020.md>)

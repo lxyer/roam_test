@@ -9,6 +9,8 @@
 ## [August 4th, 2020](<August 4th, 2020.md>)
 - {{{[DONE](<DONE.md>)}
 
+- {{[DONE](<DONE.md>)}
+
 ## [August 5th, 2020](<August 5th, 2020.md>)
 - {{{[DONE](<DONE.md>)}
 
@@ -17,6 +19,8 @@
 - {{{[DONE](<DONE.md>)}
 
 - {{{[DONE](<DONE.md>)}
+
+- {{[DONE](<DONE.md>)}
 
 ## [July 22nd, 2020](<July 22nd, 2020.md>)
 - {{{[DONE](<DONE.md>)}
@@ -56,5 +60,8 @@
 - {{[DONE](<DONE.md>)}
 
 ## [June 24th, 2020](<June 24th, 2020.md>)
+- {{[DONE](<DONE.md>)}
+
+## [September 13th, 2020](<September 13th, 2020.md>)
 - {{[DONE](<DONE.md>)}
 

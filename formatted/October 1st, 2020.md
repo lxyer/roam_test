@@ -1,0 +1,14 @@
+- 1
+    - 2
+        - 3
+            - 4
+                - 5
+                    - 6
+                        - 7
+                            - 8
+                                - 9
+                                    - 10[Roam Research](<Roam Research.md>)
+- 应用Roam Research主题有三种方式
+    - 把CSS代码粘贴到Chrome浏览器拓展插件中（比如：[Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)、[Roam toolkit](https://chrome.google.com/webstore/detail/roam-toolkit/ebckolanhdjilblnkcgcgifaikppnhba)）
+    - 在Roam Research中引入JS代码
+    - 把CSS代码粘贴到roam/css中(推荐)

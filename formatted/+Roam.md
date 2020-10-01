@@ -15,6 +15,9 @@
 ## [September 1st, 2020](<September 1st, 2020.md>)
 - ____ — via [从卡片链接到大脑联想，基于 Obsidian 的卡片盒笔记法实践 - 少数派](https://sspai.com/post/60802) [+Roam](<+Roam.md>)
 
+## [September 28th, 2020](<September 28th, 2020.md>)
+- ____ — via [写给每个人的现场演讲急救方案 - 少数派](https://sspai.com/post/62835) [+Roam](<+Roam.md>)
+
 ## [September 2nd, 2020](<September 2nd, 2020.md>)
 - ____ — via [如何高效实践卡片式写作？ - 少数派](https://sspai.com/post/59109) [+Roam](<+Roam.md>)
 

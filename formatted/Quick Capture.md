@@ -9,3 +9,6 @@
 ## [September 1st, 2020](<September 1st, 2020.md>)
 - #[Quick Capture](<Quick Capture.md>)
 
+## [September 21st, 2020](<September 21st, 2020.md>)
+- #[Quick Capture](<Quick Capture.md>)
+

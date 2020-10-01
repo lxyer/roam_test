@@ -24,6 +24,15 @@ var s = document.createElement('script')
     s.src =  "https://roam42.glitch.me/main.js"
 	s.async = true
 document.getElementsByTagName('head')[0].appendChild(s)
-```
+
+/*
+const CARD_MODE_VERSION = '2357517'
+window.URLScriptServer = `https://cdn.jsdelivr.net/gh/JimmyLv/styled-roam@${CARD_MODE_VERSION}/`
+var s = document.createElement('script')
+	s.type = "text/javascript"
+    s.src =  window.URLScriptServer + "js/index.js"
+	s.async = true
+document.getElementsByTagName('head')[0].appendChild(s)
+*/```
     - 
 - **== END:  COPY TO PREVIOUS LINE     ==========**

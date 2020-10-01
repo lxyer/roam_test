@@ -73,11 +73,14 @@
 ## [Obsidian](<Obsidian.md>)
 - [Daily Notes](<Daily Notes.md>)的格式和[Roam Research](<Roam Research.md>)保
 
+## [October 1st, 2020](<October 1st, 2020.md>)
+- 10[Roam Research](<Roam Research.md>)
+
 ## [PARA](<PARA.md>)
 - [Roam Research](<Roam Research.md>)中
 
 ## [September 13th, 2020](<September 13th, 2020.md>)
-- [ ] 完成[Roam Research](<Roam Research.md>)介
+- [x] 完成[Roam Research](<Roam Research.md>)介
 
 ## [卡片盒笔记法](<卡片盒笔记法.md>)
 - #[写作](<写作.md>)#[Roam Research](<Roam Research.md>)

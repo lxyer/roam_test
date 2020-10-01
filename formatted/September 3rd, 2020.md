@@ -1,2 +1,1 @@
-- {{[query](<query.md>):  {and: [TODO](<TODO.md>) {not: [query](<query.md>)}}}}
 - 

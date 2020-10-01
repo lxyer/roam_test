@@ -1,0 +1,3 @@
+- #[Quick Capture](<Quick Capture.md>)
+    - [完美主义](<完美主义.md>)就会有[拖延症](<拖延症.md>)
+- 

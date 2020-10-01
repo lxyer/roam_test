@@ -1,3 +1,3 @@
 - 记录你所有的想法
-- {{[[TODO]]}} 完成[[Roam Research]]介绍教程
+- {{[[DONE]]}} 完成[[Roam Research]]介绍教程
 - 
