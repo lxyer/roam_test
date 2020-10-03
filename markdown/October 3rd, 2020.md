@@ -1,0 +1,3 @@
+- 今天闲鱼买了一个二手的小米空气净化器2，135元
+- ____ — via [《会记笔记就会写作》完全版-中](https://mp.weixin.qq.com/s?__biz=MzI1NTA4Nzk5Mw==&mid=2247483814&idx=1&sn=d2371a3016337a6bd66cef2cd80653e9&chksm=ea3a05b0dd4d8ca62a7948c4da3e821c95e3a28a7f8479e42944967ba071ff3a79ee25b75e8e&scene=158#rd) [[+Roam]]
+    - 

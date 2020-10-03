@@ -12,6 +12,9 @@
 
 - ____ — via [抖音是怎么检测搬运视频，是不是原创作品 - 知乎](https://zhuanlan.zhihu.com/p/134132388) [+Roam](<+Roam.md>)
 
+## [October 3rd, 2020](<October 3rd, 2020.md>)
+- ____ — via [《会记笔记就会写作》完全版-中](https://mp.weixin.qq.com/s?__biz=MzI1NTA4Nzk5Mw==&mid=2247483814&idx=1&sn=d2371a3016337a6bd66cef2cd80653e9&chksm=ea3a05b0dd4d8ca62a7948c4da3e821c95e3a28a7f8479e42944967ba071ff3a79ee25b75e8e&scene=158[rd](<rd.md>)) [+Roam](<+Roam.md>)
+
 ## [September 1st, 2020](<September 1st, 2020.md>)
 - ____ — via [从卡片链接到大脑联想，基于 Obsidian 的卡片盒笔记法实践 - 少数派](https://sspai.com/post/60802) [+Roam](<+Roam.md>)
 
