@@ -1,4 +1,4 @@
-- 以后不再使用[Roam Research](<Roam Research.md>)做[晨间日记](<晨间日记.md>)了,模版中的分类会增加记录的负担,没有必要,[Roam Research](<Roam Research.md>)的[双向链接](<双向链接.md>)可以非常高效的实现[晨间日记](<晨间日记.md>)的功能
+- 以后不再使用[Roam Research](<Roam Research.md>)做[MD](<MD.md>)了,模版中的分类会增加记录的负担,没有必要,[Roam Research](<Roam Research.md>)的[双向链接](<双向链接.md>)可以非常高效的实现[MD](<MD.md>)的功能
 - [知识星球](<知识星球.md>)的一个功能非常好,就是可以记录之前回答的问题,发表过的观点,做到知识的传承性,不会像群聊天记录一样,一些重要的观点会淹没在信息流中
 - [ ] 学习[Nginx](<Nginx.md>)
 - [ ] 学习[Netty](<Netty.md>)

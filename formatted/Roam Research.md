@@ -21,7 +21,7 @@
 ## [August 3rd, 2020](<August 3rd, 2020.md>)
 - 以后不再使用[Roam Research](<Roam Research.md>)做
 
-- 以后不再使用[Roam Research](<Roam Research.md>)做[晨间日记](<晨间日记.md>)了,模版中的分类会增加记录的负担,没有必要,[Roam Research](<Roam Research.md>)的
+- 以后不再使用[Roam Research](<Roam Research.md>)做[MD](<MD.md>)了,模版中的分类会增加记录的负担,没有必要,[Roam Research](<Roam Research.md>)的
 
 - [GitHub](<GitHub.md>)实现了[Roam Research](<Roam Research.md>)图
 
