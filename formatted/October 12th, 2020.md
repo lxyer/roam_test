@@ -1,9 +1,7 @@
 - [October 12th](<October 12th.md>)
     - 地点:北京
     - [什么日子](<什么日子.md>)
-        - 微信上RoamCN的多多加我为好友，说[吕立青](<吕立青.md>)邀请我参加[October 13th, 2020](<October 13th, 2020.md>)晚8点的Roam面对面聊天，很高兴，也很荣幸。希望明天晚上有一个愉快的交流。
-    - [梦境日记](<梦境日记.md>)
-        - 
+        - 微信上[RoamCN](<RoamCN.md>)的多多加我为好友，说邀请我参加[October 13th, 2020](<October 13th, 2020.md>)晚8点的Roam面对面聊天,嘉宾是[吕立青](<吕立青.md>)，很高兴，也很荣幸。希望明天晚上有一个愉快的交流。![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FLXZ6UiHeMp.png?alt=media&token=0a3547da-cf23-400d-bee4-1a6f7e20c365)
     - [今日记事](<今日记事.md>)
         - 起床起晚了，上班差点迟到
         - 
@@ -12,4 +10,6 @@
     - [今日不足](<今日不足.md>)
         - 
     - [完成番茄](<完成番茄.md>)
-- [DatePicker](<DatePicker.md>)
+        - 
+- 今天发现[Spotify](<Spotify.md>)的账号登陆不上了，挂梯子也不行，估计是对地区也进行了限制
+- 
