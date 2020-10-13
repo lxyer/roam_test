@@ -22,6 +22,9 @@
 ## [August 5th, 2020](<August 5th, 2020.md>)
 - {{[TODO](<TODO.md>)}
 
+## [October 13th, 2020](<October 13th, 2020.md>)
+- {{[TODO](<TODO.md>)}
+
 ## [Redis](<Redis.md>)
 - {{[TODO](<TODO.md>)}
 

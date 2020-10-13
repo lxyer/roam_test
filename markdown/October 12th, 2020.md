@@ -4,12 +4,7 @@
         - 微信上[[RoamCN]]的多多加我为好友，说邀请我参加[[October 13th, 2020]]晚8点的Roam面对面聊天,嘉宾是[[吕立青]]，很高兴，也很荣幸。希望明天晚上有一个愉快的交流。![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FLXZ6UiHeMp.png?alt=media&token=0a3547da-cf23-400d-bee4-1a6f7e20c365)
     - [[今日记事]]
         - 起床起晚了，上班差点迟到
-        - 
-    - [[今日进步]]
-        - 
-    - [[今日不足]]
-        - 
     - [[完成番茄]]
-        - 
+        - 4
 - 今天发现[[Spotify]]的账号登陆不上了，挂梯子也不行，估计是对地区也进行了限制
 - 
