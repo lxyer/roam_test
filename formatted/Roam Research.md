@@ -73,6 +73,9 @@
 ## [Obsidian](<Obsidian.md>)
 - [Daily Notes](<Daily Notes.md>)的格式和[Roam Research](<Roam Research.md>)保
 
+## [October 22nd, 2020](<October 22nd, 2020.md>)
+- 完成了[Roam Research](<Roam Research.md>)实
+
 ## [PARA](<PARA.md>)
 - [Roam Research](<Roam Research.md>)中
 

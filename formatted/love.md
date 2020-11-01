@@ -7,6 +7,9 @@
 ## [October 11th, 2020](<October 11th, 2020.md>)
 - [love](<love.md>)
 
+## [October 17th, 2020](<October 17th, 2020.md>)
+- [love](<love.md>)
+
 ## [September 27th, 2020](<September 27th, 2020.md>)
 - [love](<love.md>)
 

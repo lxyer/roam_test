@@ -1,0 +1,10 @@
+- [[October 19th]]
+    - 地点:北京
+    - [[什么日子]]
+        - 之前录的一个电子币今天提现了，赚了725元。
+        - [[付炫伟]]微信和我说想要去少儿编程那边工作一下，应该是[[臧杰]]给他压力了。
+            - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FTiwdkVoO7e.png?alt=media&token=087fa66b-a1cf-487d-830e-600df67ba8b1)
+        - 晚上[[郑果]]拉了一个群，还有[[于浩]]，郑果说听[[许嵩]]的[[素颜]]这个歌曲，又想到了大学时的记忆。[[郑果]]说他又回到[[建筑行业]]了，今年[[August  2020]]的时候的事情。
+            - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FaYog_zF8ke.png?alt=media&token=f496f915-7c20-4612-a9f6-524b45dec104)
+            - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FVuFmMcmEHS.png?alt=media&token=e8e3af2a-ce63-40fc-a26c-bb9ddb7acd3e)
+        - [[笔图网]]的终身VIP活动完成了

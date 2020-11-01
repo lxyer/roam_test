@@ -54,8 +54,6 @@
 ## [June 22nd, 2020](<June 22nd, 2020.md>)
 - {{[DONE](<DONE.md>)}
 
-- {{[DONE](<DONE.md>)}
-
 ## [June 23rd, 2020](<June 23rd, 2020.md>)
 - {{[DONE](<DONE.md>)}
 
