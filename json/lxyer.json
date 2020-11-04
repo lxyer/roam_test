@@ -27239,9 +27239,49 @@
         "create-email": "489322130@qq.com",
         "create-time": 1604450310473,
         "edit-email": "489322130@qq.com",
-        "edit-time": 1604450310473,
-        "string": "",
+        "edit-time": 1604460917621,
+        "string": "![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FNhDDF1qZRu.png?alt=media&token=c13e1649-9e9b-4e06-ab3e-5d861e2b57d8)",
         "uid": "ENt-klHyv"
+      },
+      {
+        "create-email": "489322130@qq.com",
+        "create-time": 1604460933779,
+        "edit-email": "489322130@qq.com",
+        "edit-time": 1604460938214,
+        "string": "![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2F41J8b_ApNU.png?alt=media&token=6c479b36-0aba-4bff-a09b-254c805fe0e6)",
+        "uid": "1GmroW_Rl"
+      },
+      {
+        "create-email": "489322130@qq.com",
+        "create-time": 1604460939424,
+        "edit-email": "489322130@qq.com",
+        "edit-time": 1604461029919,
+        "string": "\u6307\u6325\u5e73\u53f0(command-console)ready 10.249.43.102 $ cd /home/q/www/commandReady/command-console/log  && tail -f  command-console.log.\"$(date \"+%Y-%m-%d\")\".0.log",
+        "uid": "Q1sumAjCj"
+      },
+      {
+        "create-email": "489322130@qq.com",
+        "create-time": 1604461042277,
+        "edit-email": "489322130@qq.com",
+        "edit-time": 1604461053106,
+        "string": "\u6307\u6325\u5e73\u53f0(command)dev cd /home/q/www/commandDev/api-command/log && tail -f  command.log.\"$(date \"+%Y-%m-%d\")\".0.log",
+        "uid": "sPtu3zVuQ"
+      },
+      {
+        "create-email": "489322130@qq.com",
+        "create-time": 1604461061441,
+        "edit-email": "489322130@qq.com",
+        "edit-time": 1604461068876,
+        "string": "\u6307\u6325\u5e73\u53f0(command-console)dev cd /home/q/www/commandDev/command-console/log && tail -f  command-console.log.\"$(date \"+%Y-%m-%d\")\".0.log",
+        "uid": "m6512zSPF"
+      },
+      {
+        "create-email": "489322130@qq.com",
+        "create-time": 1604461097741,
+        "edit-email": "489322130@qq.com",
+        "edit-time": 1604461099122,
+        "string": "https://github.com/eugeny/terminus",
+        "uid": "IBfmKqn67"
       }
     ],
     "edit-email": "489322130@qq.com",

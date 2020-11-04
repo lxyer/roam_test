@@ -1,2 +1,7 @@
 - 爱学习的人，是离钱不远的
-- 
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FNhDDF1qZRu.png?alt=media&token=c13e1649-9e9b-4e06-ab3e-5d861e2b57d8)
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2F41J8b_ApNU.png?alt=media&token=6c479b36-0aba-4bff-a09b-254c805fe0e6)
+- 指挥平台(command-console)ready 10.249.43.102 $ cd /home/q/www/commandReady/command-console/log  && tail -f  command-console.log."$(date "+%Y-%m-%d")".0.log
+- 指挥平台(command)dev cd /home/q/www/commandDev/api-command/log && tail -f  command.log."$(date "+%Y-%m-%d")".0.log
+- 指挥平台(command-console)dev cd /home/q/www/commandDev/command-console/log && tail -f  command-console.log."$(date "+%Y-%m-%d")".0.log
+- https://github.com/eugeny/terminus
