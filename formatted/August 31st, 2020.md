@@ -1,4 +1,4 @@
-- [Roam42](<Roam42.md>)
+- [roam42](<roam42.md>)
 - 注册了https://sm.ms/，配置了[Typora](<Typora.md>)图片自动上传到图床的功能，目的是之后可以一处写文，多平台复制粘贴发布。
 - ____ — via [《会记笔记就会写作》完全版-上](https://mp.weixin.qq.com/s?__biz=MzI1NTA4Nzk5Mw==&mid=2247483737&idx=1&sn=39b37468fd4bdb3f20589489ecf63118&chksm=ea3a054fdd4d8c59e0625583d5b5b21e1b0f5beed9aece9424d80b4de86e79a2d1a1e31c8b8f&scene=158[rd](<rd.md>)) [+Roam](<+Roam.md>)
     - 写作如此重要，但我们却甚少思考写作本身。

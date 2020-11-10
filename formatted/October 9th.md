@@ -3,6 +3,12 @@
 ## [MD](<MD.md>)
 - [October 9th](<October 9th.md>)
 
+## [November 10th, 2020](<November 10th, 2020.md>)
+- [October 9th](<October 9th.md>)
+
+## [November 9th, 2020](<November 9th, 2020.md>)
+- [October 9th](<October 9th.md>)
+
 ## [October 20th, 2020](<October 20th, 2020.md>)
 - [October 9th](<October 9th.md>)
 

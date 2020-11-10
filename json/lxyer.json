@@ -21142,7 +21142,7 @@
             "create-email": "489322130@qq.com",
             "create-time": 1597569815120,
             "edit-email": "489322130@qq.com",
-            "edit-time": 1601524037697,
+            "edit-time": 1604977199646,
             "string": "```css\n@import url('https://lxyer.github.io/roam-research-themes/greenKeyWord/index.css');```",
             "uid": "97HqXWm-q"
           },
@@ -22152,8 +22152,8 @@
         "create-email": "489322130@qq.com",
         "create-time": 1598829206271,
         "edit-email": "489322130@qq.com",
-        "edit-time": 1598829229057,
-        "string": "[[Roam42]]",
+        "edit-time": 1604975588135,
+        "string": "[[roam42]]",
         "uid": "-mx1imFmH"
       },
       {
@@ -22676,30 +22676,28 @@
       {
         "children": [
           {
-            "create-email": "kunicki@gmail.com",
-            "create-time": 1598415551798,
             "edit-email": "489322130@qq.com",
-            "edit-time": 1598859300529,
+            "edit-time": 1604975955855,
             "string": "",
-            "uid": "SH3lxp14e"
+            "uid": "IdA1QsKXy"
           },
           {
             "children": [
               {
                 "edit-email": "489322130@qq.com",
-                "edit-time": 1600939831250,
-                "string": "```javascript\n\n// DISABLE FEATURES\n// Remove two forward slashes from in front of name \n// of feature to disable it\n// Everything is enabled by default\nwindow.disabledFeatures = [\n  // 'quickReference',\n  // 'turnDown',\n  // 'dateProcessing',\n  // 'lookupUI',\n  // 'livePreview',\n  // 'dailyNote',\n  // 'templatePoc',\n  // 'jumpToDate',\n  // 'jumpNav',\n];\n\nvar s = document.createElement('script')\n\ts.type = \"text/javascript\"\n    s.src =  \"https://roam42.glitch.me/main.js\"\n\ts.async = true\ndocument.getElementsByTagName('head')[0].appendChild(s)\n\n/*\nconst CARD_MODE_VERSION = '2357517'\nwindow.URLScriptServer = `https://cdn.jsdelivr.net/gh/JimmyLv/styled-roam@${CARD_MODE_VERSION}/`\nvar s = document.createElement('script')\n\ts.type = \"text/javascript\"\n    s.src =  window.URLScriptServer + \"js/index.js\"\n\ts.async = true\ndocument.getElementsByTagName('head')[0].appendChild(s)\n*/```",
+                "edit-time": 1604975955855,
+                "string": "```javascript\n\n// DISABLE FEATURES\n// Remove two forward slashes from in front of name \n// of feature to DISABLE it\n// Everything is enabled by default\nwindow.disabledFeatures = [\n  // 'quickReference',\n  // 'turnDown',\n  // 'dateProcessing',\n  // 'lookupUI',\n  // 'livePreview',\n  // 'dailyNote',\n  // 'jumpToDate',\n  // 'jumpNav',\n];\n\n// Live Preview - to change the defaults \n// 1) remove // in front of parameter to ACTIVATE the change\n// 2) modify the value to change it's behavior\n// width  = width of preview window\n// height = height of preview window\n// delay  = milliseconds of delay for preview to \n// \t\t\tfire (defaults to 200) can be set to 0\nwindow.roam42LivePreview = {\n  //width:\t'400px',\n  //height: '600px',\n  //delay: 500,\n};\n\n// Change the Deep navigation options\n// activate-on-no-focus - activate navigation mode when body is focused (default: false)\n// REMOVE // in front of setting to change it from default setting\nwindow.roamNavigatorSettings = {\n //  'activate-on-no-focus': true, \n};\n\nvar s = document.createElement('script');\n\ts.type = \"text/javascript\";\n    s.src =  \"https://roam42.glitch.me/main.js\";\n  \ts.async = true;\ndocument.getElementsByTagName('head')[0].appendChild(s);\n```",
                 "uid": "4crk7_Rzl"
               }
             ],
             "edit-email": "489322130@qq.com",
-            "edit-time": 1598859300530,
+            "edit-time": 1604975955855,
             "string": "{{[[roam/js]]}}",
             "uid": "IOlqz3CKL"
           },
           {
             "edit-email": "489322130@qq.com",
-            "edit-time": 1598859300530,
+            "edit-time": 1604975955855,
             "string": "",
             "uid": "GnAezseYT"
           }
@@ -22707,7 +22705,7 @@
         "create-email": "kunicki@gmail.com",
         "create-time": 1598042459025,
         "edit-email": "489322130@qq.com",
-        "edit-time": 1598859300530,
+        "edit-time": 1604975955855,
         "string": "**== START:  COPY FROM NEXT LINE  ==========** ",
         "uid": "rDx-hzUok"
       },
@@ -22715,7 +22713,7 @@
         "create-email": "kunicki@gmail.com",
         "create-time": 1598042447789,
         "edit-email": "489322130@qq.com",
-        "edit-time": 1598859300529,
+        "edit-time": 1604975955854,
         "string": "**== END:  COPY TO PREVIOUS LINE     ==========**",
         "uid": "5SXLMYafs"
       }
@@ -22723,8 +22721,8 @@
     "create-email": "489322130@qq.com",
     "create-time": 1598829229058,
     "edit-email": "489322130@qq.com",
-    "edit-time": 1598829229060,
-    "title": "Roam42"
+    "edit-time": 1604975588135,
+    "title": "roam42"
   },
   {
     "children": [
@@ -27359,6 +27357,142 @@
     "title": "November 8th, 2020"
   },
   {
+    "children": [
+      {
+        "children": [
+          {
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976965538,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976965806,
+            "string": "\u5730\u70b9:\u5317\u4eac",
+            "uid": "skfOwayph"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976966019,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604977037009,
+                "string": " [[\u6211\u5988]]\u4eca\u5929\u8fc7\u751f\u65e5\uff0c\u665a\u4e0a[[\u5f20\u660e\u660e]]\u4e70\u4e86\u86cb\u7cd5\u548c\u6211\u8001\u5a46\u6765\u6211\u5bb6\u5403\u996d\u4e86\uff0c\u6211\u665a\u4e0a\u6ca1\u6709\u5728\u516c\u53f8\u5403\u996d\uff0c\u56de\u5bb6\u5403\u7684\u996d\u3002",
+                "uid": "zaI_83N8o"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976965801,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976966025,
+            "string": "[[\u4ec0\u4e48\u65e5\u5b50]]",
+            "uid": "nTXtbG4r_"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976966590,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604976966877,
+                "string": " ",
+                "uid": "RlS6nszV2"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976966308,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976966594,
+            "string": "[[\u68a6\u5883\u65e5\u8bb0]]",
+            "uid": "RPIFSCiHr"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976967152,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604976967446,
+                "string": " ",
+                "uid": "9OiIg4bKi"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976966872,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976967158,
+            "string": "[[\u4eca\u65e5\u8bb0\u4e8b]]",
+            "uid": "uZH5_yTp-"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976967734,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604976968045,
+                "string": " ",
+                "uid": "r11ilrKQo"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976967439,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976967741,
+            "string": "[[\u4eca\u65e5\u8fdb\u6b65]]",
+            "uid": "qu1Y0vul-"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976968333,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604976968624,
+                "string": " ",
+                "uid": "5s38gFNj4"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976968036,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976968337,
+            "string": "[[\u4eca\u65e5\u4e0d\u8db3]]",
+            "uid": "5PEDMFYIi"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976968904,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604976969201,
+                "string": " ",
+                "uid": "koK-7VvR3"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976968617,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976968910,
+            "string": "[[\u5b8c\u6210\u756a\u8304]]",
+            "uid": "fi_5AMars"
+          }
+        ],
+        "create-email": "489322130@qq.com",
+        "create-time": 1604976962753,
+        "edit-email": "489322130@qq.com",
+        "edit-time": 1604976965542,
+        "string": "[[October 9th]]",
+        "uid": "DuoahSA1u"
+      },
+      {
+        "create-email": "489322130@qq.com",
+        "create-time": 1604976969195,
+        "edit-email": "489322130@qq.com",
+        "edit-time": 1604976970079,
+        "string": " ",
+        "uid": "PApcftNMq"
+      }
+    ],
     "create-email": "489322130@qq.com",
     "create-time": 1604881440135,
     "edit-email": "489322130@qq.com",
@@ -27368,12 +27502,138 @@
   {
     "children": [
       {
+        "children": [
+          {
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976949270,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976949550,
+            "string": "\u5730\u70b9:\u5317\u4eac",
+            "uid": "1w-d6-o4P"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976949757,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604976950035,
+                "string": " ",
+                "uid": "UxnEyzfNZ"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976949544,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976949764,
+            "string": "[[\u4ec0\u4e48\u65e5\u5b50]]",
+            "uid": "eJMJtW0vE"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976950385,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604976950662,
+                "string": " ",
+                "uid": "x-Sne3B1n"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976950026,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976950390,
+            "string": "[[\u68a6\u5883\u65e5\u8bb0]]",
+            "uid": "sO4DV_dK5"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976950920,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604976951210,
+                "string": " ",
+                "uid": "tv9ycRZ0Q"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976950657,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976950925,
+            "string": "[[\u4eca\u65e5\u8bb0\u4e8b]]",
+            "uid": "iP71ILg-u"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976951488,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604976951793,
+                "string": " ",
+                "uid": "q8R67hH9_"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976951204,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976951496,
+            "string": "[[\u4eca\u65e5\u8fdb\u6b65]]",
+            "uid": "cdGwSXfDb"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976952065,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604976952342,
+                "string": " ",
+                "uid": "Iwa8cinvU"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976951787,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976952071,
+            "string": "[[\u4eca\u65e5\u4e0d\u8db3]]",
+            "uid": "7r_ZCPgf1"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1604976952602,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1604976952962,
+                "string": " ",
+                "uid": "ZPGmfqV_e"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1604976952337,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1604976952607,
+            "string": "[[\u5b8c\u6210\u756a\u8304]]",
+            "uid": "1wZ6Yh5NQ"
+          }
+        ],
         "create-email": "489322130@qq.com",
-        "create-time": 1604973579793,
+        "create-time": 1604976922725,
         "edit-email": "489322130@qq.com",
-        "edit-time": 1604973591314,
-        "string": "",
-        "uid": "54tRPyamW"
+        "edit-time": 1604976949275,
+        "string": "[[October 9th]]",
+        "uid": "hQM5GUAyI"
+      },
+      {
+        "create-email": "489322130@qq.com",
+        "create-time": 1604976952955,
+        "edit-email": "489322130@qq.com",
+        "edit-time": 1604976953834,
+        "string": " ",
+        "uid": "MnQbuFHZW"
       }
     ],
     "create-email": "489322130@qq.com",
