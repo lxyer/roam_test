@@ -31,6 +31,9 @@
 
 - [Marginnote](<Marginnote.md>)做完摘录后,使用[Roam Research](<Roam Research.md>)进行记录,然后提取[最小知识点](<最小知识点.md>)到[Supermemo](<Supermemo.md>)中
 
+## [November 11th, 2020](<November 11th, 2020.md>)
+- 在使用[Anki](<Anki.md>),[Supermemo](<Supermemo.md>)等
+
 ## [效率提升](<效率提升.md>)
 - [Supermemo](<Supermemo.md>)
 

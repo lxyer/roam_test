@@ -27660,8 +27660,8 @@
                 "create-email": "489322130@qq.com",
                 "create-time": 1605148432053,
                 "edit-email": "489322130@qq.com",
-                "edit-time": 1605148432344,
-                "string": " ",
+                "edit-time": 1605150520187,
+                "string": " [[\u81e7\u6770]]\u6765\u5317\u4eac\u4e86\uff0c\u665a\u4e0a\u6211\u548c[[\u674e\u4e00\u8bfa]]\u4e00\u8d77\u7761\u7684",
                 "uid": "HBNBsz4MR"
               }
             ],
@@ -27771,11 +27771,29 @@
         "uid": "s1AXUrJvL"
       },
       {
+        "children": [
+          {
+            "create-email": "489322130@qq.com",
+            "create-time": 1605152679356,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1605152836004,
+            "string": "\u5728\u4f7f\u7528[[Anki]],[[Supermemo]]\u7b49\u8f6f\u4ef6\u8fdb\u884c\u590d\u4e60\u7684\u65f6\u5019\uff0c\u4f1a\u51fa\u73b0\u628a\u77e5\u8bc6\u70b9\u7c92\u5ea6\u62c6\u89e3\u8fc7\u4e8e\u5c0f\uff0c\u800c\u5931\u53bb\u4e86\u77e5\u8bc6\u95f4\u7684\u53ef\u5173\u8054\u6027\uff0c\u4e5f\u5c31\u4e27\u5931\u4e86\u53d1\u73b0\u65b0\u77e5\u8bc6\u7684\u53ef\u80fd\u3002",
+            "uid": "5IYQchCKA"
+          },
+          {
+            "create-email": "489322130@qq.com",
+            "create-time": 1605152836002,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1605152836002,
+            "string": "",
+            "uid": "VGWgrODz_"
+          }
+        ],
         "create-email": "489322130@qq.com",
         "create-time": 1605148435443,
         "edit-email": "489322130@qq.com",
-        "edit-time": 1605148436329,
-        "string": " ",
+        "edit-time": 1605152679358,
+        "string": " [[\u77e5\u8bc6\u788e\u7247\u5316]]",
         "uid": "PDKQ4B2-w"
       }
     ],
@@ -27788,12 +27806,138 @@
   {
     "children": [
       {
+        "children": [
+          {
+            "create-email": "489322130@qq.com",
+            "create-time": 1605150432764,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1605150433030,
+            "string": "\u5730\u70b9:\u5317\u4eac",
+            "uid": "a9t0P_AD4"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1605150433297,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1605150433549,
+                "string": " ",
+                "uid": "gC2_voACk"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1605150433025,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1605150433302,
+            "string": "[[\u4ec0\u4e48\u65e5\u5b50]]",
+            "uid": "32Bwe1_sN"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1605150433873,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1605150434169,
+                "string": " ",
+                "uid": "3MsZTx_44"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1605150433545,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1605150433880,
+            "string": "[[\u68a6\u5883\u65e5\u8bb0]]",
+            "uid": "kbeeHXihI"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1605150434394,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1605150434677,
+                "string": " ",
+                "uid": "JeEQSvp8b"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1605150434166,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1605150434400,
+            "string": "[[\u4eca\u65e5\u8bb0\u4e8b]]",
+            "uid": "hz9K3TD93"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1605150434940,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1605150435202,
+                "string": " ",
+                "uid": "G0UeYuIoR"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1605150434671,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1605150434946,
+            "string": "[[\u4eca\u65e5\u8fdb\u6b65]]",
+            "uid": "uuST7W7vi"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1605150435460,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1605150435725,
+                "string": " ",
+                "uid": "NZa-e9T5R"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1605150435197,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1605150435466,
+            "string": "[[\u4eca\u65e5\u4e0d\u8db3]]",
+            "uid": "ouAcsIsgT"
+          },
+          {
+            "children": [
+              {
+                "create-email": "489322130@qq.com",
+                "create-time": 1605150435980,
+                "edit-email": "489322130@qq.com",
+                "edit-time": 1605150436247,
+                "string": " ",
+                "uid": "TkGxzjRPt"
+              }
+            ],
+            "create-email": "489322130@qq.com",
+            "create-time": 1605150435720,
+            "edit-email": "489322130@qq.com",
+            "edit-time": 1605150435986,
+            "string": "[[\u5b8c\u6210\u756a\u8304]]",
+            "uid": "PGvSi9noi"
+          }
+        ],
         "create-email": "489322130@qq.com",
         "create-time": 1605147901443,
         "edit-email": "489322130@qq.com",
-        "edit-time": 1605147901443,
-        "string": "",
+        "edit-time": 1605150432770,
+        "string": "[[October 9th]]",
         "uid": "f0cltkgth"
+      },
+      {
+        "create-email": "489322130@qq.com",
+        "create-time": 1605150436243,
+        "edit-email": "489322130@qq.com",
+        "edit-time": 1605150437115,
+        "string": " ",
+        "uid": "iNStSQ9W3"
       }
     ],
     "create-email": "489322130@qq.com",
@@ -27801,5 +27945,12 @@
     "edit-email": "489322130@qq.com",
     "edit-time": 1605140494103,
     "title": "November 12th, 2020"
+  },
+  {
+    "create-email": "489322130@qq.com",
+    "create-time": 1605152679358,
+    "edit-email": "489322130@qq.com",
+    "edit-time": 1605152679360,
+    "title": "\u77e5\u8bc6\u788e\u7247\u5316"
   }
 ]
