@@ -1,6 +1,7 @@
+- 使用的是[Supermemo](<Supermemo.md>)第二代的算法，缺点是复习卡片数量的急速提升，要人产生压力和焦虑，降低学习的激情。
 
 # Backlinks
-## [November 11th, 2020](<November 11th, 2020.md>)
+## [November 12th, 2020](<November 12th, 2020.md>)
 - 在使用[Anki](<Anki.md>),
 
 ## [September 1st, 2020](<September 1st, 2020.md>)

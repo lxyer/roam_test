@@ -24,14 +24,22 @@
         - 发现冲突就要及时消除，以避免挫败感
         - 回顾以消除疑难项目
         - 请读这篇文章:[Memory interference](https://www.supermemo.com/en/archives1990-2015/english/ol/ks)
+- 如何提取知识点
+    - 你提取的知识点是否有理解？
+    - 放入记忆背诵的问题编排是否够简洁？
+    - 单张卡片的知识点不应该超过3个
+    - 所涉及的知识点最好是似懂非懂对你有所触动的，可以这样理解，单纯需要机械记忆的知识点不应该放入复习队列里，等遇到一定的频率，有了实际的关联再总结进去。
 
 # Backlinks
+## [Anki](<Anki.md>)
+- 使用的是[Supermemo](<Supermemo.md>)第
+
 ## [Marginnote](<Marginnote.md>)
 - 优点是可以方便的对书籍进行摘录,缺点是如果按照[Supermemo](<Supermemo.md>)的
 
 - [Marginnote](<Marginnote.md>)做完摘录后,使用[Roam Research](<Roam Research.md>)进行记录,然后提取[最小知识点](<最小知识点.md>)到[Supermemo](<Supermemo.md>)中
 
-## [November 11th, 2020](<November 11th, 2020.md>)
+## [November 12th, 2020](<November 12th, 2020.md>)
 - 在使用[Anki](<Anki.md>),[Supermemo](<Supermemo.md>)等
 
 ## [效率提升](<效率提升.md>)
