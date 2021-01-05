@@ -1,3 +1,2 @@
 - {{[[query]]:  {and: [[TODO]] {not: [[query]]}}}}
 - 
-- 
