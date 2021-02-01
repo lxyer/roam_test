@@ -1,0 +1,11 @@
+- [[October 9th]]
+    - 地点:北京
+    - [[什么日子]]
+        -  [[多卡掌柜]]经历了差不多十几次的审核失败,今天终于成功了.
+- [[奶头乐理论]]（Titty Tainment）
+    - 前提： 社会动荡的主要因素之一是阶层之间的利益冲突
+    - 奶头乐理论的描述： 由于生产力的不断上升，世界上的一大部分人口将不必也无法积极参与产品和服务的生产。为了安慰这些“被遗弃”的人，避免[阶级冲突](https://wiki.mbalib.com/wiki/%E9%98%B6%E7%BA%A7%E5%86%B2%E7%AA%81)，方法之一就是制造“奶头”、喂之以“奶头”——使令人陶醉的消遣[娱乐](https://wiki.mbalib.com/wiki/%E5%A8%B1%E4%B9%90)和充满感官刺激的产品（比如[网络](https://wiki.mbalib.com/wiki/%E7%BD%91%E7%BB%9C)、电视和游戏）填满人们的生活、转移其[注意](https://wiki.mbalib.com/wiki/%E6%B3%A8%E6%84%8F)力和不满[情绪](https://wiki.mbalib.com/wiki/%E6%83%85%E7%BB%AA)，令其沉浸在“快乐”中不知不觉丧失思考[能力](https://wiki.mbalib.com/wiki/%E8%83%BD%E5%8A%9B)、无心挑战现有的统治阶级。
+        - “奶头”的形式有两种：
+            - 一种是发泄性娱乐，比如开放色情[行业](https://wiki.mbalib.com/wiki/%E8%A1%8C%E4%B8%9A)、鼓励暴力[网络游戏](https://wiki.mbalib.com/wiki/%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F)、鼓动口水战；
+            - 一种是满足性游戏，比如拍摄大量的[肥皂](https://wiki.mbalib.com/wiki/%E8%82%A5%E7%9A%82)剧和偶像剧，大量报道明星丑闻，播放真人秀等[大众](https://wiki.mbalib.com/wiki/%E5%A4%A7%E4%BC%97)娱乐节目。
+- [[内卷化]]效应是指长期停留在一种简单层面的自我消耗和自我重复现象，没有发展的增长
