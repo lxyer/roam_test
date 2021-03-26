@@ -1,1 +1,156 @@
-- 
+- [[MDN]]：Mozilla Development Network，Mozilla开发者社区。
+- [[浏览器内核]]
+    - IE: Trident
+    - Firfox: Gecko
+    - Chrome: Webkit / Blink
+    - Safari: Webkit
+    - Opera: Presto / Blink
+- Emmet插件：自动生成HTML代码片段
+- 代码语义化非常重要，也符合[[SEO]]
+    - 所有的HTML元素的选择都与展示效果无关，样式都应该交给CSS去做
+- a元素：超链接
+    - href属性
+        - hyper reference：通常表示跳转地址
+            - 普通链接
+            - 锚链接
+        - id属性：全局属性，表示元素在文档中的唯一编号
+        - 点击后，触发某个功能
+            - 执行JS代码，javascript:
+            - 发送邮件，mailto:
+    - target属性
+        - _self：在当前页面窗口中打开，默认值
+        - _blank: 在新窗口中打开
+- p元素：段落
+- h1~h6：表示1级标题~6级标题
+- span【无语义】仅用于设置样式
+- pre 预格式化文本元素
+- HTML实体 实体字符， HTML Entity通常用于在页面中显示一些特殊符号。
+- 图片元素
+    - img元素
+        - image缩写，空元素
+        - src属性：source
+        - alt属性：当图片资源失效时，将使用该属性的文字替代图片
+- map元素
+    - map：地图
+    - map的子元素：area
+    - 衡量坐标时，为了避免衡量误差，需要使用专业的衡量工具：ps、pxcook
+- figure元素
+    - 指代、定义，通常用于把图片、图片标题、描述包裹起来
+    - 子元素：figcaption
+- 多媒体元素
+    - video
+        - controls: 控制控件的显示，取值只能为controls
+        - 某些属性，只有两种状态：1. 不写   2. 取值为属性名，这种属性叫做布尔属性
+        - 布尔属性，在HTML5中，可以不用书写属性值
+        - autoplay: 布尔属性，自动播放。
+        - muted: 布尔属性，静音播放。
+        - loop: 布尔属性，循环播放
+    - audio
+        - 和视频完全一致
+- 列表元素
+    - 有序列表
+        - ol: ordered list
+            - li：list item 
+    - 无序列表
+        - ul：unordered list
+            - li：list item 
+    - 定义列表
+通常用于一些术语的定义
+        - dl: definition list
+        - dt: definition title
+        - dd: definition description
+- 容器元素
+    - 容器元素：该元素代表一个块区域，内部用于放置其他元素
+    - div元素：没有语义
+    - 语义化容器元素
+        - header: 通常用于表示页头，也可以用于表示文章的头部
+        - footer: 通常用于表示页脚，也可以用于表示文章的尾部
+        - article: 通常用于表示整篇文章
+        - section: 通常用于表示文章的章节
+        - aside: 通常用于表示侧边栏
+- 元素包含关系
+    - 容器元素中可以包含任何元素
+    - a元素中几乎可以包含任何元素
+    - 某些元素有固定的子元素（ul>li，ol>li，dl>dt+dd）
+    - 标题元素和段落元素不能相互嵌套，并且不能包含容器元素
+- 选择器
+    - 1. ID选择器：选中的是对应id值的元素
+    - 2. 元素选择器
+    - 3. 类选择器
+- 声明块
+    - 声明块中包含很多声明（属性），每一个声明（属性）表达了某一方面的样式
+- CSS代码书写位置
+    - 1.内部样式表：书写在style元素中
+    - 2.内联样式表，元素样式表
+    - 3.外部样式表[推荐]
+        - 1). 外部样式可以解决多页面样式重复的问题
+        - 2). 有利于浏览器缓存，从而提高页面响应速度
+        - 3). 有利于代码分离（HTML和CSS），更容易阅读和维护
+- [[lorem]]
+    - lorem + Tab/Enter，新建一共30个词语的句子
+    - loremN，其中 N 是一个数字，代表有 N 个词语（注意不是字符串长度为 N ）
+    - lorem*N，其中 N 是一个数字，代表有 N 行
+    - loremN*M，填充 M 行内容，每行 N 个词语
+    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FTW1CFMdczT.png?alt=media&token=a23efaf6-1e63-4d93-b071-c5db81558e4c)
+- 常见样式声明
+    - color:元素内部的文字颜色
+    - background-color:元素背景颜色
+    - font-size:元素内部文字的尺寸大小
+        - 1）px：像素，绝对单位，简单的理解为文字的高度占多少个像素
+        - 2）em：相对单位，相对于父元素的字体大小每个元素必须有字体大小，如果没有声明，则直接使用父元素的字体大小，如果没有父元素（html），则使用基准字号。
+    - font-weight:文字粗细程度，可以取值数字，可以取值为预设值
+    - font-family:文字类型
+    - font-style:字体样式，通常用它设置斜体
+    - text-decoration:文本修饰，给文本加线
+        - a元素
+        - del元素：错误的内容
+        - s元素：过期的内容
+    - text-indent:首行文本缩进
+    - line-height:每行文本的高度，该值越大，每行文本的距离越大
+        - 设置行高为容器的高度，可以让单行文本垂直居中
+        - 行高可以设置为纯数字，表示相对于当前元素的字体大小
+    - width:宽度
+    - height:高度
+    - letter-space:文字间隙
+    - text-align:元素内部文字的水平排列方式
+- 选择器
+    - 1. ID选择器
+    - 2. 元素选择器
+    - 3. 类选择器
+    - 4. 通配符选择器
+    - *，选中所有元素
+    - 属性选择器
+    - 伪类选择器
+        - 1）link: 超链接未访问时的状态
+        - 2）visited: 超链接访问过后的状态
+        - 3）hover: 鼠标悬停状态
+        - 4）active：激活状态，鼠标按下状态
+        - before
+        - after
+    - 选择器的组合
+        - 1. 并且
+        - 2. 后代元素 —— 空格
+        - 3. 子元素 —— >
+        - 4. 相邻兄弟元素 —— +
+        - 5. 后面出现的所有兄弟元素 —— ~
+        - 多个选择器, 用逗号分隔(并列)
+- 样式选择
+    - 具体规则：通过选择器，计算出一个4位数（x x x x）
+        - 1. 千位：如果是内联样式，记1，否则记0
+        - 2. 百位：等于选择器中所有id选择器的数量
+        - 3. 十位：等于选择器中所有类选择器、属性选择器、伪类选择器的数量
+        - 4. 个位：等于选择器中所有元素选择器、伪元素选择器的数量
+    - 爱恨法则
+        - link > visited > hover > active
+- 继承
+    - 子元素会继承父元素的某些CSS属性
+    - 通常，跟文字内容相关的属性都能被继承
+- 盒模型
+    - 盒子类型：
+        - 行盒，display等于inline的元素
+        - 块盒，display等于block的元素
+    - 盒子的组成部分
+        - 内容  content
+        - 填充(内边距)  padding
+        - 边框  border
+        - 外边距  margin
