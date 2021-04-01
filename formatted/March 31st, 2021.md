@@ -1,0 +1,10 @@
+- 微软E3
+    - 教程：https://qyi.io/archives/687.html
+    - 应用程序(客户端) ID:9007dc71-3e3c-41b0-991c-6c87024f71ec
+    - 客户端密码：MH5-Gxf3JOfd~o04.6t9x_1lyH6z..AtvJ
+    - 管理员账户：lxyer@lxyer.onmicrosoft.com
+    - 管理员密码：allurevirus123@
+    - 子账号
+        - 显示名称: Lee Steven
+        - 用户名:steven@lxyer.onmicrosoft.com
+        - 密码: Coz77996

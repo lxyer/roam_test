@@ -1,4 +1,4 @@
 - ## 编程
     - [[Python]]
-        - "[[《Python编程》]]"
+        - [[《Python编程》]]
     - [[Java]]

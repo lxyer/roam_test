@@ -16,5 +16,7 @@
 - 如果想要达到使用[GTD](<GTD.md>)工
 
 ## [如何挑选GTD软件](<如何挑选GTD软件.md>)
-- "[GTD](<GTD.md>)的
+- 如果想要达到使用[GTD](<GTD.md>)工
+
+- [GTD](<GTD.md>)的
 
