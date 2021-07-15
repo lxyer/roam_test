@@ -65775,6 +65775,80 @@
         ],
         "string": "[[June 18th, 2021]]",
         "uid": "LuN3WPO2Q"
+      },
+      {
+        ":block/refs": [
+          {
+            ":block/uid": "07-15-2021"
+          }
+        ],
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1626345457815,
+                "string": "1.\u65b0\u589e\uff1a\u65e5\u8bb0\u589e\u52a0\u4e0a\u4f20\u7167\u7247\u529f\u80fd\uff0c\u4e00\u56fe\u80dc\u5343\u6587\uff0c\u7528\u7167\u7247\u8bb0\u5f55\u4e0b\u90a3\u4e9b\u7f8e\u597d\u7684\u65f6\u523b\u5427\u3002",
+                "uid": "9hwupNy35"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1626345457815,
+                "string": "2.\u7f8e\u5316\uff1a\u65e5\u8bb0\u9875\u9762\u6837\u5f0f\u7f8e\u5316",
+                "uid": "fSld2bnWj"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1626345457815,
+                "string": "3.\u4f18\u5316\uff1a\u5927\u91cf\u67e5\u8be2\u6027\u80fd\u4f18\u5316",
+                "uid": "zMfcLNX8y"
+              },
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "create-time": 1626345462752,
+                "edit-time": 1626345476613,
+                "string": "![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2Fo_CPRpBOu9.png?alt=media&token=13a03226-b62d-4cd2-b5ec-ceafee198568)",
+                "uid": "71tRMAFpt"
+              }
+            ],
+            "create-time": 1626345437312,
+            "edit-time": 1626345448835,
+            "string": "0.64.1",
+            "uid": "dwm4SbXsn"
+          }
+        ],
+        "create-time": 1626345430940,
+        "edit-time": 1626345436819,
+        "refs": [
+          {
+            "uid": "07-15-2021"
+          }
+        ],
+        "string": "[[July 15th, 2021]]",
+        "uid": "j8RV52pQ7"
       }
     ],
     "create-time": 1621912573259,
@@ -66691,5 +66765,31 @@
     "edit-time": 1626222869863,
     "title": "July 14th, 2021",
     "uid": "07-14-2021"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "children": [
+      {
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "create-time": 1626345324185,
+        "edit-time": 1626345324185,
+        "string": "",
+        "uid": "TMFRoFj9v"
+      }
+    ],
+    "create-time": 1626344642777,
+    "edit-time": 1626344642777,
+    "title": "July 15th, 2021",
+    "uid": "07-15-2021"
   }
 ]
