@@ -66419,6 +66419,80 @@
         ],
         "string": "[[July 20th, 2021]]",
         "uid": "Fm7yXPd68"
+      },
+      {
+        ":block/refs": [
+          {
+            ":block/uid": "07-21-2021"
+          }
+        ],
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "create-time": 1626856654376,
+                "edit-time": 1626856686233,
+                "string": "1.\u4f18\u5316\uff1a\u6dfb\u52a0\u76ee\u6807\u6837\u5f0f",
+                "uid": "l8eQy2fr1"
+              },
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "create-time": 1626856695537,
+                "edit-time": 1626856910215,
+                "string": "2.\u4f18\u5316\uff1a\u6dfb\u52a0\u76ee\u6807\u4e2d\u9009\u62e9\u6570\u5b57\u6807\u7b7e\uff0c\u5982\u679c\u7cfb\u7edf\u4e2d\u6ca1\u6709\u8be5\u6807\u7b7e\u76f4\u63a5\u8fdb\u884c\u521b\u5efa",
+                "uid": "EDsn3h6XV"
+              },
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "create-time": 1626856920349,
+                "edit-time": 1626856972896,
+                "string": "3.\u4f18\u5316\uff1a\u63d0\u9ad8\u7cfb\u7edf\u53cd\u5e94\u901f\u5ea6",
+                "uid": "xdX1ltqoc"
+              }
+            ],
+            "create-time": 1626856647043,
+            "edit-time": 1626856654407,
+            "string": "0.65.3",
+            "uid": "vMO0py8lg"
+          }
+        ],
+        "create-time": 1626856637652,
+        "edit-time": 1626856647071,
+        "refs": [
+          {
+            "uid": "07-21-2021"
+          }
+        ],
+        "string": "[[July 21st, 2021]]",
+        "uid": "8ahvr0MAB"
       }
     ],
     "create-time": 1621912573259,
