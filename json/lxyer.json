@@ -69269,5 +69269,17 @@
     "edit-time": 1627605509168,
     "title": "July 30th, 2021",
     "uid": "07-30-2021"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1627660800587,
+    "edit-time": 1627660800587,
+    "title": "July 31st, 2021",
+    "uid": "07-31-2021"
   }
 ]
