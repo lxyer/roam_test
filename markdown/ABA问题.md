@@ -1,0 +1,2 @@
+- 使用[[AtomicStampedRdference]]，在Java中，AtomicStampedReference<E>也实现了这个作用，它通过包装[E,Integer]的元组来对对象标记版本戳stamp，除了会对比值，还有比较版本号
+- 
