@@ -1,0 +1,3 @@
+- MySQL explain 详解
+    - 查询种类可以分为system->const->eq_ref->ref->ref_or_null->fulltext->index_merge->unique_subquery->index_subquery->range->index->all, 越往后往往对应查询性能越差
+    - 
