@@ -1,5 +1,5 @@
 - [Java9/Java10/Java11的新特性](https://www.cnblogs.com/laizhenghua/articles/13211557.html)
-    - JDK 9 主要新特性一览
+    - JDK9 主要新特性一览
         - JDK9模块化系统
             - 本质上讲也就是说，用模块来管理各个package，通过声明某个package 暴露，**模块(module)的概念，其实就是package外再裹一层**，不声明默 认就是隐藏。因此，模块化使得代码组织上更安全，因为它可以指定哪 些部分可以暴露，哪些部分隐藏。
         -  jShell命令
@@ -11,7 +11,7 @@
         - Stream API的加强
             - Stream 接口中添加了 **4 个新的方法： takeWhile, dropWhile, ofNullable，还有个 iterate 方法的新重载方法**
         - Javascript引擎升级：Nashorn
-    - JDK 10 主要新特性一览
+    - JDK10 主要新特性一览
         - 局部变量类型推断
         - 集合新增创建不可变集合的方法
     - JDK11 新特性
