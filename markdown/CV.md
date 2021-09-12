@@ -1,4 +1,43 @@
 - # [[KN]]
+    - # JVM问题
+        - ## 垃圾回收器
+            - [七种垃圾收集器的对比总结](https://blog.csdn.net/Sylvia_17/article/details/102085290)
+            - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FFqGYp-Uyy0.png?alt=media&token=c47422cc-51f6-46a4-961a-260d52778a75)
+            - ## JVM优化之G1垃圾收集器如何做到可预测停顿的
+                - G1优化的步骤中有一个步骤是让使用者自行设置暂停应用的时间，为啥能够做到这一点，G1回收的第4步【G1垃圾收集基础】，它是“选择一些内存块”，而不是整代内存来回收，其它GC每次回收都会回收整个内存(Eden, Old), 回收内存所需的时间取决于内存的大小，以及实际垃圾的多少，所以垃圾回收时间是不可控的；而G1每次并不会回收整代内存，到底回收多少内存就看用户配置的暂停时间，配置的时间短就少回收点相反就多回收点,G1垃圾收集器的G1其实是Garbage First的意思，这里并不是垃圾优先 的意思，而是优先处理那些垃圾多的内存块的意思。
+            - [[ZGC]](Z Garbage Collector)作为一种比较新的收集器。作为一款低延迟的垃圾收集器，它有如下几个亮点:
+                - 停顿时间不会超过 10ms
+                - 停顿时间不会随着堆的增大而增大（控制停顿时间在 10ms 内）
+                - 支持堆的大小范围很广（8MB-16TB）
+                - 在 ZGC 中，连逻辑上的也是重新定义了堆空间（不区分年轻代和老年代），只分为一块块的 page，每次进行 GC 时，都会对 page 进行压缩操作，所以没有碎片问题。ZGC 只在特定情况下具有绝对的优势, 如巨大的堆和极低的暂停需求。也有一种观点认为 ZGC 是为大内存、多 cpu 而生，它通过分区的思路来降低 STW。
+                - ZGC 在 JDK14 前只支持 Linux, 从 JDK14 开始支持 Mac 和 Windows。
+            - 
+        - [Java9/Java10/Java11的新特性](https://www.cnblogs.com/laizhenghua/articles/13211557.html)
+            - JDK9 主要新特性一览
+                - JDK9模块化系统
+                    - 本质上讲也就是说，用模块来管理各个package，通过声明某个package 暴露，**模块(module)的概念，其实就是package外再裹一层**，不声明默 认就是隐藏。因此，模块化使得代码组织上更安全，因为它可以指定哪 些部分可以暴露，哪些部分隐藏。
+                -  jShell命令
+                    - 让**Java**可以像脚本语言一样运行，从 控制台启动**jShell**，利用**jShell**在没有创建类的情况下直接声明变量，计算表达式， 执行语句。
+                - 可以实现资源的自动关闭，但是要求执行后必须关闭的所有资源必 须在try子句中初始化，否则编译不通过
+                - JDK9 String存储结构变更
+                    - 在以前的版本中，String一直是用char[]存储，但是在Java9中，String 再也不用 char[] 来存储啦，改成了 byte[] 加上编码标记，节约 了一些空间
+                -  集合工厂方法：快速创建只读集合
+                - Stream API的加强
+                    - Stream 接口中添加了 **4 个新的方法： takeWhile, dropWhile, ofNullable，还有个 iterate 方法的新重载方法**
+                - Javascript引擎升级：Nashorn
+            - JDK10 主要新特性一览
+                - 局部变量类型推断
+                - 集合新增创建不可变集合的方法
+            - JDK11 新特性
+                - 新增了一系列字符串处理方法
+                - **Optional** 也增加了几个非常酷的方法，现在可以很方便的将一个 **Optional** 转换 成一个 **Stream**, 或者当一个空 **Optional** 时给它一个替代的
+                - 局部变量类型推断升级
+                - HttpClient替换原有的HttpURLConnection
+                - 
+        - 
+    - # Redis
+        - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FE4AHUcUDZp.png?alt=media&token=785f163d-47e6-416b-9fb9-79c0e0c93386)
+        - 
     - [[CAS原理]]及解决[[ABA问题]]
     - [[布隆过滤器]]
     - 
