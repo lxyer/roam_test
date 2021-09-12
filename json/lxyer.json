@@ -70973,5 +70973,17 @@
     "edit-time": 1631431825105,
     "title": "ZGC",
     "uid": "6hV8Xkwp8"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1631462614407,
+    "edit-time": 1631462614408,
+    "title": "September 13th, 2021",
+    "uid": "09-13-2021"
   }
 ]
