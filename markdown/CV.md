@@ -15,13 +15,13 @@
                 - ZGC 在 JDK14 前只支持 Linux, 从 JDK14 开始支持 Mac 和 Windows。
             - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FgUGb8HLndW.png?alt=media&token=93a70c62-1937-4d5d-88d9-6e2821a03587)
             - 线程共享
-                - 堆（Heap）：线程共享。所有的对象实例以及数组都要在堆上分配。回收器主要管理的对象。
-                - 方法区（Method Area）：线程共享。存储类信息、常量、静态变量、即时编译器编译后的代码。
+                - [[堆]]（Heap）：线程共享。所有的对象实例以及数组都要在堆上分配。回收器主要管理的对象。
+                - [[方法区]]（Method Area）：线程共享。存储类信息、常量、静态变量、即时编译器编译后的代码。
             - 线程私有
-                - 方法栈（JVM Stack）：线程私有。存储局部变量表、操作栈、动态链接、方法出口，对象指针。
-                - 本地方法栈（Native Method Stack）：线程私有。为虚拟机使用到的Native 方法服务。如Java使用c或者c++编写的接口服务时，代码在此区运行。
-                - 程序计数器（Program Counter Register）：线程私有。有些文章也翻译成PC寄存器（PC Register），同一个东西。它可以看作是当前线程所执行的字节码的行号指示器。指向下一条要执行的指令。此内存区域是唯一一个在Java 虚拟机规范中没有规定任何OutOfMemoryError 情况的区域。
-        - ## Java内存模型
+                - [[方法栈]]（JVM Stack）：线程私有。存储局部变量表、操作栈、动态链接、方法出口，对象指针。
+                - [[本地方法栈]]（Native Method Stack）：线程私有。为虚拟机使用到的Native 方法服务。如Java使用c或者c++编写的接口服务时，代码在此区运行。
+                - [[程序计数器]]（Program Counter Register）：线程私有。有些文章也翻译成PC寄存器（PC Register），同一个东西。它可以看作是当前线程所执行的字节码的行号指示器。指向下一条要执行的指令。此内存区域是唯一一个在Java 虚拟机规范中没有规定任何OutOfMemoryError 情况的区域。
+        - ## [[Java内存模型]]
             - ![](https://pic4.zhimg.com/80/v2-b098a84eb7598d70913444a991d1759b_720w.jpg)
             - 
         - [Java9/Java10/Java11的新特性](https://www.cnblogs.com/laizhenghua/articles/13211557.html)
@@ -46,6 +46,7 @@
                 - 局部变量类型推断升级
                 - HttpClient替换原有的HttpURLConnection
                 - 
+        - [淘宝一面：“说一下 Spring Boot 自动装配原理呗？”](https://www.cnblogs.com/javaguide/p/springboot-auto-config.html)
         - 
     - # Redis
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FE4AHUcUDZp.png?alt=media&token=785f163d-47e6-416b-9fb9-79c0e0c93386)
