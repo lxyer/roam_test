@@ -2,6 +2,8 @@
     - # JVM问题
         - ## 垃圾回收器
             - [七种垃圾收集器的对比总结](https://blog.csdn.net/Sylvia_17/article/details/102085290)
+            - [垃圾收集的四种算法（标记-清除、复制算法、标记-整理、分代收集）总结](https://blog.csdn.net/Sylvia_17/article/details/101997296)
+            - 
             - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FFqGYp-Uyy0.png?alt=media&token=c47422cc-51f6-46a4-961a-260d52778a75)
             - ## JVM优化之G1垃圾收集器如何做到可预测停顿的
                 - G1优化的步骤中有一个步骤是让使用者自行设置暂停应用的时间，为啥能够做到这一点，G1回收的第4步【G1垃圾收集基础】，它是“选择一些内存块”，而不是整代内存来回收，其它GC每次回收都会回收整个内存(Eden, Old), 回收内存所需的时间取决于内存的大小，以及实际垃圾的多少，所以垃圾回收时间是不可控的；而G1每次并不会回收整代内存，到底回收多少内存就看用户配置的暂停时间，配置的时间短就少回收点相反就多回收点,G1垃圾收集器的G1其实是Garbage First的意思，这里并不是垃圾优先 的意思，而是优先处理那些垃圾多的内存块的意思。
@@ -11,6 +13,16 @@
                 - 支持堆的大小范围很广（8MB-16TB）
                 - 在 ZGC 中，连逻辑上的也是重新定义了堆空间（不区分年轻代和老年代），只分为一块块的 page，每次进行 GC 时，都会对 page 进行压缩操作，所以没有碎片问题。ZGC 只在特定情况下具有绝对的优势, 如巨大的堆和极低的暂停需求。也有一种观点认为 ZGC 是为大内存、多 cpu 而生，它通过分区的思路来降低 STW。
                 - ZGC 在 JDK14 前只支持 Linux, 从 JDK14 开始支持 Mac 和 Windows。
+            - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FgUGb8HLndW.png?alt=media&token=93a70c62-1937-4d5d-88d9-6e2821a03587)
+            - 线程共享
+                - 堆（Heap）：线程共享。所有的对象实例以及数组都要在堆上分配。回收器主要管理的对象。
+                - 方法区（Method Area）：线程共享。存储类信息、常量、静态变量、即时编译器编译后的代码。
+            - 线程私有
+                - 方法栈（JVM Stack）：线程私有。存储局部变量表、操作栈、动态链接、方法出口，对象指针。
+                - 本地方法栈（Native Method Stack）：线程私有。为虚拟机使用到的Native 方法服务。如Java使用c或者c++编写的接口服务时，代码在此区运行。
+                - 程序计数器（Program Counter Register）：线程私有。有些文章也翻译成PC寄存器（PC Register），同一个东西。它可以看作是当前线程所执行的字节码的行号指示器。指向下一条要执行的指令。此内存区域是唯一一个在Java 虚拟机规范中没有规定任何OutOfMemoryError 情况的区域。
+        - ## Java内存模型
+            - ![](https://pic4.zhimg.com/80/v2-b098a84eb7598d70913444a991d1759b_720w.jpg)
             - 
         - [Java9/Java10/Java11的新特性](https://www.cnblogs.com/laizhenghua/articles/13211557.html)
             - JDK9 主要新特性一览
@@ -38,6 +50,33 @@
     - # Redis
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FE4AHUcUDZp.png?alt=media&token=785f163d-47e6-416b-9fb9-79c0e0c93386)
         - 
+    - ## MySQL
+        - explain 的type类型（性能排序）
+            - system：表只有一行记录（等于系统表），这是const类型的特例，平时不会出现，可以忽略不计
+            - const：表示通过索引一次就找到了，const用于比较primary key 或者 unique索引。因为只需匹配一行数据，所有很快。如果将主键置于where列表中，mysql就能将该查询转换为一个const
+            - eq_ref：唯一性索引扫描，对于每个索引键，表中只有一条记录与之匹配。常见于主键 或 唯一索引扫描。
+            - **ref**：非唯一性索引扫描，返回匹配某个单独值的所有行。本质是也是一种索引访问，它返回所有匹配某个单独值的行，然而他可能会找到多个符合条件的行，所以它应该属于查找和扫描的混合体。
+            - **range**：只检索给定范围的行，使用一个索引来选择行。key 列显示使用了那个索引。一般就是在 where 语句中出现了 bettween、<、>、in 等的查询。这种索引列上的范围扫描比全索引扫描要好。只需要开始于某个点，结束于另一个点，不用扫描全部索引。
+            - **index**：Full Index Scan，index 与 ALL 区别为 index 类型只遍历索引树。这通常为 ALL 块，应为索引文件通常比数据文件小。（Index 与 ALL 虽然都是读全表，但 index 是从索引中读取，而 ALL 是从硬盘读取）
+            - ALL：Full Table Scan，遍历全表以找到匹配的行
+        - [项目中常用的19条MySQL优化](https://segmentfault.com/a/1190000012155267)
+            - 善用 **EXPLAIN** 查看SQL执行计划
+            - SQL语句中IN包含的值不应过多
+            - SELECT语句务必指明字段名称
+            - 表中有大字段需要拆子表
+            - 当只需要一条数据的时候，使用limit 1
+            - 如果排序字段没有用到索引，就尽量少排序
+            - 如果限制条件中其他字段没有索引，尽量少用or
+            - 尽量用union all代替union
+            - 使用合理的分页方式以提高分页的效率
+            - 分段查询
+            - 避免在 where 子句中对字段进行 null 值判断
+            - 不建议使用%前缀模糊查询，如需要使用全文索引
+            - 避免在where子句中对字段进行表达式操作
+            - 避免隐式类型转换
+            - 对于联合索引来说，要遵守最左前缀法则
+            - 必要时可以使用force index来强制查询走某个索引
+            - **利用小表去驱动大表**
     - [[CAS原理]]及解决[[ABA问题]]
     - [[布隆过滤器]]
     - 
