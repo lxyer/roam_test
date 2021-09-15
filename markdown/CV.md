@@ -47,6 +47,18 @@
                 - HttpClient替换原有的HttpURLConnection
                 - 
         - [淘宝一面：“说一下 Spring Boot 自动装配原理呗？”](https://www.cnblogs.com/javaguide/p/springboot-auto-config.html)
+        - [Java 类加载器（ClassLoader）的实际使用场景有哪些？](https://www.zhihu.com/question/46719811/answer/1739289578)
+            - 加载
+                - 加载就是将class文件载入jvm中
+            - 验证
+                - 主要校验载入的class是否符合jvm规范。比如魔数校验，版本号校验，逻辑验证
+            - 准备
+                - 为类变量分片内存并给类变量设置初始值
+            - 解析
+                - 这个阶段的主要任务是将其在常量池中的符号引用替换成直接其在内存中的直接引用
+            - 初始化
+            - 使用
+            - 卸载
         - 
     - # Redis
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FE4AHUcUDZp.png?alt=media&token=785f163d-47e6-416b-9fb9-79c0e0c93386)
@@ -78,6 +90,25 @@
             - 对于联合索引来说，要遵守最左前缀法则
             - 必要时可以使用force index来强制查询走某个索引
             - **利用小表去驱动大表**
+    - ## 缓存
+        - [[Redis]]与[[Memcached]]的区别
+            - **Redis不仅仅支持简单的k/v类型的数据，同时还提供list，set，zset，hash等数据结构的存储。**
+            - **Redis****支持数据的备份，即master-slave模式的数据备份。**
+            - **Redis支持数据的持久化，可以将内存中的数据保持在磁盘中，重启的时候可以再次加载进行使用。**
+            - **Redis****中，并不是所有的数据都一直存储在内存中的**。这是和Memcached相比一个最大的区别。Redis只会缓存所有的 key的信息，如果Redis发现内存的使用量超过了某一个阀值，将**触发****swap**的操作，Redis根据“swappability = age*log(size_in_memory)”计 算出哪些key对应的value需要swap到磁盘。然后再将**__这些__****__key__****__对应的__****__value__****__持久化到磁盘中，同时在内存中清除。__**这种特性使得Redis可以 保持超过其机器本身内存大小的数据。
+            - **Memcached****是多线程，非阻塞****IO****复用的网络模型**
+            - Memcached提供了cas命令，可以保证多个并发访问操作同一份数据的一致性问题。 Redis没有提供cas 命令，并不能保证这点，不过Redis提供了事务的功能，可以保证一串 命令的原子性，中间不会被任何操作打断。
+            - **Memcached通过使用多个内核**实现多线程体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于Redis。Redis使用单核，在存储小数据集方面表现出比 Memcached 更好的性能。
+            - memcached对key和value的限制：最大键长为250个字符。可以接受的储存数据不能超过1MB(可以通过修改源码进行配置，但是太大之后会报警告)
+            - redis各个类型的value值的最大容量
+                - Stringvalue最大可以存储512M
+                - hash键值对个数最多为2^32-1个，即4294967295个
+                - List元素个数最多为2^32-1个，即4294967295个
+                - Set元素个数最多为2^32-1个，即4294967295个
+                - SortSet元素个数最多为2^32-1个，即4294967295个
+            - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2Fv8VztIa6vN.png?alt=media&token=442eaf38-85ac-48a5-8afa-0c2a0943084b)
+    - [【面试】迄今为止把同步/异步/阻塞/非阻塞/BIO/NIO/AIO讲的这么清楚的好文章（快快珍藏）](https://www.cnblogs.com/lixinjie/p/a-post-about-io-clearly.html)
+    - 
     - [[CAS原理]]及解决[[ABA问题]]
     - [[布隆过滤器]]
     - 

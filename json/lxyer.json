@@ -70109,10 +70109,164 @@
                 ":edit/user": {
                   ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
                 },
+                "children": [
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "children": [
+                      {
+                        ":create/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        ":edit/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        "create-time": 1631662815715,
+                        "edit-time": 1631662818753,
+                        "string": "\u52a0\u8f7d\u5c31\u662f\u5c06class\u6587\u4ef6\u8f7d\u5165jvm\u4e2d",
+                        "uid": "461ku-28g"
+                      }
+                    ],
+                    "create-time": 1631662734666,
+                    "edit-time": 1631662738030,
+                    "string": "\u52a0\u8f7d",
+                    "uid": "4olOv0i0E"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "children": [
+                      {
+                        ":create/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        ":edit/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        "create-time": 1631662831195,
+                        "edit-time": 1631662832173,
+                        "string": "\u4e3b\u8981\u6821\u9a8c\u8f7d\u5165\u7684class\u662f\u5426\u7b26\u5408jvm\u89c4\u8303\u3002\u6bd4\u5982\u9b54\u6570\u6821\u9a8c\uff0c\u7248\u672c\u53f7\u6821\u9a8c\uff0c\u903b\u8f91\u9a8c\u8bc1",
+                        "uid": "q0f9oYzNg"
+                      }
+                    ],
+                    "create-time": 1631662738024,
+                    "edit-time": 1631662739961,
+                    "string": "\u9a8c\u8bc1",
+                    "uid": "z6nZGdrkn"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "children": [
+                      {
+                        ":create/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        ":edit/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        "create-time": 1631662853134,
+                        "edit-time": 1631662855551,
+                        "string": "\u4e3a\u7c7b\u53d8\u91cf\u5206\u7247\u5185\u5b58\u5e76\u7ed9\u7c7b\u53d8\u91cf\u8bbe\u7f6e\u521d\u59cb\u503c",
+                        "uid": "DenSCBgwx"
+                      }
+                    ],
+                    "create-time": 1631662739955,
+                    "edit-time": 1631662743987,
+                    "string": "\u51c6\u5907",
+                    "uid": "z161tM48W"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "children": [
+                      {
+                        ":create/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        ":edit/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        "create-time": 1631662867655,
+                        "edit-time": 1631662869647,
+                        "string": "\u8fd9\u4e2a\u9636\u6bb5\u7684\u4e3b\u8981\u4efb\u52a1\u662f\u5c06\u5176\u5728\u5e38\u91cf\u6c60\u4e2d\u7684\u7b26\u53f7\u5f15\u7528\u66ff\u6362\u6210\u76f4\u63a5\u5176\u5728\u5185\u5b58\u4e2d\u7684\u76f4\u63a5\u5f15\u7528",
+                        "uid": "xpYmcU8oL"
+                      }
+                    ],
+                    "create-time": 1631662743982,
+                    "edit-time": 1631662747982,
+                    "string": "\u89e3\u6790",
+                    "uid": "VMAH-ZP5v"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1631662747976,
+                    "edit-time": 1631662759971,
+                    "string": "\u521d\u59cb\u5316",
+                    "uid": "hmVirjNgi"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1631662804963,
+                    "edit-time": 1631662804963,
+                    "string": "\u4f7f\u7528",
+                    "uid": "zppM4xWCM"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1631662801141,
+                    "edit-time": 1631662804970,
+                    "string": "\u5378\u8f7d",
+                    "uid": "pynlvWNZz"
+                  }
+                ],
                 "create-time": 1631604989133,
-                "edit-time": 1631604989133,
-                "string": "",
+                "edit-time": 1631693840894,
+                "string": "[Java \u7c7b\u52a0\u8f7d\u5668\uff08ClassLoader\uff09\u7684\u5b9e\u9645\u4f7f\u7528\u573a\u666f\u6709\u54ea\u4e9b\uff1f](https://www.zhihu.com/question/46719811/answer/1739289578)",
                 "uid": "RTgbem5gy"
+              },
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "create-time": 1631693842451,
+                "edit-time": 1631693842451,
+                "string": "",
+                "uid": "MixwFU4Cu"
               }
             ],
             "create-time": 1631426018471,
@@ -70478,6 +70632,245 @@
             "heading": 2,
             "string": "MySQL",
             "uid": "yN6ZNFm_b"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":block/refs": [
+                  {
+                    ":block/uid": "8_Nlz-8IB"
+                  },
+                  {
+                    ":block/uid": "9FkRc0uA2"
+                  }
+                ],
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "children": [
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1631660941365,
+                    "string": "**Redis\u4e0d\u4ec5\u4ec5\u652f\u6301\u7b80\u5355\u7684k/v\u7c7b\u578b\u7684\u6570\u636e\uff0c\u540c\u65f6\u8fd8\u63d0\u4f9blist\uff0cset\uff0czset\uff0chash\u7b49\u6570\u636e\u7ed3\u6784\u7684\u5b58\u50a8\u3002**",
+                    "uid": "-8uG8eGP_"
+                  },
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1631660892527,
+                    "string": "**Redis****\u652f\u6301\u6570\u636e\u7684\u5907\u4efd\uff0c\u5373master-slave\u6a21\u5f0f\u7684\u6570\u636e\u5907\u4efd\u3002**",
+                    "uid": "US0kN0jwY"
+                  },
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1631660878791,
+                    "string": "**Redis\u652f\u6301\u6570\u636e\u7684\u6301\u4e45\u5316\uff0c\u53ef\u4ee5\u5c06\u5185\u5b58\u4e2d\u7684\u6570\u636e\u4fdd\u6301\u5728\u78c1\u76d8\u4e2d\uff0c\u91cd\u542f\u7684\u65f6\u5019\u53ef\u4ee5\u518d\u6b21\u52a0\u8f7d\u8fdb\u884c\u4f7f\u7528\u3002**",
+                    "uid": "M2PbLNGGK"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1631660944390,
+                    "edit-time": 1631660986832,
+                    "string": "**Redis****\u4e2d\uff0c\u5e76\u4e0d\u662f\u6240\u6709\u7684\u6570\u636e\u90fd\u4e00\u76f4\u5b58\u50a8\u5728\u5185\u5b58\u4e2d\u7684**\u3002\u8fd9\u662f\u548cMemcached\u76f8\u6bd4\u4e00\u4e2a\u6700\u5927\u7684\u533a\u522b\u3002Redis\u53ea\u4f1a\u7f13\u5b58\u6240\u6709\u7684\u00a0key\u7684\u4fe1\u606f\uff0c\u5982\u679cRedis\u53d1\u73b0\u5185\u5b58\u7684\u4f7f\u7528\u91cf\u8d85\u8fc7\u4e86\u67d0\u4e00\u4e2a\u9600\u503c\uff0c\u5c06**\u89e6\u53d1****swap**\u7684\u64cd\u4f5c\uff0cRedis\u6839\u636e\u201cswappability = age*log(size_in_memory)\u201d\u8ba1\u00a0\u7b97\u51fa\u54ea\u4e9bkey\u5bf9\u5e94\u7684value\u9700\u8981swap\u5230\u78c1\u76d8\u3002\u7136\u540e\u518d\u5c06**__\u8fd9\u4e9b__****__key__****__\u5bf9\u5e94\u7684__****__value__****__\u6301\u4e45\u5316\u5230\u78c1\u76d8\u4e2d\uff0c\u540c\u65f6\u5728\u5185\u5b58\u4e2d\u6e05\u9664\u3002__**\u8fd9\u79cd\u7279\u6027\u4f7f\u5f97Redis\u53ef\u4ee5\u00a0\u4fdd\u6301\u8d85\u8fc7\u5176\u673a\u5668\u672c\u8eab\u5185\u5b58\u5927\u5c0f\u7684\u6570\u636e\u3002",
+                    "uid": "iWF6he_BX"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1631661037502,
+                    "edit-time": 1631661038693,
+                    "string": "**Memcached****\u662f\u591a\u7ebf\u7a0b\uff0c\u975e\u963b\u585e****IO****\u590d\u7528\u7684\u7f51\u7edc\u6a21\u578b**",
+                    "uid": "BrofyWBwi"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1631661073805,
+                    "edit-time": 1631661074348,
+                    "string": "Memcached\u63d0\u4f9b\u4e86cas\u547d\u4ee4\uff0c\u53ef\u4ee5\u4fdd\u8bc1\u591a\u4e2a\u5e76\u53d1\u8bbf\u95ee\u64cd\u4f5c\u540c\u4e00\u4efd\u6570\u636e\u7684\u4e00\u81f4\u6027\u95ee\u9898\u3002\u00a0Redis\u6ca1\u6709\u63d0\u4f9bcas\u00a0\u547d\u4ee4\uff0c\u5e76\u4e0d\u80fd\u4fdd\u8bc1\u8fd9\u70b9\uff0c\u4e0d\u8fc7Redis\u63d0\u4f9b\u4e86\u4e8b\u52a1\u7684\u529f\u80fd\uff0c\u53ef\u4ee5\u4fdd\u8bc1\u4e00\u4e32\u00a0\u547d\u4ee4\u7684\u539f\u5b50\u6027\uff0c\u4e2d\u95f4\u4e0d\u4f1a\u88ab\u4efb\u4f55\u64cd\u4f5c\u6253\u65ad\u3002",
+                    "uid": "k8x7VjNTm"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1631661213034,
+                    "edit-time": 1631661226315,
+                    "string": "**Memcached\u901a\u8fc7\u4f7f\u7528\u591a\u4e2a\u5185\u6838**\u5b9e\u73b0\u591a\u7ebf\u7a0b\u4f53\u7cfb\u7ed3\u6784\u3002 \u56e0\u6b64\uff0c\u5bf9\u4e8e\u5b58\u50a8\u66f4\u5927\u7684\u6570\u636e\u96c6\uff0cMemcached\u7684\u6027\u80fd\u8981\u4f18\u4e8eRedis\u3002Redis\u4f7f\u7528\u5355\u6838\uff0c\u5728\u5b58\u50a8\u5c0f\u6570\u636e\u96c6\u65b9\u9762\u8868\u73b0\u51fa\u6bd4 Memcached \u66f4\u597d\u7684\u6027\u80fd\u3002",
+                    "uid": "tfCi2c3ME"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1631661226648,
+                    "edit-time": 1631661625653,
+                    "string": "memcached\u5bf9key\u548cvalue\u7684\u9650\u5236\uff1a\u6700\u5927\u952e\u957f\u4e3a250\u4e2a\u5b57\u7b26\u3002\u53ef\u4ee5\u63a5\u53d7\u7684\u50a8\u5b58\u6570\u636e\u4e0d\u80fd\u8d85\u8fc71MB(\u53ef\u4ee5\u901a\u8fc7\u4fee\u6539\u6e90\u7801\u8fdb\u884c\u914d\u7f6e\uff0c\u4f46\u662f\u592a\u5927\u4e4b\u540e\u4f1a\u62a5\u8b66\u544a)",
+                    "uid": "uFntdxh2f"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "children": [
+                      {
+                        ":create/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        ":edit/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        "create-time": 1631661775810,
+                        "edit-time": 1631661775810,
+                        "string": "Stringvalue\u6700\u5927\u53ef\u4ee5\u5b58\u50a8512M",
+                        "uid": "AJjFO-26E"
+                      },
+                      {
+                        ":create/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        ":edit/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        "create-time": 1631661779621,
+                        "edit-time": 1631661779621,
+                        "string": "hash\u952e\u503c\u5bf9\u4e2a\u6570\u6700\u591a\u4e3a2^32-1\u4e2a\uff0c\u53734294967295\u4e2a",
+                        "uid": "QHyAvf-jn"
+                      },
+                      {
+                        ":create/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        ":edit/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        "create-time": 1631661782590,
+                        "edit-time": 1631661782590,
+                        "string": "List\u5143\u7d20\u4e2a\u6570\u6700\u591a\u4e3a2^32-1\u4e2a\uff0c\u53734294967295\u4e2a",
+                        "uid": "n2rO4Xw0j"
+                      },
+                      {
+                        ":create/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        ":edit/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        "create-time": 1631661785399,
+                        "edit-time": 1631661785399,
+                        "string": "Set\u5143\u7d20\u4e2a\u6570\u6700\u591a\u4e3a2^32-1\u4e2a\uff0c\u53734294967295\u4e2a",
+                        "uid": "9TMAmTdN9"
+                      },
+                      {
+                        ":create/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        ":edit/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        "create-time": 1631661756534,
+                        "edit-time": 1631661785405,
+                        "string": "SortSet\u5143\u7d20\u4e2a\u6570\u6700\u591a\u4e3a2^32-1\u4e2a\uff0c\u53734294967295\u4e2a",
+                        "uid": "STXX6ARGi"
+                      }
+                    ],
+                    "create-time": 1631661752980,
+                    "edit-time": 1631661755064,
+                    "string": "redis\u5404\u4e2a\u7c7b\u578b\u7684value\u503c\u7684\u6700\u5927\u5bb9\u91cf",
+                    "uid": "nCda8gzlE"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1631662116781,
+                    "edit-time": 1631662135339,
+                    "string": "![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2Fv8VztIa6vN.png?alt=media&token=442eaf38-85ac-48a5-8afa-0c2a0943084b)",
+                    "uid": "NgEdIjFm0"
+                  }
+                ],
+                "create-time": 1631660732954,
+                "edit-time": 1631660823168,
+                "refs": [
+                  {
+                    "uid": "8_Nlz-8IB"
+                  },
+                  {
+                    "uid": "9FkRc0uA2"
+                  }
+                ],
+                "string": "[[Redis]]\u4e0e[[Memcached]]\u7684\u533a\u522b",
+                "uid": "8FkEOql0k"
+              }
+            ],
+            "create-time": 1631660718977,
+            "edit-time": 1631660723734,
+            "heading": 2,
+            "string": "\u7f13\u5b58",
+            "uid": "5L-i4Mvtv"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1631662616797,
+            "edit-time": 1631662638951,
+            "string": "[\u3010\u9762\u8bd5\u3011\u8fc4\u4eca\u4e3a\u6b62\u628a\u540c\u6b65/\u5f02\u6b65/\u963b\u585e/\u975e\u963b\u585e/BIO/NIO/AIO\u8bb2\u7684\u8fd9\u4e48\u6e05\u695a\u7684\u597d\u6587\u7ae0\uff08\u5feb\u5feb\u73cd\u85cf\uff09](https://www.cnblogs.com/lixinjie/p/a-post-about-io-clearly.html)",
+            "uid": "_K6PDqRbJ"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1631662641071,
+            "edit-time": 1631662641071,
+            "string": "",
+            "uid": "s0H9NdsDl"
           },
           {
             ":block/refs": [
@@ -71567,5 +71960,29 @@
     "edit-time": 1631604085287,
     "title": "Java\u5185\u5b58\u6a21\u578b",
     "uid": "bYq50Wjm8"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1631693808761,
+    "edit-time": 1631693808762,
+    "title": "September 15th, 2021",
+    "uid": "09-15-2021"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1631660790910,
+    "edit-time": 1631660790912,
+    "title": "Memcached",
+    "uid": "9FkRc0uA2"
   }
 ]
