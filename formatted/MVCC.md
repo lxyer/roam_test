@@ -1,5 +1,40 @@
+- 1、事务版本号
+    - 每次事务开启前都会从数据库获得一个自增长的事务ID，可以从事务ID判断事务的执行先后顺序。
+- 2、表的隐藏列
+    - DB_TRX_ID: 记录操作该数据事务的事务ID；
+    - DB_ROLL_PTR：指向上一个版本数据在undo log 里的位置指针；
+    - DB_ROW_ID: 隐藏ID ，当创建表没有合适的索引作为聚集索引时，会用该隐藏ID创建聚集索引;
+- 3、[undo log](<undo log.md>)
+    - Undo log 主要用于记录数据被修改之前的日志，在表信息修改之前先会把数据拷贝到undo log 里，当事务进行回滚时可以通过undo log 里的日志进行数据还原。
+    - Undo log 的用途
+        - （1）保证事务进行rollback时的原子性和一致性，当事务进行回滚的时候可以用undo log的数据进行恢复。
+        - （2）用于MVCC快照读的数据，在MVCC多版本控制中，通过读取undo log的历史版本数据可以实现不同事务版本号都拥有自己独立的快照数据版本。
+- 4、[ read view](< read view.md>)
+    - 在innodb 中每个SQL语句执行前都会得到一个read_view。副本主要保存了当前数据库系统中正处于活跃（没有commit）的事务的ID号，其实简单的说这个副本中保存的是系统中当前不应该被本事务看到的其他事务id列表。
+    - Read view 的几个重要属性
+        - trx_ids: 当前系统活跃(未提交)事务版本号集合。
+        - low_limit_id: 创建当前read view 时“当前系统最大事务版本号+1”。
+        - up_limit_id: 创建当前read view 时“系统正处于活跃事务最小版本号”
+        - creator_trx_id: 创建当前read view的事务版本号；
+    - Read view 匹配条件
+        - （1）数据事务ID <up_limit_id 则显示
+            - 如果数据事务ID小于read view中的最小活跃事务ID，则可以肯定该数据是在当前事务启之前就已经存在了的,所以可以显示。
+        - （2）数据事务ID>=low_limit_id 则不显示
+            - 如果数据事务ID大于read view 中的当前系统的最大事务ID，则说明该数据是在当前read view 创建之后才产生的，所以数据不予显示。
+        - （3） up_limit_id <=数据事务ID<low_limit_id 则与活跃事务集合trx_ids里匹配
+            - 情况1: 如果事务ID不存在于trx_ids 集合（则说明read view产生的时候事务已经commit了），这种情况数据则可以显示。
+            - 情况2： 如果事务ID存在trx_ids则说明read view产生的时候数据还没有提交，但是如果数据的事务ID等于creator_trx_id ，那么说明这个数据就是当前事务自己生成的，自己生成的数据自己当然能看见，所以这种情况下此数据也是可以显示的。
+            - 情况3： 如果事务ID既存在trx_ids而且又不等于creator_trx_id那就说明read view产生的时候数据还没有提交，又不是自己生成的，所以这种情况下此数据不能显示。
+        - （4）不满足read view条件时候，从undo log里面获取数据
+            - 当数据的事务ID不满足read view条件时候，从undo log里面获取数据的历史版本，然后数据历史版本事务号回头再来和read view 条件匹配 ，直到找到一条满足条件的历史数据，或者找不到则返回空结果；
+        - 
+- ![](https://pic3.zhimg.com/80/v2-a086ef515e7d0a023ca3cfcc5759c7f6_720w.jpg)
+- 
 
 # Backlinks
 ## [August 4th, 2020](<August 4th, 2020.md>)
 - [MySQL](<MySQL.md>)仅在[InnoDB](<InnoDB.md>)中支持[MVCC](<MVCC.md>)
+
+## [CV](<CV.md>)
+- [MVCC](<MVCC.md>)
 
