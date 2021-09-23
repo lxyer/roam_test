@@ -5,8 +5,8 @@
     - timestamp的作用
         - 后台验证时间戳与当前时间之差,超过预定数值未时间失效,缺点无法防止规定时间内的攻击
     - nonce的作用
-        - 随机字符串后台收到后放入到Redis中,如果发现Redis中已有值,则判断此次访问无效,可以保证参数访问的一次性有效性.缺点为这个Redis中的数据会越来越大.
-    - [最佳实践](<最佳实践.md>)结合timestamp和nonce,Redis中的数据加入过期设置
+        - 随机字符串后台收到后放入到[Redis](<Redis.md>)中,如果发现[Redis](<Redis.md>)中已有值,则判断此次访问无效,可以保证参数访问的一次性有效性.缺点为这个[Redis](<Redis.md>)中的数据会越来越大.
+    - [最佳实践](<最佳实践.md>)结合timestamp和nonce,[Redis](<Redis.md>)中的数据加入过期设置
 - [冒烟测试](<冒烟测试.md>)
 - [开源软件协议](<开源软件协议.md>)
 - [神仙打架：PG 和 MySQL 到底哪个更好用？](https://www.toutiao.com/a6835793897591931400/) [Roam-Highlights](<Roam-Highlights.md>)

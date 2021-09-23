@@ -28,9 +28,6 @@
 ## [October 14th, 2020](<October 14th, 2020.md>)
 - {{[TODO](<TODO.md>)}
 
-## [Redis](<Redis.md>)
-- {{[TODO](<TODO.md>)}
-
 ## [todo-list](<todo-list.md>)
 - {{[query](<query.md>):  {and: [TODO](<TODO.md>)
 

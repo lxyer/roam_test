@@ -64,11 +64,11 @@
             - 使用指令：jmap -histo:live *** | more 查看堆内存中的对象数量和大小
             - 在前一步分析内存的同时，使用指令：jmap -dump:format=b,file=heapDump.hprof将实时内存信息导出（dump过程比较慢，所以在问题暂时处理完后进行后续分析），使用mat分析内存结构
             - 使用指令：jmap -histo:live  查看堆内存中的对象数量和大小
-    - # Redis
+    - # [Redis](<Redis.md>)
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FE4AHUcUDZp.png?alt=media&token=785f163d-47e6-416b-9fb9-79c0e0c93386)
         - [集群](<集群.md>)方案
             - [主从复制模式](<主从复制模式.md>)
-                - ![redis-master-slave](https://image-static.segmentfault.com/124/529/1245298177-5e6ed603a6d8b_articlex)
+                - ![[Redis](<[Redis.md>)-master-slave](https://image-static.segmentfault.com/124/529/1245298177-5e6ed603a6d8b_articlex)
                 - 具体工作机制为：
                     - slave启动后，向master发送SYNC命令，master接收到SYNC命令后通过[bgsave](<bgsave.md>)保存快照（即上文所介绍的RDB持久化），并使用缓冲区记录保存快照这段时间内执行的写命令
                     - master将保存的快照文件发送给slave，并继续记录执行的写命令
@@ -81,14 +81,14 @@
                 - 缺点：
                     - 不具备自动容错与恢复功能，master或slave的宕机都可能导致客户端请求失败，需要等待机器重启或手动切换客户端IP才能恢复
                     - master宕机，如果宕机前数据没有同步完，则切换IP后会存在数据不一致的问题
-                    - 难以支持在线扩容，Redis的容量受限于单机配置
+                    - 难以支持在线扩容，[Redis](<Redis.md>)的容量受限于单机配置
             - [Sentinel](<Sentinel.md>)（哨兵）模式
                 - 哨兵模式基于主从复制模式，只是引入了哨兵来监控与自动处理故障
-                - ![redis-sentinel](https://image-static.segmentfault.com/423/790/4237905659-5e6ed60450b11_articlex)
+                - ![[Redis](<[Redis.md>)-sentinel](https://image-static.segmentfault.com/423/790/4237905659-5e6ed60450b11_articlex)
                 - 哨兵的功能：
                     - 监控master、slave是否正常运行
                     - 当master出现故障时，能自动将一个slave转换为master（大哥挂了，选一个小弟上位）
-                    - 多个哨兵可以监控同一个Redis，哨兵之间也会自动监控
+                    - 多个哨兵可以监控同一个[Redis](<Redis.md>)，哨兵之间也会自动监控
                 - 哨兵认为master客观下线后，故障恢复的操作需要由选举的领头哨兵来执行，选举采用[Raft](<Raft.md>)算法：
                     - 发现master下线的哨兵节点（我们称他为A）向每个哨兵发送命令，要求对方选自己为领头哨兵
                     - 如果目标哨兵节点没有选过其他人，则会同意选举A为领头哨兵
@@ -103,17 +103,17 @@
                     - 哨兵模式基于[主从复制模式](<主从复制模式.md>)，所以主从复制模式有的优点，哨兵模式也有
                     - 哨兵模式下，master挂掉可以自动进行切换，系统可用性更高
                 - 缺点：
-                    - 同样也继承了主从模式难以在线扩容的缺点，Redis的容量受限于单机配置
+                    - 同样也继承了主从模式难以在线扩容的缺点，[Redis](<Redis.md>)的容量受限于单机配置
                     - 需要额外的资源来启动sentinel进程，实现相对复杂一点，同时slave节点作为备份节点不提供服务
             - [Cluster模式](<Cluster模式.md>)
-                - 哨兵模式解决了主从复制不能自动故障转移，达不到高可用的问题，但还是存在难以在线扩容，Redis容量受限于单机配置的问题。Cluster模式实现了Redis的分布式存储，即每台节点存储不同的内容，来解决在线扩容的问题
+                - 哨兵模式解决了主从复制不能自动故障转移，达不到高可用的问题，但还是存在难以在线扩容，[Redis](<Redis.md>)容量受限于单机配置的问题。Cluster模式实现了[Redis](<Redis.md>)的分布式存储，即每台节点存储不同的内容，来解决在线扩容的问题
                 - Cluster采用无中心结构,它的特点如下：
-                    - 所有的redis节点彼此互联(PING-PONG机制),内部使用二进制协议优化传输速度和带宽
+                    - 所有的[Redis](<Redis.md>)节点彼此互联(PING-PONG机制),内部使用二进制协议优化传输速度和带宽
                     - 节点的fail是通过集群中超过半数的节点检测失效时才生效
-                    - 客户端与redis节点直连,不需要中间代理层.客户端不需要连接集群所有节点,连接集群中任何一个可用节点即可
+                    - 客户端与[Redis](<Redis.md>)节点直连,不需要中间代理层.客户端不需要连接集群所有节点,连接集群中任何一个可用节点即可
                 - Cluster模式的具体工作机制：
-                    - 在Redis的每个节点上，都有一个插槽（slot），取值范围为0-16383
-                    - 当我们存取key的时候，Redis会根据CRC16的算法得出一个结果，然后把结果对16384求余数，这样每个key都会对应一个编号在0-16383之间的哈希槽，通过这个值，去找到对应的插槽所对应的节点，然后直接自动跳转到这个对应的节点上进行存取操作
+                    - 在[Redis](<Redis.md>)的每个节点上，都有一个插槽（slot），取值范围为0-16383
+                    - 当我们存取key的时候，[Redis](<Redis.md>)会根据CRC16的算法得出一个结果，然后把结果对16384求余数，这样每个key都会对应一个编号在0-16383之间的哈希槽，通过这个值，去找到对应的插槽所对应的节点，然后直接自动跳转到这个对应的节点上进行存取操作
                     - 为了保证高可用，Cluster模式也引入主从复制模式，一个主节点对应一个或者多个从节点，当主节点宕机的时候，就会启用从节点
                     - 当其它主节点ping一个主节点A时，如果半数以上的主节点与A通信超时，那么认为主节点A宕机了。如果主节点A和它的从节点都宕机了，那么该集群就无法再提供服务了
                 - Cluster模式集群节点最小配置6个节点(3主3从，因为需要半数以上)，其中主节点提供读写操作，从节点作为备用节点，不提供请求，只作为故障转移使用。
@@ -149,15 +149,15 @@
         - 
     - ## 缓存
         - [Redis](<Redis.md>)与[Memcached](<Memcached.md>)的区别
-            - **Redis不仅仅支持简单的k/v类型的数据，同时还提供list，set，zset，hash等数据结构的存储。**
-            - **Redis****支持数据的备份，即master-slave模式的数据备份。**
-            - **Redis支持数据的持久化，可以将内存中的数据保持在磁盘中，重启的时候可以再次加载进行使用。**
-            - **Redis****中，并不是所有的数据都一直存储在内存中的**。这是和Memcached相比一个最大的区别。Redis只会缓存所有的 key的信息，如果Redis发现内存的使用量超过了某一个阀值，将**触发****swap**的操作，Redis根据“swappability = age*log(size_in_memory)”计 算出哪些key对应的value需要swap到磁盘。然后再将**__这些__****__key__****__对应的__****__value__****__持久化到磁盘中，同时在内存中清除。__**这种特性使得Redis可以 保持超过其机器本身内存大小的数据。
+            - **[Redis](<Redis.md>)不仅仅支持简单的k/v类型的数据，同时还提供list，set，zset，hash等数据结构的存储。**
+            - **[Redis](<Redis.md>)****支持数据的备份，即master-slave模式的数据备份。**
+            - **[Redis](<Redis.md>)支持数据的持久化，可以将内存中的数据保持在磁盘中，重启的时候可以再次加载进行使用。**
+            - **[Redis](<Redis.md>)****中，并不是所有的数据都一直存储在内存中的**。这是和Memcached相比一个最大的区别。[Redis](<Redis.md>)只会缓存所有的 key的信息，如果[Redis](<Redis.md>)发现内存的使用量超过了某一个阀值，将**触发****swap**的操作，[Redis](<Redis.md>)根据“swappability = age*log(size_in_memory)”计 算出哪些key对应的value需要swap到磁盘。然后再将**__这些__****__key__****__对应的__****__value__****__持久化到磁盘中，同时在内存中清除。__**这种特性使得[Redis](<Redis.md>)可以 保持超过其机器本身内存大小的数据。
             - **Memcached****是多线程，非阻塞****IO****复用的网络模型**
-            - Memcached提供了cas命令，可以保证多个并发访问操作同一份数据的一致性问题。 Redis没有提供cas 命令，并不能保证这点，不过Redis提供了事务的功能，可以保证一串 命令的原子性，中间不会被任何操作打断。
-            - **Memcached通过使用多个内核**实现多线程体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于Redis。Redis使用单核，在存储小数据集方面表现出比 Memcached 更好的性能。
+            - Memcached提供了cas命令，可以保证多个并发访问操作同一份数据的一致性问题。 [Redis](<Redis.md>)没有提供cas 命令，并不能保证这点，不过[Redis](<Redis.md>)提供了事务的功能，可以保证一串 命令的原子性，中间不会被任何操作打断。
+            - **Memcached通过使用多个内核**实现多线程体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于[Redis](<Redis.md>)。[Redis](<Redis.md>)使用单核，在存储小数据集方面表现出比 Memcached 更好的性能。
             - memcached对key和value的限制：最大键长为250个字符。可以接受的储存数据不能超过1MB(可以通过修改源码进行配置，但是太大之后会报警告)
-            - redis各个类型的value值的最大容量
+            - [Redis](<Redis.md>)各个类型的value值的最大容量
                 - Stringvalue最大可以存储512M
                 - hash键值对个数最多为2^32-1个，即4294967295个
                 - List元素个数最多为2^32-1个，即4294967295个
@@ -165,10 +165,11 @@
                 - SortSet元素个数最多为2^32-1个，即4294967295个
             - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2Fv8VztIa6vN.png?alt=media&token=442eaf38-85ac-48a5-8afa-0c2a0943084b)
     - [【面试】迄今为止把同步/异步/阻塞/非阻塞/BIO/NIO/AIO讲的这么清楚的好文章（快快珍藏）](https://www.cnblogs.com/lixinjie/p/a-post-about-io-clearly.html)
-    - 
+    - [IO](<IO.md>)
     - [CAS原理](<CAS原理.md>)及解决[ABA问题](<ABA问题.md>)
     - [布隆过滤器](<布隆过滤器.md>)
-    - 
+    - [Spring](<Spring.md>)
+    - [微服务](<微服务.md>)
 - ## Other
     - 找工作，本质是你的实力与公司福利的博弈。你的实力越强，公司福利越低，你的概率就越大。而且找工作应该心平气和，应该以合作者的角度去做，而不是对抗的面试角度。先和公司沟通一下，了解公司是做啥业务，最近在做什么项目，缺啥岗位，有什么要求，制度是什么，福利怎样。然后自己想想能给公司创造什么价值，是否能接受对方公司的福利与制度。如果能接受，把自己做过的东西，给对方看看，谈谈自己在相关领域的想法，谈谈自己入职后的打算与安排。最后，也别想着一定能成，就算你有秒天秒地的能力，但也有可能因为一些别的奇葩原因而被拒，很正常的。这玩意有点像找女朋友，别贪，然后广散网就对了。失败几次没啥。
     - 
