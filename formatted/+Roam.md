@@ -18,7 +18,7 @@
 - ____ — via [厉害的人都有哪些思维方式？ - 知乎](https://www.zhihu.com/question/314711679/answer/1556675510) [+Roam](<+Roam.md>)
 
 ## [IO](<IO.md>)
-- ____ — via [15分钟读懂进程线程、同步异步、阻塞非阻塞、并发并行，太实用了！ - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1592939) [+Roam](<+Roam.md>)
+- ____ — via [15分钟读懂进程[线程](<线程.md>)、同步异步、阻塞非阻塞、并发并行，太实用了！ - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1592939) [+Roam](<+Roam.md>)
 
 ## [July 14th, 2021](<July 14th, 2021.md>)
 - via [想要做好MVP设计，需要注意哪些问题？ | 人人都是产品经理](http://www.woshipm.com/pmd/3994223.html) [+Roam](<+Roam.md>)
@@ -42,6 +42,9 @@
 
 ## [September 2nd, 2020](<September 2nd, 2020.md>)
 - ____ — via [如何高效实践卡片式写作？ - 少数派](https://sspai.com/post/59109) [+Roam](<+Roam.md>)
+
+## [Synchronized](<Synchronized.md>)
+- ____ — via [Java Synchronized 偏向锁/轻量级锁/重量级锁的演变过程 - 掘金](https://juejin.cn/post/7007656138518822925) [+Roam](<+Roam.md>)
 
 ## [《会记笔记就会写作》完全版](<《会记笔记就会写作》完全版.md>)
 - ____ — via [《会记笔记就会写作》完全版-上](https://mp.weixin.qq.com/s?__biz=MzI1NTA4Nzk5Mw==&mid=2247483737&idx=1&sn=39b37468fd4bdb3f20589489ecf63118&chksm=ea3a054fdd4d8c59e0625583d5b5b21e1b0f5beed9aece9424d80b4de86e79a2d1a1e31c8b8f&scene=158[rd](<rd.md>)) [+Roam](<+Roam.md>)

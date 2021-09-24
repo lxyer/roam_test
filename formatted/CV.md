@@ -14,13 +14,14 @@
                 - 在 ZGC 中，连逻辑上的也是重新定义了堆空间（不区分年轻代和老年代），只分为一块块的 page，每次进行 GC 时，都会对 page 进行压缩操作，所以没有碎片问题。ZGC 只在特定情况下具有绝对的优势, 如巨大的堆和极低的暂停需求。也有一种观点认为 ZGC 是为大内存、多 cpu 而生，它通过分区的思路来降低 STW。
                 - ZGC 在 JDK14 前只支持 Linux, 从 JDK14 开始支持 Mac 和 Windows。
             - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FgUGb8HLndW.png?alt=media&token=93a70c62-1937-4d5d-88d9-6e2821a03587)
-            - 线程共享
-                - [堆](<堆.md>)（Heap）：线程共享。所有的对象实例以及数组都要在堆上分配。回收器主要管理的对象。
-                - [方法区](<方法区.md>)（Method Area）：线程共享。存储类信息、常量、静态变量、即时编译器编译后的代码。
-            - 线程私有
-                - [方法栈](<方法栈.md>)（JVM Stack）：线程私有。存储局部变量表、操作栈、动态链接、方法出口，对象指针。
-                - [本地方法栈](<本地方法栈.md>)（Native Method Stack）：线程私有。为虚拟机使用到的Native 方法服务。如Java使用c或者c++编写的接口服务时，代码在此区运行。
-                - [程序计数器](<程序计数器.md>)（Program Counter Register）：线程私有。有些文章也翻译成PC寄存器（PC Register），同一个东西。它可以看作是当前线程所执行的字节码的行号指示器。指向下一条要执行的指令。此内存区域是唯一一个在Java 虚拟机规范中没有规定任何OutOfMemoryError 情况的区域。
+            - [线程](<线程.md>)共享
+                - [堆](<堆.md>)（Heap）：[线程](<线程.md>)共享。所有的对象实例以及数组都要在堆上分配。回收器主要管理的对象。
+                - [方法区](<方法区.md>)（Method Area）：[线程](<线程.md>)共享。存储类信息、常量、静态变量、即时编译器编译后的代码。
+            - [线程](<线程.md>)私有
+                - [方法栈](<方法栈.md>)（JVM Stack）：[线程](<线程.md>)私有。存储局部变量表、操作栈、动态链接、方法出口，对象指针。
+                - [本地方法栈](<本地方法栈.md>)（Native Method Stack）：[线程](<线程.md>)私有。为虚拟机使用到的Native 方法服务。如Java使用c或者c++编写的接口服务时，代码在此区运行。
+                - [程序计数器](<程序计数器.md>)（Program Counter Register）：[线程](<线程.md>)私有。有些文章也翻译成PC寄存器（PC Register），同一个东西。它可以看作是当前[线程](<线程.md>)所执行的字节码的行号指示器。指向下一条要执行的指令。此内存区域是唯一一个在Java 虚拟机规范中没有规定任何OutOfMemoryError 情况的区域。
+        - [Synchronized](<Synchronized.md>)
         - ## [Java内存模型](<Java内存模型.md>)
             - ![](https://pic4.zhimg.com/80/v2-b098a84eb7598d70913444a991d1759b_720w.jpg)
             - 
@@ -51,7 +52,13 @@
             - 加载
                 - 加载就是将class文件载入jvm中
             - 验证
-                - 主要校验载入的class是否符合jvm规范。比如魔数校验，版本号校验，逻辑验证
+                - 主要校验载入的class是否符合jvm规范。
+                    - 比如魔数校验，是否以魔数0xCAFEBABE开头
+                    - 版本号校验，主、次版本号是否在当前虚拟机处理范围之内
+                    - 逻辑验证
+                    - 常量池的常量中是否有不被支持的常量类型
+                    - 确定程序语义是否合法
+                    - 这个类的父类是否继承了不允许被继承的类（被final修饰的类）
             - 准备
                 - 为类变量分片内存并给类变量设置初始值
             - 解析
@@ -59,6 +66,7 @@
             - 初始化
             - 使用
             - 卸载
+            - [双亲委派](<双亲委派.md>)保证类加载器，自下而上的委派，又自上而下的加载，保证每一个类在各个类加载器中都是同一个类。
         - jvm内存泄露问题和分析解决过程
             - 通过指令：jstat -gcutil 查看jvm内存占用和gc情况
             - 使用指令：jmap -histo:live *** | more 查看堆内存中的对象数量和大小
@@ -68,7 +76,7 @@
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FE4AHUcUDZp.png?alt=media&token=785f163d-47e6-416b-9fb9-79c0e0c93386)
         - [集群](<集群.md>)方案
             - [主从复制模式](<主从复制模式.md>)
-                - ![[Redis](<[Redis.md>)-master-slave](https://image-static.segmentfault.com/124/529/1245298177-5e6ed603a6d8b_articlex)
+                - ![Redis-master-slave](https://image-static.segmentfault.com/124/529/1245298177-5e6ed603a6d8b_articlex)
                 - 具体工作机制为：
                     - slave启动后，向master发送SYNC命令，master接收到SYNC命令后通过[bgsave](<bgsave.md>)保存快照（即上文所介绍的RDB持久化），并使用缓冲区记录保存快照这段时间内执行的写命令
                     - master将保存的快照文件发送给slave，并继续记录执行的写命令
@@ -84,7 +92,7 @@
                     - 难以支持在线扩容，[Redis](<Redis.md>)的容量受限于单机配置
             - [Sentinel](<Sentinel.md>)（哨兵）模式
                 - 哨兵模式基于主从复制模式，只是引入了哨兵来监控与自动处理故障
-                - ![[Redis](<[Redis.md>)-sentinel](https://image-static.segmentfault.com/423/790/4237905659-5e6ed60450b11_articlex)
+                - ![Redis-sentinel](https://image-static.segmentfault.com/423/790/4237905659-5e6ed60450b11_articlex)
                 - 哨兵的功能：
                     - 监控master、slave是否正常运行
                     - 当master出现故障时，能自动将一个slave转换为master（大哥挂了，选一个小弟上位）
@@ -117,7 +125,7 @@
                     - 为了保证高可用，Cluster模式也引入主从复制模式，一个主节点对应一个或者多个从节点，当主节点宕机的时候，就会启用从节点
                     - 当其它主节点ping一个主节点A时，如果半数以上的主节点与A通信超时，那么认为主节点A宕机了。如果主节点A和它的从节点都宕机了，那么该集群就无法再提供服务了
                 - Cluster模式集群节点最小配置6个节点(3主3从，因为需要半数以上)，其中主节点提供读写操作，从节点作为备用节点，不提供请求，只作为故障转移使用。
-    - ## MySQL
+    - ## [MySQL](<MySQL.md>)
         - explain 的type类型（性能排序）
             - system：表只有一行记录（等于系统表），这是const类型的特例，平时不会出现，可以忽略不计
             - const：表示通过索引一次就找到了，const用于比较primary key 或者 unique索引。因为只需匹配一行数据，所有很快。如果将主键置于where列表中，mysql就能将该查询转换为一个const
@@ -143,19 +151,18 @@
             - 避免隐式类型转换
             - 对于联合索引来说，要遵守最左前缀法则
             - 必要时可以使用force index来强制查询走某个索引
-            - **利用小表去驱动大表**
+            - 利用小表去驱动大表
         - [MVCC](<MVCC.md>)
         - [互联网项目中mysql应该选什么事务隔离级别](https://cloud.tencent.com/developer/article/1431607)
-        - 
     - ## 缓存
         - [Redis](<Redis.md>)与[Memcached](<Memcached.md>)的区别
             - **[Redis](<Redis.md>)不仅仅支持简单的k/v类型的数据，同时还提供list，set，zset，hash等数据结构的存储。**
             - **[Redis](<Redis.md>)****支持数据的备份，即master-slave模式的数据备份。**
             - **[Redis](<Redis.md>)支持数据的持久化，可以将内存中的数据保持在磁盘中，重启的时候可以再次加载进行使用。**
             - **[Redis](<Redis.md>)****中，并不是所有的数据都一直存储在内存中的**。这是和Memcached相比一个最大的区别。[Redis](<Redis.md>)只会缓存所有的 key的信息，如果[Redis](<Redis.md>)发现内存的使用量超过了某一个阀值，将**触发****swap**的操作，[Redis](<Redis.md>)根据“swappability = age*log(size_in_memory)”计 算出哪些key对应的value需要swap到磁盘。然后再将**__这些__****__key__****__对应的__****__value__****__持久化到磁盘中，同时在内存中清除。__**这种特性使得[Redis](<Redis.md>)可以 保持超过其机器本身内存大小的数据。
-            - **Memcached****是多线程，非阻塞****IO****复用的网络模型**
+            - **Memcached****是多[线程](<线程.md>)，非阻塞****IO****复用的网络模型**
             - Memcached提供了cas命令，可以保证多个并发访问操作同一份数据的一致性问题。 [Redis](<Redis.md>)没有提供cas 命令，并不能保证这点，不过[Redis](<Redis.md>)提供了事务的功能，可以保证一串 命令的原子性，中间不会被任何操作打断。
-            - **Memcached通过使用多个内核**实现多线程体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于[Redis](<Redis.md>)。[Redis](<Redis.md>)使用单核，在存储小数据集方面表现出比 Memcached 更好的性能。
+            - **Memcached通过使用多个内核**实现多[线程](<线程.md>)体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于[Redis](<Redis.md>)。[Redis](<Redis.md>)使用单核，在存储小数据集方面表现出比 Memcached 更好的性能。
             - memcached对key和value的限制：最大键长为250个字符。可以接受的储存数据不能超过1MB(可以通过修改源码进行配置，但是太大之后会报警告)
             - [Redis](<Redis.md>)各个类型的value值的最大容量
                 - Stringvalue最大可以存储512M
@@ -164,12 +171,14 @@
                 - Set元素个数最多为2^32-1个，即4294967295个
                 - SortSet元素个数最多为2^32-1个，即4294967295个
             - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2Fv8VztIa6vN.png?alt=media&token=442eaf38-85ac-48a5-8afa-0c2a0943084b)
-    - [【面试】迄今为止把同步/异步/阻塞/非阻塞/BIO/NIO/AIO讲的这么清楚的好文章（快快珍藏）](https://www.cnblogs.com/lixinjie/p/a-post-about-io-clearly.html)
-    - [IO](<IO.md>)
-    - [CAS原理](<CAS原理.md>)及解决[ABA问题](<ABA问题.md>)
-    - [布隆过滤器](<布隆过滤器.md>)
-    - [Spring](<Spring.md>)
-    - [微服务](<微服务.md>)
+    - ### [【面试】迄今为止把同步/异步/阻塞/非阻塞/BIO/NIO/AIO讲的这么清楚的好文章（快快珍藏）](https://www.cnblogs.com/lixinjie/p/a-post-about-io-clearly.html)
+    - ## [IO](<IO.md>)
+    - ## [CAS原理](<CAS原理.md>)及解决[ABA问题](<ABA问题.md>)
+    - ## [布隆过滤器](<布隆过滤器.md>)
+    - ## [Spring](<Spring.md>)
+    - ## [微服务](<微服务.md>)
+    - ## [Nginx](<Nginx.md>)
+    - ## [并发编程](<并发编程.md>)-[JUC](<JUC.md>)
 - ## Other
     - 找工作，本质是你的实力与公司福利的博弈。你的实力越强，公司福利越低，你的概率就越大。而且找工作应该心平气和，应该以合作者的角度去做，而不是对抗的面试角度。先和公司沟通一下，了解公司是做啥业务，最近在做什么项目，缺啥岗位，有什么要求，制度是什么，福利怎样。然后自己想想能给公司创造什么价值，是否能接受对方公司的福利与制度。如果能接受，把自己做过的东西，给对方看看，谈谈自己在相关领域的想法，谈谈自己入职后的打算与安排。最后，也别想着一定能成，就算你有秒天秒地的能力，但也有可能因为一些别的奇葩原因而被拒，很正常的。这玩意有点像找女朋友，别贪，然后广散网就对了。失败几次没啥。
     - 

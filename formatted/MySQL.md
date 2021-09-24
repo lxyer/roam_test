@@ -6,7 +6,7 @@
         - 回表:通过条件查询到符合要求的id列表,在使用id主键去表中查询结果集,如果回表次数过多,需要优化SQL
 - 锁
     - [全局锁](<全局锁.md>)
-        - MySQL提供了一个加全局读锁的方法，命令是 Flush tables with read lock ([FTWRL](<FTWRL.md>))。当你需要让整个库处于只读状态的时候，可以使用这个命令，之后其他线程的以下语句会被阻塞
+        - MySQL提供了一个加全局读锁的方法，命令是 Flush tables with read lock ([FTWRL](<FTWRL.md>))。当你需要让整个库处于只读状态的时候，可以使用这个命令，之后其他[线程](<线程.md>)的以下语句会被阻塞
         - 全局锁的典型使用场景是，做全库[逻辑备份](<逻辑备份.md>)
         - [mysqldump](<mysqldump.md>)使用参数–single-transaction的时候，导数据之前就会启动一个事务，来确保拿到一致性视图
         - single-transaction方法只适用于所有的表使用事务引擎的库。如果有的表使用了不支持事务的引擎，那么备份就只能通过[FTWRL](<FTWRL.md>)方法
@@ -20,8 +20,8 @@
             - [元数据锁](<元数据锁.md>)（meta data lock，MDL)
     - [行锁](<行锁.md>)
 - 日志模块
-    - redo log
-        - 当有一条记录需要更新的时候， [InnoDB](<InnoDB.md>)引擎就会先把记录写到[redo log](<redo log.md>) 里面， 并更新内存， 这个时候更新就算完成了。 同时， [InnoDB](<InnoDB.md>)引擎会在适当的时候， 将这个操作
+    - [redolog](<redolog.md>)
+        - 当有一条记录需要更新的时候， [InnoDB](<InnoDB.md>)引擎就会先把记录写到[redolog](<redolog.md>) 里面， 并更新内存， 这个时候更新就算完成了。 同时， [InnoDB](<InnoDB.md>)引擎会在适当的时候， 将这个操作
         - 当有一条记录需要更新的时候， [InnoDB](<InnoDB.md>)引擎就会先把记录写到redo log 里面， 并更新内存， 这个时候更新就算完成了。 同时， [InnoDB](<InnoDB.md>)引擎会在适当的时候,将这个操作记录更新到磁盘里面， 而这个更新往往是在系统比较空闲的时候做[InnoDB](<InnoDB.md>)引擎特有的日志面， 并更新内存， 这个时候更新就算完成了。 同时， [InnoDB](<InnoDB.md>)引擎会在适当的时候， 将这个操作记录更新到磁盘里面， 而这个更新往往是在系统比较空闲的时候做
         - 面， 并更新内存， 这个时候更新就算完成了。 同时， [InnoDB](<InnoDB.md>)引擎会在适当的时候， 将这个操作记录更新到磁盘里面， 而这个更新往往是在系统比较空闲的时候做
     - [binlog](<binlog.md>)
@@ -34,7 +34,7 @@
         - 分析器
         - 优化器
         - 执行器
-- 使用exp
+- 使用explain
     - type：查询使用了何种类型，它在 SQL优化中是一个非常重要的指标，以下性能从好到坏依次是：system > const > eq_ref > ref > ref_or_null > index_merge > unique_subquery > index_subquery > range > index > ALL
 
 # Backlinks
@@ -42,6 +42,9 @@
 - [MySQL](<MySQL.md>)之
 
 - [MySQL](<MySQL.md>)仅
+
+## [CV](<CV.md>)
+- ## [MySQL](<MySQL.md>)
 
 ## [July 10th, 2020](<July 10th, 2020.md>)
 - [MySQL](<MySQL.md>)

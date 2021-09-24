@@ -12,7 +12,7 @@
 ## [MySQL](<MySQL.md>)
 - 当有一条记录需要更新的时候， [InnoDB](<InnoDB.md>)引
 
-- 当有一条记录需要更新的时候， [InnoDB](<InnoDB.md>)引擎就会先把记录写到[redo log](<redo log.md>) 里面， 并更新内存， 这个时候更新就算完成了。 同时， [InnoDB](<InnoDB.md>)引
+- 当有一条记录需要更新的时候， [InnoDB](<InnoDB.md>)引擎就会先把记录写到[redolog](<redolog.md>) 里面， 并更新内存， 这个时候更新就算完成了。 同时， [InnoDB](<InnoDB.md>)引
 
 - 当有一条记录需要更新的时候， [InnoDB](<InnoDB.md>)引
 

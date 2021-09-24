@@ -2,11 +2,11 @@
 - [方法区](<方法区.md>)([Method Area](<Method Area.md>)（也称永久代）)方法
     - 主要用于存放类的信息（版本、字段、方法、接口），常量、静态变量、即时编译器编译后的代码等
     - 特点
-        - （1）[线程共享](<线程共享.md>)
+        - （1）[[[线程](<[[线程.md>)共享]]
         - （2）内存区域可以不连续，可以动态扩展
         - （3）该区域并不是真正的“永久代”，偶尔也会进行内存回收，包括对常量池的回收和内存数据的卸载，频率比堆内存回收低很多
         - （4）方法区无法满足内存需求时，会报[OutOfMenmeryError](<OutOfMenmeryError.md>)异常
-- [Serial收集器](<Serial收集器.md>)的老年代版本，同样是一个单线程收集器，使用“标记整理算法”，这个收集器的主要意义也是在于给Client模式下的虚拟机使用。
+- [Serial收集器](<Serial收集器.md>)的老年代版本，同样是一个单[线程](<线程.md>)收集器，使用“标记整理算法”，这个收集器的主要意义也是在于给Client模式下的虚拟机使用。
 - [java堆](<java堆.md>)([Java Heap](<Java Heap.md>))
     - 用于存放对象实例，垃圾回收器最主要针对的对象，对这部分的回收效率影响了VM的整体性能。
 - 当代商用虚拟机都采用了[分代收集算法](<分代收集算法.md>)，新生代采用复制算法，老年代采用标记整理算法（或标记清除算法）
@@ -19,7 +19,7 @@
         - [操作数栈](<操作数栈.md>)：可以理解为临时存储计算数据的区域。通过入栈出栈方式取值。
         - [帧数据区](<帧数据区.md>)：用来记录方法调用信息，处理方法的正常返回和异常终止。如果方法正常返回，则把当前栈帧从栈中弹出，如果方法有返回值，则把返回值压入到调用方法的操作数栈。也可以支持常量池解析。
     - [程序记数器](<程序记数器.md>)
-        - 保证在多线程环境中程序可以连续执行。存放当前线程执行字节码的行号，字节码解释器工作时，是通过改变计数器的值来选取下一条字节码指令。JVM管理的内存中最小的一块内存区域
+        - 保证在多[线程](<线程.md>)环境中程序可以连续执行。存放当前[线程](<线程.md>)执行字节码的行号，字节码解释器工作时，是通过改变计数器的值来选取下一条字节码指令。JVM管理的内存中最小的一块内存区域
 - 堆的内存结构
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2F9H3Xrtm6w2.png?alt=media&token=e430563f-807e-4b55-905d-6f4eb7b65233)
     - [Eden](<Eden.md>): 最主要的刚创建的对象的内存分配区域, 绝大多数对象都会被创建到这里（对于一些较大的对象即需要分配一块较大的连续内存空间则是直接进入到老年代），该区域的对象大部分都是短时间都会死亡的，故垃圾回收器针对该部分主要采用标记整理算法了回收该区域。
@@ -66,16 +66,16 @@
 - 垃圾收集器（jdk8及以前）
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FmAwbYMQBgR.png?alt=media&token=4d2051f4-6e6f-44f7-b81d-4198f5095174)
     - [Serial收集器](<Serial收集器.md>)
-        - 新生代单线程收集器，标记和清理都是单线程，优点是简单高效。是client级别默认的GC方式，可以通过-XX:+UseSerialGC来强制指定。
+        - 新生代单[线程](<线程.md>)收集器，标记和清理都是单[线程](<线程.md>)，优点是简单高效。是client级别默认的GC方式，可以通过-XX:+UseSerialGC来强制指定。
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FAiz5JVe6zQ.png?alt=media&token=d573c43b-4b7d-48e6-b820-d3f9c28c49cd)
     - [ParNew收集器](<ParNew收集器.md>)
-        - ParNew收集器其实就是[Serial收集器](<Serial收集器.md>)的多线程版本，除了使用多条线程进行垃圾收集外，其余行为和Serial收集器完全一样，包括使用的也是复制算法。它是Server模式下的虚拟机首选的新生代收集器，其中有一个很重要的和性能无关的原因是，除了Serial收集器外，目前只有它能与CMS收集器配合工作。CMS收集器是一款几乎可以认为有划时代意义的垃圾收集器，因为它第一次实现了让垃圾收集线程与用户线程基本上同时工作。ParNew收集器在单CPU的环境中绝对不会有比Serial收集器更好的效果，甚至由于线程交互的开销，该收集器在两个CPU的环境中都不能百分之百保证可以超越Serial收集器。当然，随着可用CPU数量的增加，它对于GC时系统资源的有效利用还是很有好处的。它默认开启的收集线程数与CPU数量相同，在CPU数量非常多的情况下，可以使用-XX:ParallelGCThreads参数来限制垃圾收集的线程数。
+        - ParNew收集器其实就是[Serial收集器](<Serial收集器.md>)的多[线程](<线程.md>)版本，除了使用多条[线程](<线程.md>)进行垃圾收集外，其余行为和Serial收集器完全一样，包括使用的也是复制算法。它是Server模式下的虚拟机首选的新生代收集器，其中有一个很重要的和性能无关的原因是，除了Serial收集器外，目前只有它能与CMS收集器配合工作。CMS收集器是一款几乎可以认为有划时代意义的垃圾收集器，因为它第一次实现了让垃圾收集[线程](<线程.md>)与用户[线程](<线程.md>)基本上同时工作。ParNew收集器在单CPU的环境中绝对不会有比Serial收集器更好的效果，甚至由于[线程](<线程.md>)交互的开销，该收集器在两个CPU的环境中都不能百分之百保证可以超越Serial收集器。当然，随着可用CPU数量的增加，它对于GC时系统资源的有效利用还是很有好处的。它默认开启的收集[线程](<线程.md>)数与CPU数量相同，在CPU数量非常多的情况下，可以使用-XX:ParallelGCThreads参数来限制垃圾收集的[线程](<线程.md>)数。
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FH8IE1jOQ8D.png?alt=media&token=5b26c2f0-a7d9-4cf9-8014-b513534e518b)
     - [Parallel Scavenge收集器](<Parallel Scavenge收集器.md>)
-        - Parallel Scavenge收集器也是一个新生代收集器，也是用[复制算法](<复制算法.md>)的收集器，也是并行的多线程收集器，介绍这个收集器主要还是介绍吞吐量的概念。CMS等收集器的关注点是尽可能缩短垃圾收集时用户线程的停顿时间，而Parallel Scavenge收集器的目标则是打到一个可控制的吞吐量。
+        - Parallel Scavenge收集器也是一个新生代收集器，也是用[复制算法](<复制算法.md>)的收集器，也是并行的多[线程](<线程.md>)收集器，介绍这个收集器主要还是介绍吞吐量的概念。CMS等收集器的关注点是尽可能缩短垃圾收集时用户[线程](<线程.md>)的停顿时间，而Parallel Scavenge收集器的目标则是打到一个可控制的吞吐量。
     - [Serial Old收集器](<Serial Old收集器.md>)
     - [Parallel Old收集器](<Parallel Old收集器.md>)
-        - Parallel Scavenge收集器的老年代版本，使用多线程和“[标记整理](<标记整理.md>)”算法。这个收集器在JDK 1.6之后的出现，“吞吐量优先收集器”终于有了比较名副其实的应用组合，在注重吞吐量以及CPU资源敏感的场合，都可以优先考虑Parallel Scavenge收集器+Parallel Old收集器的组合。
+        - Parallel Scavenge收集器的老年代版本，使用多[线程](<线程.md>)和“[标记整理](<标记整理.md>)”算法。这个收集器在JDK 1.6之后的出现，“吞吐量优先收集器”终于有了比较名副其实的应用组合，在注重吞吐量以及CPU资源敏感的场合，都可以优先考虑Parallel Scavenge收集器+Parallel Old收集器的组合。
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FvIRTgDj7XE.png?alt=media&token=b3c87ada-e525-47b6-9a04-ebd9296a9395)
     - [CMS收集器](<CMS收集器.md>)
         - CMS（Conrrurent Mark Sweep）收集器是以获取最短回收停顿时间为目标的收集器。使用[标记清除](<标记清除.md>)算法
@@ -88,13 +88,13 @@
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FkCI7h3UJ0Q.png?alt=media&token=4b55902c-46b1-49d1-a917-3bdb72e99fd6)
         - 说明
             - 对CPU资源非常敏感，可能会导致应用程序变慢，吞吐率下降。
-            - 无法处理浮动垃圾，因为在并发清理阶段用户线程还在运行，自然就会产生新的垃圾，而在此次收集中无法收集他们，只能留到下次收集，这部分垃圾为浮动垃圾，同时，由于用户线程并发执行，所以需要预留一部分老年代空间提供并发收集时程序运行使用。
+            - 无法处理浮动垃圾，因为在并发清理阶段用户[线程](<线程.md>)还在运行，自然就会产生新的垃圾，而在此次收集中无法收集他们，只能留到下次收集，这部分垃圾为浮动垃圾，同时，由于用户[线程](<线程.md>)并发执行，所以需要预留一部分老年代空间提供并发收集时程序运行使用。
             - 由于采用的标记 - 清除算法，会产生大量的内存碎片，不利于大对象的分配，可能会提前触发一次Full GC。虚拟机提供了-XX:+UseCMSCompactAtFullCollection参数来进行碎片的合并整理过程，这样会使得停顿时间变长，虚拟机还提供了一个参数配置，-XX:+CMSFullGCsBeforeCompaction，用于设置执行多少次不压缩的Full GC后，接着来一次带压缩的GC。
     - [G1收集器](<G1收集器.md>)
         - G1是目前技术发展的最前沿成果之一，HotSpot开发团队赋予它的使命是未来可以替换掉JDK1.5中发布的CMS收集器。
         - 特点
-            - (1). 并行和并发。使用多个CPU来缩短Stop The World停顿时间，与用户线程并发执行。
-            - The World停顿时间，与用户线程并发执行。
+            - (1). 并行和并发。使用多个CPU来缩短Stop The World停顿时间，与用户[线程](<线程.md>)并发执行。
+            - The World停顿时间，与用户[线程](<线程.md>)并发执行。
             - (2). 分代收集。独立管理整个堆，但是能够采用不同的方式去处理新创建对象和已经存活了一段时间、熬过多次GC的旧对象，以获取更好的收集效果。
             - (3). 空间整合。基于标记 - 整理算法，无内存碎片产生。
             - (4). 可预测的停顿。能简历可预测的停顿时间模型，能让使用者明确指定在一个长度为M毫秒的时间片段内，消耗在垃圾收集上的时间不得超过N毫秒。
@@ -111,8 +111,8 @@
         - • -XX:+PrintGC开启打印gc 信息；
         - • -XX:+PrintGCDetails打印 gc 详细信息。
     - JVM 调优的工具
-        - [jconsole](<jconsole.md>)：用于对 JVM 中的内存、线程和类等进行监控；
-        - [jvisualvm](<jvisualvm.md>)： JDK 自带的全能分析工具，可以分析：内存快照、线程快照、程序死锁、监控内存的变化、 gc 变化等。
+        - [jconsole](<jconsole.md>)：用于对 JVM 中的内存、[线程](<线程.md>)和类等进行监控；
+        - [jvisualvm](<jvisualvm.md>)： JDK 自带的全能分析工具，可以分析：内存快照、[线程](<线程.md>)快照、程序死锁、监控内存的变化、 gc 变化等。
 
 # Backlinks
 ## [July 27th, 2020](<July 27th, 2020.md>)

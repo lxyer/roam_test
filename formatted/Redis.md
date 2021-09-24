@@ -4,8 +4,8 @@
         - 支持丰富数据类型，支持「string，list，set，sorted set，hash」
         - 「支持事务」，操作都是原子性，所谓的原子性就是对数据的更改要么全部执行，要么全部不执行
         - 丰富的特性：「可用于缓存，消息，按key设置过期时间，过期后将会自动删除」
-    - [Redis](<Redis.md>)的线程模型：
-        - [Redis](<Redis.md>) 内部使用文件事件处理器 file event handler，这个文件事件处理器是「单线程」的，所以 [Redis](<Redis.md>) 才叫做「单线程的模型」。它采用 「IO 多路复用机制」同时监听多个 socket，根据 socket 上的事件来「选择对应的事件处理器」进行处理。
+    - [Redis](<Redis.md>)的[线程](<线程.md>)模型：
+        - [Redis](<Redis.md>) 内部使用文件事件处理器 file event handler，这个文件事件处理器是「单[线程](<线程.md>)」的，所以 [Redis](<Redis.md>) 才叫做「单[线程](<线程.md>)的模型」。它采用 「IO 多路复用机制」同时监听多个 socket，根据 socket 上的事件来「选择对应的事件处理器」进行处理。
     - 文件事件处理器的结构包含 4 个部分：
         - 多个 socket
         - IO多路复用程序
@@ -38,7 +38,7 @@
             - 定期删除：[Redis](<Redis.md>)默认是每隔 100ms 就随机抽取一些设置了过期时间的key，检查其是否过期，如果过期就删 除。注意这里是随机抽取的。为什么要随机呢？你想一想假如 [Redis](<Redis.md>) 存了几十万个 key ，每隔100ms就遍历所 有的设置过期时间的 key 的话，就会给 CPU 带来很大的负载！
             - 惰性删除 ：定期删除可能会导致很多过期 key 到了时间并没有被删除掉。所以就有了惰性删除。假如你的过期 key，靠定期删除没有被删除掉，还停留在内存里，除非你的系统去查一下那个 key，才会被[Redis](<Redis.md>)给删除掉。这 就是所谓的惰性删除，也是够懒的哈！
         - Mysql有2000万数据，[Redis](<Redis.md>)只存20万，如何保证[Redis](<Redis.md>)中的数据都是热点数据
-            - [Redis](<Redis.md>) 内存数据集大小上升到一定大小的时候，就会施行数据淘汰策略。[Redis](<Redis.md>) 提供 6种数据淘汰策略：
+            - [Redis](<Redis.md>) 内存数据集大小上升到一定大小的时候，就会施行数据淘汰策略。[Redis](<Redis.md>) 提供8种数据淘汰策略：
                 - voltile-lru：从已设置过期时间的数据集（server.db[i].expires）中挑选最近最少使用的数据淘汰
                 - volatile-ttl：从已设置过期时间的数据集（server.db[i].expires）中挑选将要过期的数据淘汰
                 - volatile-random：从已设置过期时间的数据集（server.db[i].expires）中任意选择数据淘汰
@@ -62,7 +62,7 @@
             - [Redis](<Redis.md>)的同步机制了解吗？
                 - 主从同步。第一次同步时，「主节点做一次bgsave」，并同时将后续修改操作记录到「内存buffer」，待完成后「将rdb文件全量同步到复制节点」，复制节点接受完成后「将rdb镜像加载到内存」。加载完成后，再通知主节点「将期间修改的操作记录同步到复制节点进行重放」就完成了同步过程。
             - [Redis](<Redis.md>)常见的性能问题都有哪些？如何解决？
-                - Master写内存快照，save命令调度rdbSave函数，会阻塞主线程的工作，当快照比较大时对性能影响是非常大的，会间断性暂停服务，所以Master最好不要写内存快照。
+                - Master写内存快照，save命令调度rdbSave函数，会阻塞主[线程](<线程.md>)的工作，当快照比较大时对性能影响是非常大的，会间断性暂停服务，所以Master最好不要写内存快照。
                 - Master AOF持久化，如果不重写AOF文件，这个持久化方式对性能的影响是最小的，但是AOF文件会不断增大，AOF文件过大会影响Master重启的恢复速度。Master最好不要做任何持久化工作，包括内存快照和AOF日志文件，特别是不要启用内存快照做持久化,如果数据比较关键，某个Slave开启AOF备份数据，策略为每秒同步一次。
                 - Master调用BGREWRITEAOF重写AOF文件，AOF在重写的时候会占大量的CPU和内存资源，导致服务load过高，出现短暂服务暂停现象。
                 - [Redis](<Redis.md>)主从复制的性能问题，为了主从复制的速度和连接的稳定性，Slave和Master最好在同一个局域网内
@@ -121,9 +121,9 @@
 
 - Memcached提供了cas命令，可以保证多个并发访问操作同一份数据的一致性问题。 [Redis](<Redis.md>)没有提供cas 命令，并不能保证这点，不过[Redis](<Redis.md>)提
 
-- **Memcached通过使用多个内核**实现多线程体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于[Redis](<Redis.md>)。
+- **Memcached通过使用多个内核**实现多[线程](<线程.md>)体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于[Redis](<Redis.md>)。
 
-- **Memcached通过使用多个内核**实现多线程体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于[Redis](<Redis.md>)。[Redis](<Redis.md>)使
+- **Memcached通过使用多个内核**实现多[线程](<线程.md>)体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于[Redis](<Redis.md>)。[Redis](<Redis.md>)使
 
 - [Redis](<Redis.md>)各
 
@@ -139,7 +139,7 @@
 
 - [Redis](<Redis.md>)
 
-- [Redis](<Redis.md>) 内部使用文件事件处理器 file event handler，这个文件事件处理器是「单线程」的，所以 [Redis](<Redis.md>)
+- [Redis](<Redis.md>) 内部使用文件事件处理器 file event handler，这个文件事件处理器是「单[线程](<线程.md>)」的，所以 [Redis](<Redis.md>)
 
 - [Redis](<Redis.md>)常
 
