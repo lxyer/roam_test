@@ -76316,5 +76316,17 @@
     "edit-time": 1632480103774,
     "title": "redolog",
     "uid": "itf6-odZL"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1632527111631,
+    "edit-time": 1632527111632,
+    "title": "September 25th, 2021",
+    "uid": "09-25-2021"
   }
 ]
