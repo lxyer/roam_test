@@ -67,6 +67,37 @@
                 - Master调用BGREWRITEAOF重写AOF文件，AOF在重写的时候会占大量的CPU和内存资源，导致服务load过高，出现短暂服务暂停现象。
                 - [Redis](<Redis.md>)主从复制的性能问题，为了主从复制的速度和连接的稳定性，Slave和Master最好在同一个局域网内
             - [Redis](<Redis.md>) 通过 MULTI、EXEC、WATCH 等命令来实现事务(transaction)功能。事务提供了一种「将多个命令请求打包，然 后一次性、按顺序地执行多个命令的机制，并且在事务执行期间，服务器不会中断事务而改去执行其他客户端的命令 请求，它会将事务中的所有命令都执行完毕」，然后才去处理其他客户端的命令请求。
+- 持久化方式RDB和AOF
+    - 二者的区别
+        - RDB持久化是指在指定的时间间隔内将内存中的数据集快照写入磁盘，实际操作过程是fork一个子进程，先将数据集写入临时文件，写入成功后，再替换之前的文件，用二进制压缩存储。
+        - AOF持久化以日志的形式记录服务器所处理的每一个写、删除操作，查询操作不会记录，以文本的方式记录，可以打开文件看到详细的操作记录。
+    - RDB
+        - 优点：
+            - 一旦采用该方式，那么你的整个Redis数据库将只包含一个文件，这对于文件备份而言是非常完美的
+            - 对于灾难恢复而言，RDB是非常不错的选择。因为我们可以非常轻松的将一个单独的文件压缩后再转移到其它存储介质上。
+            - 性能最大化。对于Redis的服务进程而言，在开始持久化时，它唯一需要做的只是fork出子进程，之后再由子进程完成这些持久化的工作，这样就可以极大的避免服务进程执行IO操作了。
+            - 相比于AOF机制，如果数据集很大，RDB的启动效率会更高。
+        - 缺点：
+            - 如果你想保证数据的高可用性，即最大限度的避免数据丢失，那么RDB将不是一个很好的选择。因为系统一旦在定时持久化之前出现宕机现象，此前没有来得及写入磁盘的数据都将丢失。
+            - 由于RDB是通过fork子进程来协助完成数据持久化工作的，因此，如果当数据集较大时，可能会导致整个服务器停止服务几百毫秒，甚至是1秒钟。
+        - AOF
+            - 优点：
+                - 该机制可以带来更高的数据安全性，即数据持久性
+                - 由于该机制对日志文件的写入操作采用的是append模式，因此在写入过程中即使出现宕机现象，也不会破坏日志文件中已经存在的内容
+                - 如果日志过大，Redis可以自动启用rewrite机制。即Redis以append模式不断的将修改数据写入到老的磁盘文件中，同时Redis还会创建一个新的文件用于记录此期间有哪些修改命令被执行。因此在进行rewrite切换时可以更好的保证数据安全性。
+                - AOF包含一个格式清晰、易于理解的日志文件用于记录所有的修改操作
+            - 缺点：
+                - 对于相同数量的数据集而言，AOF文件通常要大于RDB文件。RDB 在恢复大数据集时的速度比 AOF 的恢复速度要快。
+                - 根据同步策略的不同，AOF在运行效率上往往会慢于RDB。总之，每秒同步策略的效率是比较高的，同步禁用策略的效率和RDB一样高效。
+    - 常用配置
+        - RDB持久化配置
+            - save 900 1 #在900秒(15分钟)之后，如果至少有1个key发生变化，则dump内存快照。
+            - save 300 10 #在300秒(5分钟)之后，如果至少有10个key发生变化，则dump内存快照。
+            - save 60 10000 #在60秒(1分钟)之后，如果至少有10000个key发生变化，则dump内存快照。
+        - AOF持久化配置
+            - appendfsync always #每次有数据修改发生时都会写入AOF文件。
+            - appendfsync everysec #每秒钟同步一次，该策略为AOF的缺省策略。
+            - appendfsync no #从不同步。高效但是数据不会被持久化。
 
 # Backlinks
 ## [August 4th, 2020](<August 4th, 2020.md>)
@@ -101,29 +132,29 @@
 
 - [Redis](<Redis.md>)与
 
-- **[Redis](<Redis.md>)不
+- [Redis](<Redis.md>)不
 
-- **[Redis](<Redis.md>)*
+- [Redis](<Redis.md>)支
 
-- **[Redis](<Redis.md>)支
+- [Redis](<Redis.md>)支
 
-- **[Redis](<Redis.md>)*
+- [Redis](<Redis.md>)中
 
-- **[Redis](<Redis.md>)****中，并不是所有的数据都一直存储在内存中的**。这是和Memcached相比一个最大的区别。[Redis](<Redis.md>)只
+- [Redis](<Redis.md>)中，并不是所有的数据都一直存储在内存中的。这是和Memcached相比一个最大的区别。[Redis](<Redis.md>)只
 
-- **[Redis](<Redis.md>)****中，并不是所有的数据都一直存储在内存中的**。这是和Memcached相比一个最大的区别。[Redis](<Redis.md>)只会缓存所有的 key的信息，如果[Redis](<Redis.md>)发
+- [Redis](<Redis.md>)中，并不是所有的数据都一直存储在内存中的。这是和Memcached相比一个最大的区别。[Redis](<Redis.md>)只会缓存所有的 key的信息，如果[Redis](<Redis.md>)发
 
-- **[Redis](<Redis.md>)****中，并不是所有的数据都一直存储在内存中的**。这是和Memcached相比一个最大的区别。[Redis](<Redis.md>)只会缓存所有的 key的信息，如果[Redis](<Redis.md>)发现内存的使用量超过了某一个阀值，将**触发****swap**的操作，[Redis](<Redis.md>)根
+- [Redis](<Redis.md>)中，并不是所有的数据都一直存储在内存中的。这是和Memcached相比一个最大的区别。[Redis](<Redis.md>)只会缓存所有的 key的信息，如果[Redis](<Redis.md>)发现内存的使用量超过了某一个阀值，将触发swap的操作，[Redis](<Redis.md>)根
 
-- **[Redis](<Redis.md>)****中，并不是所有的数据都一直存储在内存中的**。这是和Memcached相比一个最大的区别。[Redis](<Redis.md>)只会缓存所有的 key的信息，如果[Redis](<Redis.md>)发现内存的使用量超过了某一个阀值，将**触发****swap**的操作，[Redis](<Redis.md>)根据“swappability = age*log(size_in_memory)”计 算出哪些key对应的value需要swap到磁盘。然后再将**__这些__****__key__****__对应的__****__value__****__持久化到磁盘中，同时在内存中清除。__**这种特性使得[Redis](<Redis.md>)可
+- [Redis](<Redis.md>)中，并不是所有的数据都一直存储在内存中的。这是和Memcached相比一个最大的区别。[Redis](<Redis.md>)只会缓存所有的 key的信息，如果[Redis](<Redis.md>)发现内存的使用量超过了某一个阀值，将触发swap的操作，[Redis](<Redis.md>)根据“swappability = age*log(size_in_memory)”计 算出哪些key对应的value需要swap到磁盘。然后再将这些key对应的value持久化到磁盘中，同时在内存中清除。这种特性使得[Redis](<Redis.md>)可
 
 - Memcached提供了cas命令，可以保证多个并发访问操作同一份数据的一致性问题。 [Redis](<Redis.md>)没
 
 - Memcached提供了cas命令，可以保证多个并发访问操作同一份数据的一致性问题。 [Redis](<Redis.md>)没有提供cas 命令，并不能保证这点，不过[Redis](<Redis.md>)提
 
-- **Memcached通过使用多个内核**实现多[线程](<线程.md>)体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于[Redis](<Redis.md>)。
+- Memcached通过使用多个内核实现多[线程](<线程.md>)体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于[Redis](<Redis.md>)。
 
-- **Memcached通过使用多个内核**实现多[线程](<线程.md>)体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于[Redis](<Redis.md>)。[Redis](<Redis.md>)使
+- Memcached通过使用多个内核实现多[线程](<线程.md>)体系结构。 因此，对于存储更大的数据集，Memcached的性能要优于[Redis](<Redis.md>)。[Redis](<Redis.md>)使
 
 - [Redis](<Redis.md>)各
 
