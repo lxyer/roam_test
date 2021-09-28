@@ -21,6 +21,11 @@
         - String
             - 常用命令: set,get,decr,incr,mget 等。
             - String数据结构是简单的key-value类型，value其实不仅可以是String，也可以是数字。 常规key-value缓存应用； 常规计数：微博数，粉丝数等。
+            - redis中所有场景中出现的字符串，基本都是由SDS(simple dynamic string)来实现的
+            - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FikHQs67TYc.png?alt=media&token=f1d9315a-3f95-4cde-bfd6-ea6930f2e857)
+                - free:还剩多少空间
+                - len:字符串长度
+                - buf:存放的字符数组
         - Hash
             - 常用命令： hget,hset,hgetall 等。
             - Hash 是一个 string 类型的 ﬁeld 和 value 的映射表，hash 特别适合用于存储对象，后续操作的时候，你可以直接仅 仅修改这个对象中的某个字段的值。 比如我们可以Hash数据结构来存储用户信息，商品信息等等。
