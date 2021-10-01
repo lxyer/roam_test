@@ -34,7 +34,7 @@
                 - [[方法栈]]（JVM Stack）：[[线程]]私有。存储局部变量表、操作栈、动态链接、方法出口，对象指针。
                 - [[本地方法栈]]（Native Method Stack）：[[线程]]私有。为虚拟机使用到的Native 方法服务。如Java使用c或者c++编写的接口服务时，代码在此区运行。
                 - [[程序计数器]]（Program Counter Register）：[[线程]]私有。有些文章也翻译成PC寄存器（PC Register），同一个东西。它可以看作是当前[[线程]]所执行的字节码的行号指示器。指向下一条要执行的指令。此内存区域是唯一一个在Java 虚拟机规范中没有规定任何OutOfMemoryError 情况的区域。
-        - [[Synchronized]]
+        - ## [[Synchronized]]
         - ## [[Java内存模型]]
             - ![](https://pic4.zhimg.com/80/v2-b098a84eb7598d70913444a991d1759b_720w.jpg)
             - 
