@@ -36,6 +36,7 @@
         - 执行器
 - 使用explain
     - type：查询使用了何种类型，它在 SQL优化中是一个非常重要的指标，以下性能从好到坏依次是：system > const > eq_ref > ref > ref_or_null > index_merge > unique_subquery > index_subquery > range > index > ALL
+- [分库分表](<分库分表.md>)
 
 # Backlinks
 ## [August 4th, 2020](<August 4th, 2020.md>)
