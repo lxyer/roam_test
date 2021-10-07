@@ -1,0 +1,30 @@
+- ZAB协议是专门为[zookeeper](<zookeeper.md>)实现分布式协调功能而设计。zookeeper主要是根据ZAB协议是实现分布式系统数据一致性。
+- ### ZAB协议原理
+    - ZAB协议要求每个leader都要经历三个阶段，即发现，同步，广播。
+        - 发现：即要求zookeeper集群必须选择出一个leader进程，同时leader会维护一个follower可用列表。将来客户端可以这follower中的节点进行通信。
+        - 同步：leader要负责将本身的数据与follower完成同步，做到多副本存储。这样也是体现了CAP中高可用和分区容错。follower将队列中未处理完的请求消费完成后，写入本地事物日志中。
+        - 广播：leader可以接受客户端新的proposal请求，将新的proposal请求广播给所有的follower。
+- ZAB协议中主要有两种模式，第一是消息广播模式；第二是崩溃恢复模式
+    - 消息广播模式
+        - ZAB协议中Leader等待follower的ACK反馈是指”只要半数以上的follower成功反馈即可，不需要收到全部follower反馈”
+        - zookeeper中消息广播的具体步骤如下：
+            - 4.1. 客户端发起一个写操作请求
+            - 4.2. Leader服务器将客户端的request请求转化为事物proposql提案，同时为每个proposal分配一个全局唯一的ID，即ZXID。
+            - 4.3. leader服务器与每个follower之间都有一个队列，leader将消息发送到该队列
+            - 4.4. follower机器从队列中取出消息处理完(写入本地事物日志中)毕后，向leader服务器发送ACK确认。
+            - 4.5. leader服务器收到半数以上的follower的ACK后，即认为可以发送commit
+            - 4.6. leader向所有的follower服务器发送commit消息。
+    - 崩溃恢复
+        - ZAB协议崩溃恢复要求满足如下2个要求：
+            - 3.1. 确保已经被leader提交的proposal必须最终被所有的follower服务器提交。
+            - 3.2. 确保丢弃已经被leader出的但是没有被提交的proposal。
+        - zookeeper集群中为保证任何所有进程能够有序的顺序执行，只能是leader服务器接受写请求，即使是follower服务器接受到客户端的请求，也会转发到leader服务器进行处理。
+        - 如果leader服务器发生崩溃，则zab协议要求zookeeper集群进行崩溃恢复和leader服务器选举。
+    - 数据同步
+        - 在zookeeper集群中新的leader选举成功之后，leader会将自身的提交的最大proposal的事物ZXID发送给其他的follower节点。follower节点会根据leader的消息进行回退或者是数据同步操作。最终目的要保证集群中所有节点的数据副本保持一致。
+    - 
+
+# Backlinks
+## [微服务](<微服务.md>)
+- [ZAB协议](<ZAB协议.md>)
+

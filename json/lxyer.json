@@ -76039,6 +76039,28 @@
         ],
         "string": "[[Raft\u7b97\u6cd5]]",
         "uid": "gH3_hr2co"
+      },
+      {
+        ":block/refs": [
+          {
+            ":block/uid": "RODz9Br0P"
+          }
+        ],
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "create-time": 1633599090643,
+        "edit-time": 1633599272204,
+        "refs": [
+          {
+            "uid": "RODz9Br0P"
+          }
+        ],
+        "string": "[[ZAB\u534f\u8bae]]",
+        "uid": "a_0d0S6va"
       }
     ],
     "create-time": 1632281207449,
@@ -78731,5 +78753,298 @@
     "edit-time": 1633576459988,
     "title": "\u5206\u5e93\u5206\u8868",
     "uid": "KAmoAE3WY"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "children": [
+      {
+        ":block/refs": [
+          {
+            ":block/uid": "MI0iT0qFJ"
+          }
+        ],
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "create-time": 1633599275223,
+        "edit-time": 1633599292190,
+        "refs": [
+          {
+            "uid": "MI0iT0qFJ"
+          }
+        ],
+        "string": "ZAB\u534f\u8bae\u662f\u4e13\u95e8\u4e3a[[zookeeper]]\u5b9e\u73b0\u5206\u5e03\u5f0f\u534f\u8c03\u529f\u80fd\u800c\u8bbe\u8ba1\u3002zookeeper\u4e3b\u8981\u662f\u6839\u636eZAB\u534f\u8bae\u662f\u5b9e\u73b0\u5206\u5e03\u5f0f\u7cfb\u7edf\u6570\u636e\u4e00\u81f4\u6027\u3002",
+        "uid": "S_4bg-_sM"
+      },
+      {
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1633599313909,
+                "string": "\u53d1\u73b0\uff1a\u5373\u8981\u6c42zookeeper\u96c6\u7fa4\u5fc5\u987b\u9009\u62e9\u51fa\u4e00\u4e2aleader\u8fdb\u7a0b\uff0c\u540c\u65f6leader\u4f1a\u7ef4\u62a4\u4e00\u4e2afollower\u53ef\u7528\u5217\u8868\u3002\u5c06\u6765\u5ba2\u6237\u7aef\u53ef\u4ee5\u8fd9follower\u4e2d\u7684\u8282\u70b9\u8fdb\u884c\u901a\u4fe1\u3002",
+                "uid": "VStzAl4h6"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1633599313909,
+                "string": "\u540c\u6b65\uff1aleader\u8981\u8d1f\u8d23\u5c06\u672c\u8eab\u7684\u6570\u636e\u4e0efollower\u5b8c\u6210\u540c\u6b65\uff0c\u505a\u5230\u591a\u526f\u672c\u5b58\u50a8\u3002\u8fd9\u6837\u4e5f\u662f\u4f53\u73b0\u4e86CAP\u4e2d\u9ad8\u53ef\u7528\u548c\u5206\u533a\u5bb9\u9519\u3002follower\u5c06\u961f\u5217\u4e2d\u672a\u5904\u7406\u5b8c\u7684\u8bf7\u6c42\u6d88\u8d39\u5b8c\u6210\u540e\uff0c\u5199\u5165\u672c\u5730\u4e8b\u7269\u65e5\u5fd7\u4e2d\u3002",
+                "uid": "y3GlfItLe"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1633599313909,
+                "string": "\u5e7f\u64ad\uff1aleader\u53ef\u4ee5\u63a5\u53d7\u5ba2\u6237\u7aef\u65b0\u7684proposal\u8bf7\u6c42\uff0c\u5c06\u65b0\u7684proposal\u8bf7\u6c42\u5e7f\u64ad\u7ed9\u6240\u6709\u7684follower\u3002",
+                "uid": "pw4Gew462"
+              }
+            ],
+            "edit-time": 1633599313909,
+            "string": "ZAB\u534f\u8bae\u8981\u6c42\u6bcf\u4e2aleader\u90fd\u8981\u7ecf\u5386\u4e09\u4e2a\u9636\u6bb5\uff0c\u5373\u53d1\u73b0\uff0c\u540c\u6b65\uff0c\u5e7f\u64ad\u3002",
+            "uid": "cih0jZt9-"
+          }
+        ],
+        "edit-time": 1633599313909,
+        "heading": 3,
+        "string": "ZAB\u534f\u8bae\u539f\u7406",
+        "uid": "VtQoiz0CV"
+      },
+      {
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "create-time": 1633599421380,
+                "edit-time": 1633599448692,
+                "string": "ZAB\u534f\u8bae\u4e2dLeader\u7b49\u5f85follower\u7684ACK\u53cd\u9988\u662f\u6307\u201d\u53ea\u8981\u534a\u6570\u4ee5\u4e0a\u7684follower\u6210\u529f\u53cd\u9988\u5373\u53ef\uff0c\u4e0d\u9700\u8981\u6536\u5230\u5168\u90e8follower\u53cd\u9988\u201d",
+                "uid": "XoQ1nA0Fe"
+              },
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "children": [
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1633599473036,
+                    "string": "4.1. \u5ba2\u6237\u7aef\u53d1\u8d77\u4e00\u4e2a\u5199\u64cd\u4f5c\u8bf7\u6c42",
+                    "uid": "dCwevgevA"
+                  },
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1633599473036,
+                    "string": "4.2. Leader\u670d\u52a1\u5668\u5c06\u5ba2\u6237\u7aef\u7684request\u8bf7\u6c42\u8f6c\u5316\u4e3a\u4e8b\u7269proposql\u63d0\u6848\uff0c\u540c\u65f6\u4e3a\u6bcf\u4e2aproposal\u5206\u914d\u4e00\u4e2a\u5168\u5c40\u552f\u4e00\u7684ID\uff0c\u5373ZXID\u3002",
+                    "uid": "4YhJeByAZ"
+                  },
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1633599473036,
+                    "string": "4.3. leader\u670d\u52a1\u5668\u4e0e\u6bcf\u4e2afollower\u4e4b\u95f4\u90fd\u6709\u4e00\u4e2a\u961f\u5217\uff0cleader\u5c06\u6d88\u606f\u53d1\u9001\u5230\u8be5\u961f\u5217",
+                    "uid": "kQRmdgGQR"
+                  },
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1633599473036,
+                    "string": "4.4. follower\u673a\u5668\u4ece\u961f\u5217\u4e2d\u53d6\u51fa\u6d88\u606f\u5904\u7406\u5b8c(\u5199\u5165\u672c\u5730\u4e8b\u7269\u65e5\u5fd7\u4e2d)\u6bd5\u540e\uff0c\u5411leader\u670d\u52a1\u5668\u53d1\u9001ACK\u786e\u8ba4\u3002",
+                    "uid": "GFZx-ecrZ"
+                  },
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1633599473036,
+                    "string": "4.5. leader\u670d\u52a1\u5668\u6536\u5230\u534a\u6570\u4ee5\u4e0a\u7684follower\u7684ACK\u540e\uff0c\u5373\u8ba4\u4e3a\u53ef\u4ee5\u53d1\u9001commit",
+                    "uid": "zx5jYWfI-"
+                  },
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1633599473036,
+                    "string": "4.6. leader\u5411\u6240\u6709\u7684follower\u670d\u52a1\u5668\u53d1\u9001commit\u6d88\u606f\u3002",
+                    "uid": "ck8ih9pkJ"
+                  }
+                ],
+                "create-time": 1633599449080,
+                "edit-time": 1633599463695,
+                "string": "zookeeper\u4e2d\u6d88\u606f\u5e7f\u64ad\u7684\u5177\u4f53\u6b65\u9aa4\u5982\u4e0b\uff1a",
+                "uid": "M4Hl3JsNH"
+              }
+            ],
+            "create-time": 1633599411000,
+            "edit-time": 1633599421305,
+            "string": "\u6d88\u606f\u5e7f\u64ad\u6a21\u5f0f",
+            "uid": "SzpacX_ZT"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "children": [
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1633599513604,
+                    "string": "3.1. \u786e\u4fdd\u5df2\u7ecf\u88ableader\u63d0\u4ea4\u7684proposal\u5fc5\u987b\u6700\u7ec8\u88ab\u6240\u6709\u7684follower\u670d\u52a1\u5668\u63d0\u4ea4\u3002",
+                    "uid": "-vwFooNe0"
+                  },
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1633599513604,
+                    "string": "3.2. \u786e\u4fdd\u4e22\u5f03\u5df2\u7ecf\u88ableader\u51fa\u7684\u4f46\u662f\u6ca1\u6709\u88ab\u63d0\u4ea4\u7684proposal\u3002",
+                    "uid": "eR6T-kgzN"
+                  }
+                ],
+                "create-time": 1633599487987,
+                "edit-time": 1633599503859,
+                "string": "ZAB\u534f\u8bae\u5d29\u6e83\u6062\u590d\u8981\u6c42\u6ee1\u8db3\u5982\u4e0b2\u4e2a\u8981\u6c42\uff1a",
+                "uid": "_loxy-8j8"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1633599548979,
+                "string": "zookeeper\u96c6\u7fa4\u4e2d\u4e3a\u4fdd\u8bc1\u4efb\u4f55\u6240\u6709\u8fdb\u7a0b\u80fd\u591f\u6709\u5e8f\u7684\u987a\u5e8f\u6267\u884c\uff0c\u53ea\u80fd\u662fleader\u670d\u52a1\u5668\u63a5\u53d7\u5199\u8bf7\u6c42\uff0c\u5373\u4f7f\u662ffollower\u670d\u52a1\u5668\u63a5\u53d7\u5230\u5ba2\u6237\u7aef\u7684\u8bf7\u6c42\uff0c\u4e5f\u4f1a\u8f6c\u53d1\u5230leader\u670d\u52a1\u5668\u8fdb\u884c\u5904\u7406\u3002",
+                "uid": "IMpEoQZt0"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1633599548979,
+                "string": "\u5982\u679cleader\u670d\u52a1\u5668\u53d1\u751f\u5d29\u6e83\uff0c\u5219zab\u534f\u8bae\u8981\u6c42zookeeper\u96c6\u7fa4\u8fdb\u884c\u5d29\u6e83\u6062\u590d\u548cleader\u670d\u52a1\u5668\u9009\u4e3e\u3002",
+                "uid": "P0RS6Hdwl"
+              }
+            ],
+            "create-time": 1633599484668,
+            "edit-time": 1633599487932,
+            "string": "\u5d29\u6e83\u6062\u590d",
+            "uid": "NIklIR62i"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "create-time": 1633599570059,
+                "edit-time": 1633599576854,
+                "string": "\u5728zookeeper\u96c6\u7fa4\u4e2d\u65b0\u7684leader\u9009\u4e3e\u6210\u529f\u4e4b\u540e\uff0cleader\u4f1a\u5c06\u81ea\u8eab\u7684\u63d0\u4ea4\u7684\u6700\u5927proposal\u7684\u4e8b\u7269ZXID\u53d1\u9001\u7ed9\u5176\u4ed6\u7684follower\u8282\u70b9\u3002follower\u8282\u70b9\u4f1a\u6839\u636eleader\u7684\u6d88\u606f\u8fdb\u884c\u56de\u9000\u6216\u8005\u662f\u6570\u636e\u540c\u6b65\u64cd\u4f5c\u3002\u6700\u7ec8\u76ee\u7684\u8981\u4fdd\u8bc1\u96c6\u7fa4\u4e2d\u6240\u6709\u8282\u70b9\u7684\u6570\u636e\u526f\u672c\u4fdd\u6301\u4e00\u81f4\u3002",
+                "uid": "FgIYlccDD"
+              }
+            ],
+            "create-time": 1633599568957,
+            "edit-time": 1633599570064,
+            "string": "\u6570\u636e\u540c\u6b65",
+            "uid": "nMjOuEsaf"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1633599579514,
+            "edit-time": 1633599579514,
+            "string": "",
+            "uid": "iW-Zv27TU"
+          }
+        ],
+        "create-time": 1633599402935,
+        "edit-time": 1633599407989,
+        "string": "ZAB\u534f\u8bae\u4e2d\u4e3b\u8981\u6709\u4e24\u79cd\u6a21\u5f0f\uff0c\u7b2c\u4e00\u662f\u6d88\u606f\u5e7f\u64ad\u6a21\u5f0f\uff1b\u7b2c\u4e8c\u662f\u5d29\u6e83\u6062\u590d\u6a21\u5f0f",
+        "uid": "EkJbxsPYQ"
+      }
+    ],
+    "create-time": 1633599272207,
+    "edit-time": 1633599272208,
+    "title": "ZAB\u534f\u8bae",
+    "uid": "RODz9Br0P"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1633599292191,
+    "edit-time": 1633599292192,
+    "title": "zookeeper",
+    "uid": "MI0iT0qFJ"
   }
 ]
