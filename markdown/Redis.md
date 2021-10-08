@@ -19,6 +19,7 @@
         - 主从复制不要用图状结构，用单向链表结构更为稳定，即：Master <- Slave1 <- Slave2 <- Slave3...
     - [[Redis]]常见数据结构以及使用场景分析
         - String
+            - 底层实现方式：动态字符串sds 或者 long
             - 常用命令: set,get,decr,incr,mget 等。
             - String数据结构是简单的key-value类型，value其实不仅可以是String，也可以是数字。 常规key-value缓存应用； 常规计数：微博数，粉丝数等。
             - redis中所有场景中出现的字符串，基本都是由SDS(simple dynamic string)来实现的
@@ -27,9 +28,16 @@
                 - len:字符串长度
                 - buf:存放的字符数组
         - Hash
+            - 底层实现方式：压缩列表ziplist 或者 字典dict
+                - hash中的数据项（即filed-value对）的数目超过阈值(可以设置)时，或者当hash中插入的任意一个value的长度超过了64字节的时候，ziplist的结构转为字典dict
+                    - Redis的hash之所以这样设计，是因为当ziplist变得很大的时候，它有如下几个缺点：
+                        - 每次插入或修改引发的realloc操作会有更大的概率造成内存拷贝，从而降低性能。
+                        - 一旦发生内存拷贝，内存拷贝的成本也相应增加，因为要拷贝更大的一块数据。
+                        - 当ziplist数据项过多的时候，在它上面查找指定的数据项就会性能变得很低，因为ziplist上的查找需要进行遍历。
             - 常用命令： hget,hset,hgetall 等。
             - Hash 是一个 string 类型的 ﬁeld 和 value 的映射表，hash 特别适合用于存储对象，后续操作的时候，你可以直接仅 仅修改这个对象中的某个字段的值。 比如我们可以Hash数据结构来存储用户信息，商品信息等等。
         - List
+            - Redis3.2及之后的底层实现方式：quicklist
             - 常用命令: lpush,rpush,lpop,rpop,lrange等
             - list 就是链表，[[Redis]] list 的应用场景非常多，也是[[Redis]]最重要的数据结构之一，比如微博的关注列表，粉丝列表， 消息列表等功能都可以用[[Redis]]的 list 结构来实现。
             - [[Redis]] list 的实现为一个双向链表，即可以支持反向查找和遍历，更方便操作，不过带来了部分额外的内存开销。
@@ -140,4 +148,10 @@
         - 设置Redis最大内存
         - 设置内存淘汰方式
 - [图解redis五种数据结构底层实现(动图哦)](https://i6448038.github.io/2019/12/01/redis-data-struct/)
-- 
+- Redis和Memcached的区别，都什么时候使用？
+    - memcache使用预分配池管理，会提前把内存分为多个slab，slab又分成多个不等大小的chunk，chunk从最小的开始，根据增长因子增长内存大小。redis更适合做数据存储，memcache更适合做缓存，memcache在存储速度方面也会比redis这种申请内存的方式来的快。
+    - 从数据一致性来说，memcache提供了cas命令，可以保证多个并发访问操作同一份数据的一致性问题。 redis是串行操作，所以不用考虑数据一致性的问题。
+    - 从IO角度来说，选用的I/O多路复用模型，虽然单线程不用考虑锁等问题，但是还要执行kv数据之外的一些排序、聚合功能，复杂度比较高。memcache也选用非阻塞的I/O多路复用模型，速度更快一些。
+    - 从线程角度来说，memcahce使用多线程，主线程listen，多个worker子线程执行读写，可能会出现锁冲突。redis是单线程的，这样虽然不用考虑锁对插入修改数据造成的时间的影响，但是无法利用多核提高整体的吞吐量，只能选择多开redis来解决。
+    - 从集群方面来说，redis天然支持高可用集群，支持主从，而memcache需要自己实现类似一致性hash的负载均衡算法才能解决集群的问题，扩展性比较低。
+    - redis确实比memcache功能更全，集成更方便，但是memcache相比redis在内存、线程、IO角度来说都有一定的优势，可以利用cpu提高机器性能，在不考虑扩展性和持久性的访问频繁的情况下，只存储kv格式的数据，建议使用memcache，memcache更像是个缓存，而redis更偏向与一个存储数据的系统。但是，觉得不要拿redis当数据库用！！！
