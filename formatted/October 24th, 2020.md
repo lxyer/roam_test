@@ -12,7 +12,7 @@
 - [Redis](<Redis.md>)
     - 数据结构及使用场景
     - 单[线程](<线程.md>) 性能
-- hashmap
+- [HashMap](<HashMap.md>)
     - 数据结构
     - 扩容因子->扩大多少
 - 米定性

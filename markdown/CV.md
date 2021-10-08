@@ -1,5 +1,5 @@
 - # [[KN]]
-    - # JVM问题
+    - ## JVM问题
         - CPU过高问题排查
             - top -p 5578（Java进程号）
             - Shit+h显示所有的线程CPU统计（有PID）
@@ -59,7 +59,6 @@
                 - **Optional** 也增加了几个非常酷的方法，现在可以很方便的将一个 **Optional** 转换 成一个 **Stream**, 或者当一个空 **Optional** 时给它一个替代的
                 - 局部变量类型推断升级
                 - HttpClient替换原有的HttpURLConnection
-                - 
         - [淘宝一面：“说一下 Spring Boot 自动装配原理呗？”](https://www.cnblogs.com/javaguide/p/springboot-auto-config.html)
         - [Java 类加载器（ClassLoader）的实际使用场景有哪些？](https://www.zhihu.com/question/46719811/answer/1739289578)
             - 加载
@@ -85,6 +84,8 @@
             - 使用指令：jmap -histo:live *** | more 查看堆内存中的对象数量和大小
             - 在前一步分析内存的同时，使用指令：jmap -dump:format=b,file=heapDump.hprof将实时内存信息导出（dump过程比较慢，所以在问题暂时处理完后进行后续分析），使用mat分析内存结构
             - 使用指令：jmap -histo:live  查看堆内存中的对象数量和大小
+    - ## Java基础
+        - [[HashMap]]
     - # [[Redis]]
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FE4AHUcUDZp.png?alt=media&token=785f163d-47e6-416b-9fb9-79c0e0c93386)
         - [[集群]]方案

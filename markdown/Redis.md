@@ -38,13 +38,23 @@
             - Hash 是一个 string 类型的 ﬁeld 和 value 的映射表，hash 特别适合用于存储对象，后续操作的时候，你可以直接仅 仅修改这个对象中的某个字段的值。 比如我们可以Hash数据结构来存储用户信息，商品信息等等。
         - List
             - Redis3.2及之后的底层实现方式：quicklist
+                - quicklist是一个双向链表，而且是一个基于ziplist的双向链表，quicklist的每个节点都是一个ziplist，结合了双向链表和ziplist的优点
             - 常用命令: lpush,rpush,lpop,rpop,lrange等
             - list 就是链表，[[Redis]] list 的应用场景非常多，也是[[Redis]]最重要的数据结构之一，比如微博的关注列表，粉丝列表， 消息列表等功能都可以用[[Redis]]的 list 结构来实现。
             - [[Redis]] list 的实现为一个双向链表，即可以支持反向查找和遍历，更方便操作，不过带来了部分额外的内存开销。
         - Set
+            - 底层实现方式：有序整数集合intset 或者 字典dict
+                - 满足下面这样两个条件的时候，Redis 就采用整数集合intset来实现set这种数据类型：
+                    - 存储的数据都是整数
+                    - 存储的数据元素个数小于512个
             - 常用命令： sadd,spop,smembers,sunion 等
             - set 对外提供的功能与list类似是一个列表的功能，特殊之处在于 set 是可以自动排重的。当你需要存储一个列表数据，又不希望出现重复数据时，set是一个很好的选择，并且set提供了判断某个成员是否在 一个set集合内的重要接口，这个也是list所不能提供的。可以基于 set 轻易实现交集、并集、差集的操作。
         - Sorted Set
+            - 底层实现方式：压缩列表ziplist 或者 zset
+                - 满足下面这两个条件的时候，Redis就使用压缩列表ziplist实现sorted set：
+                    - 集合中每个数据的大小都要小于 64 字节
+                    - 元素个数要小于 128 个，也就是ziplist数据项小于256个
+                - 当不能同时满足这两个条件的时候，Redis 就使用zset来实现sorted set，这个zset包含一个dict + 一个skiplist
             - 常用命令： zadd,zrange,zrem,zcard等
             - 和set相比，sorted set增加了一个权重参数score，使得集合中的元素能够按score进行有序排列。
         - 定期删除+惰性删除
