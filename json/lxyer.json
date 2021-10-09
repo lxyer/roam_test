@@ -79936,5 +79936,17 @@
     "edit-time": 1633678931169,
     "title": "HashMap",
     "uid": "Y9YLMYuZo"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1633739970434,
+    "edit-time": 1633739970434,
+    "title": "October 9th, 2021",
+    "uid": "10-09-2021"
   }
 ]
