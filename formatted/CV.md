@@ -20,12 +20,23 @@
             - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FFqGYp-Uyy0.png?alt=media&token=c47422cc-51f6-46a4-961a-260d52778a75)
             - ## JVM优化之G1垃圾收集器如何做到可预测停顿的
                 - G1优化的步骤中有一个步骤是让使用者自行设置暂停应用的时间，为啥能够做到这一点，G1回收的第4步【G1垃圾收集基础】，它是“选择一些内存块”，而不是整代内存来回收，其它GC每次回收都会回收整个内存(Eden, Old), 回收内存所需的时间取决于内存的大小，以及实际垃圾的多少，所以垃圾回收时间是不可控的；而G1每次并不会回收整代内存，到底回收多少内存就看用户配置的暂停时间，配置的时间短就少回收点相反就多回收点,G1垃圾收集器的G1其实是Garbage First的意思，这里并不是垃圾优先 的意思，而是优先处理那些垃圾多的内存块的意思。
+                - 参数优化
+                    - XX:MaxGCPauseMillis：设置允许的最大GC停顿时间(GC pause time)，这只是一个期望值，实际可能会超出，可以和年轻代大小调整一起并用来实现。默认是200ms。
+                    - XX:G1HeapRegionSize：每个分区的大小，默认值是会根据整个堆区的大小计算出来，范围是1M~32M，取值是2的幂，计算的倾向是尽量有2048个分区数。比如如果是2G的heap，那region=1M。16Gheap,region=8M。
+                    - XX:MaxTenuringThreshold=n：晋升到老年代的“年龄”阀值，默认值为 15。
+                    - XX:InitiatingHeapOccupancyPercent：一般会简写IHOP,默认是45%,这个占比跟并发周期的启动相关，当空间占比达到这个值时，会启动并发周期。如果经常出现FullGC，可以调低该值，尽早的回收可以减少FullGC的触发，但如果过低，则并发阶段会更加频繁，降低应用的吞吐。
+                    - XX:G1NewSizePercent：年轻代最小的堆空间占比，默认是5%。
+                    - XX:G1MaxNewSizePercent：年轻代最大的堆空间占比，默认是60%。
+                    - XX:ConcGCThreads：并发执行的线程数，默认值接近整个应用线程数的1/4。
+                    - XX:-XX:G1HeapWastePercent:允许的浪费堆空间的占比，默认是5%。如果并发标记可回收的空间小于5%,则不会触发MixedGC。
+                    - XX:G1MixedGCCountTarget:一次全局并发标记之后，后续最多执行的MixedGC次数。 默认值是8.
             - [ZGC](<ZGC.md>)(Z Garbage Collector)作为一种比较新的收集器。作为一款低延迟的垃圾收集器，它有如下几个亮点:
                 - 停顿时间不会超过 10ms
                 - 停顿时间不会随着堆的增大而增大（控制停顿时间在 10ms 内）
                 - 支持堆的大小范围很广（8MB-16TB）
                 - 在 ZGC 中，连逻辑上的也是重新定义了堆空间（不区分年轻代和老年代），只分为一块块的 page，每次进行 GC 时，都会对 page 进行压缩操作，所以没有碎片问题。ZGC 只在特定情况下具有绝对的优势, 如巨大的堆和极低的暂停需求。也有一种观点认为 ZGC 是为大内存、多 cpu 而生，它通过分区的思路来降低 STW。
                 - ZGC 在 JDK14 前只支持 Linux, 从 JDK14 开始支持 Mac 和 Windows。
+                - 与CMS中的ParNew和G1类似，ZGC也采用标记-复制算法，不过ZGC对该算法做了重大改进：ZGC在标记、转移和重定位阶段几乎都是并发的，这是ZGC实现停顿时间小于10ms目标的最关键原因。
             - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FgUGb8HLndW.png?alt=media&token=93a70c62-1937-4d5d-88d9-6e2821a03587)
             - [线程](<线程.md>)共享
                 - [堆](<堆.md>)（Heap）：[线程](<线程.md>)共享。所有的对象实例以及数组都要在堆上分配。回收器主要管理的对象。

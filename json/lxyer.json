@@ -72344,6 +72344,128 @@
                         "edit-time": 1631428866629,
                         "string": "G1\u4f18\u5316\u7684\u6b65\u9aa4\u4e2d\u6709\u4e00\u4e2a\u6b65\u9aa4\u662f\u8ba9\u4f7f\u7528\u8005\u81ea\u884c\u8bbe\u7f6e\u6682\u505c\u5e94\u7528\u7684\u65f6\u95f4\uff0c\u4e3a\u5565\u80fd\u591f\u505a\u5230\u8fd9\u4e00\u70b9\uff0cG1\u56de\u6536\u7684\u7b2c4\u6b65\u3010G1\u5783\u573e\u6536\u96c6\u57fa\u7840\u3011\uff0c\u5b83\u662f\u201c\u9009\u62e9\u4e00\u4e9b\u5185\u5b58\u5757\u201d\uff0c\u800c\u4e0d\u662f\u6574\u4ee3\u5185\u5b58\u6765\u56de\u6536\uff0c\u5176\u5b83GC\u6bcf\u6b21\u56de\u6536\u90fd\u4f1a\u56de\u6536\u6574\u4e2a\u5185\u5b58(Eden, Old), \u56de\u6536\u5185\u5b58\u6240\u9700\u7684\u65f6\u95f4\u53d6\u51b3\u4e8e\u5185\u5b58\u7684\u5927\u5c0f\uff0c\u4ee5\u53ca\u5b9e\u9645\u5783\u573e\u7684\u591a\u5c11\uff0c\u6240\u4ee5\u5783\u573e\u56de\u6536\u65f6\u95f4\u662f\u4e0d\u53ef\u63a7\u7684\uff1b\u800cG1\u6bcf\u6b21\u5e76\u4e0d\u4f1a\u56de\u6536\u6574\u4ee3\u5185\u5b58\uff0c\u5230\u5e95\u56de\u6536\u591a\u5c11\u5185\u5b58\u5c31\u770b\u7528\u6237\u914d\u7f6e\u7684\u6682\u505c\u65f6\u95f4\uff0c\u914d\u7f6e\u7684\u65f6\u95f4\u77ed\u5c31\u5c11\u56de\u6536\u70b9\u76f8\u53cd\u5c31\u591a\u56de\u6536\u70b9,G1\u5783\u573e\u6536\u96c6\u5668\u7684G1\u5176\u5b9e\u662fGarbage First\u7684\u610f\u601d\uff0c\u8fd9\u91cc\u5e76\u4e0d\u662f\u5783\u573e\u4f18\u5148 \u7684\u610f\u601d\uff0c\u800c\u662f\u4f18\u5148\u5904\u7406\u90a3\u4e9b\u5783\u573e\u591a\u7684\u5185\u5b58\u5757\u7684\u610f\u601d\u3002",
                         "uid": "QLqeNMr-c"
+                      },
+                      {
+                        ":create/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        ":edit/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        "children": [
+                          {
+                            ":create/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            ":edit/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            "create-time": 1634806431899,
+                            "edit-time": 1634806433113,
+                            "string": "XX:MaxGCPauseMillis\uff1a\u8bbe\u7f6e\u5141\u8bb8\u7684\u6700\u5927GC\u505c\u987f\u65f6\u95f4(GC pause time)\uff0c\u8fd9\u53ea\u662f\u4e00\u4e2a\u671f\u671b\u503c\uff0c\u5b9e\u9645\u53ef\u80fd\u4f1a\u8d85\u51fa\uff0c\u53ef\u4ee5\u548c\u5e74\u8f7b\u4ee3\u5927\u5c0f\u8c03\u6574\u4e00\u8d77\u5e76\u7528\u6765\u5b9e\u73b0\u3002\u9ed8\u8ba4\u662f200ms\u3002",
+                            "uid": "xEfLaQah_"
+                          },
+                          {
+                            ":create/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            ":edit/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            "create-time": 1634806431899,
+                            "edit-time": 1634806433113,
+                            "string": "XX:G1HeapRegionSize\uff1a\u6bcf\u4e2a\u5206\u533a\u7684\u5927\u5c0f\uff0c\u9ed8\u8ba4\u503c\u662f\u4f1a\u6839\u636e\u6574\u4e2a\u5806\u533a\u7684\u5927\u5c0f\u8ba1\u7b97\u51fa\u6765\uff0c\u8303\u56f4\u662f1M~32M\uff0c\u53d6\u503c\u662f2\u7684\u5e42\uff0c\u8ba1\u7b97\u7684\u503e\u5411\u662f\u5c3d\u91cf\u67092048\u4e2a\u5206\u533a\u6570\u3002\u6bd4\u5982\u5982\u679c\u662f2G\u7684heap\uff0c\u90a3region=1M\u300216Gheap,region=8M\u3002",
+                            "uid": "HLBVyYqgP"
+                          },
+                          {
+                            ":create/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            ":edit/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            "create-time": 1634806431899,
+                            "edit-time": 1634806433113,
+                            "string": "XX:MaxTenuringThreshold=n\uff1a\u664b\u5347\u5230\u8001\u5e74\u4ee3\u7684\u201c\u5e74\u9f84\u201d\u9600\u503c\uff0c\u9ed8\u8ba4\u503c\u4e3a 15\u3002",
+                            "uid": "unOO8qzHH"
+                          },
+                          {
+                            ":create/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            ":edit/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            "create-time": 1634806431899,
+                            "edit-time": 1634806433113,
+                            "string": "XX:InitiatingHeapOccupancyPercent\uff1a\u4e00\u822c\u4f1a\u7b80\u5199IHOP,\u9ed8\u8ba4\u662f45%,\u8fd9\u4e2a\u5360\u6bd4\u8ddf\u5e76\u53d1\u5468\u671f\u7684\u542f\u52a8\u76f8\u5173\uff0c\u5f53\u7a7a\u95f4\u5360\u6bd4\u8fbe\u5230\u8fd9\u4e2a\u503c\u65f6\uff0c\u4f1a\u542f\u52a8\u5e76\u53d1\u5468\u671f\u3002\u5982\u679c\u7ecf\u5e38\u51fa\u73b0FullGC\uff0c\u53ef\u4ee5\u8c03\u4f4e\u8be5\u503c\uff0c\u5c3d\u65e9\u7684\u56de\u6536\u53ef\u4ee5\u51cf\u5c11FullGC\u7684\u89e6\u53d1\uff0c\u4f46\u5982\u679c\u8fc7\u4f4e\uff0c\u5219\u5e76\u53d1\u9636\u6bb5\u4f1a\u66f4\u52a0\u9891\u7e41\uff0c\u964d\u4f4e\u5e94\u7528\u7684\u541e\u5410\u3002",
+                            "uid": "S_oRCnnd1"
+                          },
+                          {
+                            ":create/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            ":edit/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            "create-time": 1634806431899,
+                            "edit-time": 1634806433113,
+                            "string": "XX:G1NewSizePercent\uff1a\u5e74\u8f7b\u4ee3\u6700\u5c0f\u7684\u5806\u7a7a\u95f4\u5360\u6bd4\uff0c\u9ed8\u8ba4\u662f5%\u3002",
+                            "uid": "B2SMxUImn"
+                          },
+                          {
+                            ":create/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            ":edit/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            "create-time": 1634806431899,
+                            "edit-time": 1634806433113,
+                            "string": "XX:G1MaxNewSizePercent\uff1a\u5e74\u8f7b\u4ee3\u6700\u5927\u7684\u5806\u7a7a\u95f4\u5360\u6bd4\uff0c\u9ed8\u8ba4\u662f60%\u3002",
+                            "uid": "s89_QFEFS"
+                          },
+                          {
+                            ":create/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            ":edit/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            "create-time": 1634806431899,
+                            "edit-time": 1634806433113,
+                            "string": "XX:ConcGCThreads\uff1a\u5e76\u53d1\u6267\u884c\u7684\u7ebf\u7a0b\u6570\uff0c\u9ed8\u8ba4\u503c\u63a5\u8fd1\u6574\u4e2a\u5e94\u7528\u7ebf\u7a0b\u6570\u76841/4\u3002",
+                            "uid": "vbARtsDC0"
+                          },
+                          {
+                            ":create/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            ":edit/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            "create-time": 1634806431899,
+                            "edit-time": 1634806433113,
+                            "string": "XX:-XX:G1HeapWastePercent:\u5141\u8bb8\u7684\u6d6a\u8d39\u5806\u7a7a\u95f4\u7684\u5360\u6bd4\uff0c\u9ed8\u8ba4\u662f5%\u3002\u5982\u679c\u5e76\u53d1\u6807\u8bb0\u53ef\u56de\u6536\u7684\u7a7a\u95f4\u5c0f\u4e8e5%,\u5219\u4e0d\u4f1a\u89e6\u53d1MixedGC\u3002",
+                            "uid": "mprrp7S0F"
+                          },
+                          {
+                            ":create/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            ":edit/user": {
+                              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                            },
+                            "create-time": 1634806431899,
+                            "edit-time": 1634806433113,
+                            "string": "XX:G1MixedGCCountTarget:\u4e00\u6b21\u5168\u5c40\u5e76\u53d1\u6807\u8bb0\u4e4b\u540e\uff0c\u540e\u7eed\u6700\u591a\u6267\u884c\u7684MixedGC\u6b21\u6570\u3002 \u9ed8\u8ba4\u503c\u662f8.",
+                            "uid": "5mx9LKNA5"
+                          }
+                        ],
+                        "create-time": 1634806388835,
+                        "edit-time": 1634806400823,
+                        "string": "\u53c2\u6570\u4f18\u5316",
+                        "uid": "Knr6JO_9V"
                       }
                     ],
                     "create-time": 1631428819163,
@@ -72412,6 +72534,18 @@
                         "edit-time": 1631431931872,
                         "string": "ZGC \u5728 JDK14 \u524d\u53ea\u652f\u6301 Linux, \u4ece JDK14 \u5f00\u59cb\u652f\u6301 Mac \u548c Windows\u3002",
                         "uid": "rMO2nVnL1"
+                      },
+                      {
+                        ":create/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        ":edit/user": {
+                          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                        },
+                        "create-time": 1634805658252,
+                        "edit-time": 1634805691554,
+                        "string": "\u4e0eCMS\u4e2d\u7684ParNew\u548cG1\u7c7b\u4f3c\uff0cZGC\u4e5f\u91c7\u7528\u6807\u8bb0-\u590d\u5236\u7b97\u6cd5\uff0c\u4e0d\u8fc7ZGC\u5bf9\u8be5\u7b97\u6cd5\u505a\u4e86\u91cd\u5927\u6539\u8fdb\uff1aZGC\u5728\u6807\u8bb0\u3001\u8f6c\u79fb\u548c\u91cd\u5b9a\u4f4d\u9636\u6bb5\u51e0\u4e4e\u90fd\u662f\u5e76\u53d1\u7684\uff0c\u8fd9\u662fZGC\u5b9e\u73b0\u505c\u987f\u65f6\u95f4\u5c0f\u4e8e10ms\u76ee\u6807\u7684\u6700\u5173\u952e\u539f\u56e0\u3002",
+                        "uid": "ZiNgZgRwV"
                       }
                     ],
                     "create-time": 1631431806898,
@@ -80466,5 +80600,17 @@
     "edit-time": 1634690569269,
     "title": "October 20th, 2021",
     "uid": "10-20-2021"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1634777225666,
+    "edit-time": 1634777225666,
+    "title": "October 21st, 2021",
+    "uid": "10-21-2021"
   }
 ]
