@@ -72184,6 +72184,18 @@
                     ":edit/user": {
                       ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
                     },
+                    "create-time": 1635741026711,
+                    "edit-time": 1635741042826,
+                    "string": "jmap -histo:live <pid>  \u624b\u5de5\u89e6\u53d1fullGC",
+                    "uid": "fOSWYkH8A"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
                     "create-time": 1632902779547,
                     "edit-time": 1632903040801,
                     "string": "heapdump xx.hprof \u628a\u5806\u6808\u4fe1\u606f\u5bfc\u5165\u5230\u6587\u4ef6\u4e2d",
@@ -80680,8 +80692,8 @@
     ":edit/user": {
       ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
     },
-    "create-time": 1635295182440,
-    "edit-time": 1635295182440,
+    "create-time": 1635298478440,
+    "edit-time": 1635298478442,
     "title": "October 27th, 2021",
     "uid": "10-27-2021"
   },
@@ -80692,8 +80704,8 @@
     ":edit/user": {
       ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
     },
-    "create-time": 1635381603998,
-    "edit-time": 1635381603998,
+    "create-time": 1635382006962,
+    "edit-time": 1635382006968,
     "title": "October 28th, 2021",
     "uid": "10-28-2021"
   },
@@ -80740,8 +80752,8 @@
     ":edit/user": {
       ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
     },
-    "create-time": 1635727330687,
-    "edit-time": 1635727330687,
+    "create-time": 1635738093907,
+    "edit-time": 1635738093907,
     "title": "November 1st, 2021",
     "uid": "11-01-2021"
   }

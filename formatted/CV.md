@@ -6,6 +6,7 @@
             - jstack -F PID 打印线程堆栈信息
         - OOM问题
             - jstat -gcutil PID 查看堆空间的占用情况，分析一下
+            - jmap -histo:live <pid>  手工触发fullGC
             - heapdump xx.hprof 把堆栈信息导入到文件中
             - 下载到本地
             - VisualVM
