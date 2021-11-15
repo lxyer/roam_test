@@ -80912,5 +80912,17 @@
     "edit-time": 1636850519022,
     "title": "November 14th, 2021",
     "uid": "11-14-2021"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1636936846952,
+    "edit-time": 1636936846952,
+    "title": "November 15th, 2021",
+    "uid": "11-15-2021"
   }
 ]
