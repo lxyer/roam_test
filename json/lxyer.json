@@ -80984,5 +80984,365 @@
     "edit-time": 1637368817880,
     "title": "November 20th, 2021",
     "uid": "11-20-2021"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "children": [
+      {
+        ":block/refs": [
+          {
+            ":block/uid": "n0ZT1frjD"
+          }
+        ],
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "create-time": 1637454513504,
+        "edit-time": 1637454548722,
+        "refs": [
+          {
+            "uid": "n0ZT1frjD"
+          }
+        ],
+        "string": "[[kubernetes]]",
+        "uid": "KqzRsJPNF"
+      }
+    ],
+    "create-time": 1637454462124,
+    "edit-time": 1637454462124,
+    "title": "November 21st, 2021",
+    "uid": "11-21-2021"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "children": [
+      {
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":block/refs": [
+              {
+                ":block/uid": "70YdicCV_"
+              }
+            ],
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "\u5f53\u4f60\u7b2c\u4e00\u6b21\u8bbe\u7f6e Kubernetes \u65f6\uff0c\u4f60\u4f1a\u521b\u5efa\u4e00\u4e2a\u96c6\u7fa4\u3002\u6240\u6709\u5176\u4ed6\u7ec4\u4ef6\u90fd\u662f\u96c6\u7fa4\u7684\u4e00\u90e8\u5206\u3002\u4f60\u4e5f\u53ef\u4ee5\u521b\u5efa\u591a\u4e2a\u865a\u62df\u96c6\u7fa4\uff0c\u79f0\u4e3a\u547d\u540d\u7a7a\u95f4 (namespace)\uff0c\u5b83\u4eec\u662f\u540c\u4e00\u4e2a\u7269\u7406\u96c6\u7fa4\u7684\u4e00\u90e8\u5206",
+                "uid": "COs0ilG-K"
+              }
+            ],
+            "edit-time": 1637454559048,
+            "refs": [
+              {
+                "uid": "70YdicCV_"
+              }
+            ],
+            "string": "[[namespace]]",
+            "uid": "_bnajJfmZ"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "\u8282\u70b9\u662f\u96c6\u7fa4\u4e2d\u7684\u5355\u4e2a\u673a\u5668",
+                "uid": "5R78jolMf"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "\u8282\u70b9\u53ef\u80fd\u5bf9\u5e94\u4e8e\u7269\u7406\u673a\u5668\uff0c\u4f46\u66f4\u53ef\u80fd\u5bf9\u5e94\u4e8e\u5728\u4e91\u4e2d\u8fd0\u884c\u7684\u865a\u62df\u673a",
+                "uid": "6ReXMiKHV"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "\u8282\u70b9\u662f\u90e8\u7f72\u4f60\u7684\u5e94\u7528\u6216\u670d\u52a1\u7684\u5730\u65b9\uff0c\u662f Kubernetes \u5de5\u4f5c\u7684\u5730\u65b9",
+                "uid": "Al-XoaCNS"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "children": [
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1637454553351,
+                    "string": "master \u8282\u70b9",
+                    "uid": "OereiD0fD"
+                  },
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1637454553351,
+                    "string": "worker \u8282\u70b9",
+                    "uid": "ouGVQbosR"
+                  },
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1637454553351,
+                    "string": "\u6240\u4ee5\u8bf4 Kubernetes \u662f\u4e3b\u4ece\u7ed3\u6784\u7684",
+                    "uid": "CnHzpE7nN"
+                  }
+                ],
+                "edit-time": 1637454553351,
+                "string": "\u6709 2 \u79cd\u7c7b\u578b\u7684\u8282\u70b9:",
+                "uid": "dl5DrS1Hw"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "\u4e3b\u8282\u70b9\u662f\u4e00\u4e2a\u63a7\u5236\u5176\u4ed6\u6240\u6709\u8282\u70b9\u7684\u7279\u6b8a\u8282\u70b9\u3002\u4e00\u65b9\u9762\uff0c\u5b83\u548c\u96c6\u7fa4\u4e2d\u7684\u4efb\u4f55\u5176\u4ed6\u8282\u70b9\u4e00\u6837\uff0c\u8fd9\u610f\u5473\u7740\u5b83\u53ea\u662f\u53e6\u4e00\u53f0\u673a\u5668\u6216\u865a\u62df\u673a\u3002\u53e6\u4e00\u65b9\u9762\uff0c\u5b83\u8fd0\u884c\u7740\u63a7\u5236\u96c6\u7fa4\u5176\u4ed6\u90e8\u5206\u7684\u8f6f\u4ef6\u3002\u5b83\u5411\u96c6\u7fa4\u4e2d\u7684\u6240\u6709\u5176\u4ed6\u8282\u70b9\u53d1\u9001\u6d88\u606f\uff0c\u5c06\u5de5\u4f5c\u5206\u914d\u7ed9\u5b83\u4eec\uff0c\u5de5\u4f5c\u8282\u70b9\u5411\u4e3b\u8282\u70b9\u4e0a\u7684 API Server \u6c47\u62a5\u3002",
+                "uid": "6CYS4esrz"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "Master \u8282\u70b9\u672c\u8eab\u4e5f\u5305\u542b\u4e00\u4e2a\u540d\u4e3a API Server \u7684\u7ec4\u4ef6\u3002\u8fd9\u4e2a API \u662f\u8282\u70b9\u4e0e\u63a7\u5236\u5e73\u9762\u901a\u4fe1\u7684\u552f\u4e00\u7aef\u70b9\u3002API Server \u81f3\u5173\u91cd\u8981\uff0c\u56e0\u4e3a\u8fd9\u662f worker \u8282\u70b9\u548c master \u8282\u70b9\u5c31 pod\u3001deployment \u548c\u6240\u6709\u5176\u4ed6 Kubernetes API \u5bf9\u8c61\u7684\u72b6\u6001\u8fdb\u884c\u901a\u4fe1\u7684\u70b9\u3002",
+                "uid": "W7Agd7uqy"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "",
+                "uid": "cdnX0b6dw"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "Woker \u8282\u70b9\u662f Kubernetes \u4e2d\u771f\u6b63\u5e72\u6d3b\u7684\u8282\u70b9\u3002\u5f53\u4f60\u5728\u5e94\u7528\u4e2d\u90e8\u7f72\u5bb9\u5668\u6216 pod\uff08\u7a0d\u540e\u5b9a\u4e49\uff09\u65f6\uff0c\u5176\u5b9e\u662f\u5728\u5c06\u5b83\u4eec\u90e8\u7f72\u5230 worker \u8282\u70b9\u4e0a\u8fd0\u884c\u3002Worker \u8282\u70b9\u6258\u7ba1\u548c\u8fd0\u884c\u4e00\u4e2a\u6216\u591a\u4e2a\u5bb9\u5668\u7684\u8d44\u6e90\u3002",
+                "uid": "ECBjC3tAe"
+              }
+            ],
+            "edit-time": 1637454553351,
+            "string": "node",
+            "uid": "wdNhaxEkd"
+          },
+          {
+            ":block/refs": [
+              {
+                ":block/uid": "s98yuZmcg"
+              }
+            ],
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "Kubernetes \u4e2d\u7684\u903b\u8f91\u800c\u975e\u7269\u7406\u7684\u5de5\u4f5c\u5355\u4f4d\u79f0\u4e3a pod",
+                "uid": "Jl6Xx2AIE"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "\u4e00\u4e2a pod \u7c7b\u4f3c\u4e8e Docker \u4e2d\u7684\u5bb9\u5668",
+                "uid": "UdcXph67z"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "\u4e00\u4e2a Kubernetes pod \u901a\u5e38\u5305\u542b\u4e00\u4e2a\u6216\u591a\u4e2a Docker \u5bb9\u5668\uff0c\u6240\u6709\u7684\u5bb9\u5668\u90fd\u4f5c\u4e3a\u4e00\u4e2a\u5355\u5143\u6765\u7ba1\u7406",
+                "uid": "DwQNRxjDd"
+              }
+            ],
+            "edit-time": 1637454577071,
+            "refs": [
+              {
+                "uid": "s98yuZmcg"
+              }
+            ],
+            "string": "[[pod]]",
+            "uid": "X3ahY86fN"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "Kubernetes \u4e2d\u7684 service \u662f\u4e00\u7ec4\u903b\u8f91\u4e0a\u7684 pod\u3002\u628a\u4e00\u4e2a service \u770b\u6210\u662f\u4e00\u4e2a pod \u7684\u903b\u8f91\u5206\u7ec4\uff0c\u5b83\u63d0\u4f9b\u4e86\u4e00\u4e2a\u5355\u4e00\u7684 IP \u5730\u5740\u548c DNS \u540d\u79f0\uff0c\u4f60\u53ef\u4ee5\u901a\u8fc7\u5b83\u8bbf\u95ee\u670d\u52a1\u5185\u7684\u6240\u6709 pod\u3002",
+                "uid": "n4bniJprk"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637454553351,
+                "string": "\u6709\u4e86\u670d\u52a1\uff0c\u5c31\u53ef\u4ee5\u975e\u5e38\u5bb9\u6613\u5730\u8bbe\u7f6e\u548c\u7ba1\u7406\u8d1f\u8f7d\u5747\u8861",
+                "uid": "_gazozZnN"
+              }
+            ],
+            "edit-time": 1637454553351,
+            "string": "service",
+            "uid": "Q8R6FrNTF"
+          }
+        ],
+        "edit-time": 1637454553351,
+        "string": "Kubernetes \u7684\u91cd\u8981\u7ec4\u4ef6",
+        "uid": "6lIH4lGqy"
+      },
+      {
+        ":block/refs": [
+          {
+            ":block/uid": "MEpWzIjx4"
+          }
+        ],
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1637454553351,
+            "string": "kubectl \u662f\u4e00\u4e2a\u547d\u4ee4\u884c\u5de5\u5177\uff0c\u7528\u4e8e\u4e0e Kubernetes \u96c6\u7fa4\u548c\u5176\u4e2d\u7684 pod \u901a\u4fe1\u3002\u4f7f\u7528\u5b83\u4f60\u53ef\u4ee5\u67e5\u770b\u96c6\u7fa4\u7684\u72b6\u6001\uff0c\u5217\u51fa\u96c6\u7fa4\u4e2d\u7684\u6240\u6709 pod\uff0c\u8fdb\u5165 pod \u4e2d\u6267\u884c\u547d\u4ee4\u7b49\u3002\u4f60\u8fd8\u53ef\u4ee5\u4f7f\u7528 YAML \u6587\u4ef6\u5b9a\u4e49\u8d44\u6e90\u5bf9\u8c61\uff0c\u7136\u540e\u4f7f\u7528 kubectl \u5c06\u5176\u5e94\u7528\u5230\u96c6\u7fa4\u4e2d\u3002",
+            "uid": "rugqtnG4R"
+          }
+        ],
+        "edit-time": 1637454582014,
+        "refs": [
+          {
+            "uid": "MEpWzIjx4"
+          }
+        ],
+        "string": "\u4ec0\u4e48\u662f [[Kubectl]]\uff1f",
+        "uid": "J0A_6UEun"
+      },
+      {
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "edit-time": 1637454553351,
+        "string": "\u8fdb\u5165 Kubernetes pod \u7684\u6d41\u91cf\u79f0\u4e3a Ingress\uff0c\u800c\u4ece pod \u5230\u96c6\u7fa4\u5916\u7684\u51fa\u7ad9\u6d41\u91cf\u79f0\u4e3a egress\u3002\u6211\u4eec\u521b\u5efa\u5165\u53e3\u7b56\u7565\u548c\u51fa\u53e3\u7b56\u7565\u7684\u76ee\u7684\u662f\u9650\u5236\u4e0d\u9700\u8981\u7684\u6d41\u91cf\u8fdb\u5165\u548c\u6d41\u51fa\u670d\u52a1\u3002\u800c\u8fd9\u4e9b\u7b56\u7565\u4e5f\u662f\u5b9a\u4e49 pod \u4f7f\u7528\u7684\u7aef\u53e3\u6765\u63a5\u53d7\u4f20\u5165\u548c\u4f20\u8f93\u4f20\u51fa\u6570\u636e / \u6d41\u91cf\u7684\u5730\u65b9\u3002",
+        "uid": "jxNC30pxe"
+      },
+      {
+        ":block/refs": [
+          {
+            ":block/uid": "MgX5xZ7Iq"
+          }
+        ],
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "edit-time": 1637454589306,
+        "refs": [
+          {
+            "uid": "MgX5xZ7Iq"
+          }
+        ],
+        "string": "[[Prometheus]]",
+        "uid": "GJJSTqlqG"
+      }
+    ],
+    "create-time": 1637454548729,
+    "edit-time": 1637454548731,
+    "title": "kubernetes",
+    "uid": "n0ZT1frjD"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1637454559050,
+    "edit-time": 1637454559051,
+    "title": "namespace",
+    "uid": "70YdicCV_"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1637454577076,
+    "edit-time": 1637454577077,
+    "title": "pod",
+    "uid": "s98yuZmcg"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1637454582016,
+    "edit-time": 1637454582016,
+    "title": "Kubectl",
+    "uid": "MEpWzIjx4"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1637454589308,
+    "edit-time": 1637454589308,
+    "title": "Prometheus",
+    "uid": "MgX5xZ7Iq"
   }
 ]

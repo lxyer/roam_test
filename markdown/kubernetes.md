@@ -1,0 +1,26 @@
+- Kubernetes 的重要组件
+    - [[namespace]]
+        - 当你第一次设置 Kubernetes 时，你会创建一个集群。所有其他组件都是集群的一部分。你也可以创建多个虚拟集群，称为命名空间 (namespace)，它们是同一个物理集群的一部分
+    - node
+        - 节点是集群中的单个机器
+        - 节点可能对应于物理机器，但更可能对应于在云中运行的虚拟机
+        - 节点是部署你的应用或服务的地方，是 Kubernetes 工作的地方
+        - 有 2 种类型的节点:
+            - master 节点
+            - worker 节点
+            - 所以说 Kubernetes 是主从结构的
+        - 主节点是一个控制其他所有节点的特殊节点。一方面，它和集群中的任何其他节点一样，这意味着它只是另一台机器或虚拟机。另一方面，它运行着控制集群其他部分的软件。它向集群中的所有其他节点发送消息，将工作分配给它们，工作节点向主节点上的 API Server 汇报。
+        - Master 节点本身也包含一个名为 API Server 的组件。这个 API 是节点与控制平面通信的唯一端点。API Server 至关重要，因为这是 worker 节点和 master 节点就 pod、deployment 和所有其他 Kubernetes API 对象的状态进行通信的点。
+        - 
+        - Woker 节点是 Kubernetes 中真正干活的节点。当你在应用中部署容器或 pod（稍后定义）时，其实是在将它们部署到 worker 节点上运行。Worker 节点托管和运行一个或多个容器的资源。
+    - [[pod]]
+        - Kubernetes 中的逻辑而非物理的工作单位称为 pod
+        - 一个 pod 类似于 Docker 中的容器
+        - 一个 Kubernetes pod 通常包含一个或多个 Docker 容器，所有的容器都作为一个单元来管理
+    - service
+        - Kubernetes 中的 service 是一组逻辑上的 pod。把一个 service 看成是一个 pod 的逻辑分组，它提供了一个单一的 IP 地址和 DNS 名称，你可以通过它访问服务内的所有 pod。
+        - 有了服务，就可以非常容易地设置和管理负载均衡
+- 什么是 [[Kubectl]]？
+    - kubectl 是一个命令行工具，用于与 Kubernetes 集群和其中的 pod 通信。使用它你可以查看集群的状态，列出集群中的所有 pod，进入 pod 中执行命令等。你还可以使用 YAML 文件定义资源对象，然后使用 kubectl 将其应用到集群中。
+- 进入 Kubernetes pod 的流量称为 Ingress，而从 pod 到集群外的出站流量称为 egress。我们创建入口策略和出口策略的目的是限制不需要的流量进入和流出服务。而这些策略也是定义 pod 使用的端口来接受传入和传输传出数据 / 流量的地方。
+- [[Prometheus]]
