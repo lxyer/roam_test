@@ -1,5 +1,5 @@
-- ____ — via [缓存更新的套路 | 酷 壳 - CoolShell](https://coolshell.cn/articles/17416.html) [[+Roam]]
-    - 更新缓存的的[[Design Pattern]]有四种：[[Cache aside]], [[Read through]], [[Write through]], [[Write behind caching]]
+- ____ — via [缓存更新的套路 | 酷 壳 - CoolShell](https://coolshell.cn/articles/17416.html) [+Roam](<+Roam.md>)
+    - 更新缓存的的[Design Pattern](<Design Pattern.md>)有四种：[Cache aside](<Cache aside.md>), [Read through](<Read through.md>), [Write through](<Write through.md>), [Write behind caching](<Write behind caching.md>)
         - Cache Aside Pattern
             - 失效：应用程序先从cache取数据，没有得到，则从数据库中取数据，成功后，放到缓存中。
             - 命中：应用程序从cache中取数据，取到后返回。
@@ -14,7 +14,7 @@
             - Write Through
                 - Write Through 套路和Read Through相仿，不过是在更新数据时发生。当有数据更新的时候，如果没有命中缓存，直接更新数据库，然后返回。如果命中了缓存，则更新缓存，然后再由Cache自己更新数据库（这是一个同步操作）
         - Write Behind Caching Pattern
-            - [[Write Behind]] 又叫 [[Write Back]]。一些了解Linux操作系统内核的同学对write back应该非常熟悉，这就是Linux文件系统的[[Page Cache]]的算法
+            - [Write Behind](<Write Behind.md>) 又叫 [Write Back](<Write Back.md>)。一些了解Linux操作系统内核的同学对write back应该非常熟悉，这就是Linux文件系统的[Page Cache](<Page Cache.md>)的算法
             - 在更新数据的时候，只更新缓存，不更新数据库，而我们的缓存会异步地批量更新数据库。这个设计的好处就是让数据的I/O操作飞快无比（因为直接操作内存嘛 ），因为异步，write back还可以合并对同一个数据的多次操作，所以性能的提高是相当可观的。
             - 但是，其带来的问题是，数据不是强一致性的，而且可能会丢失
-            - 另外，Write Back实现逻辑比较复杂，因为他需要track有哪数据是被更新了的，需要刷到持久层上。操作系统的write back会在仅当这个cache需要失效的时候，才会被真正持久起来，比如，内存不够了，或是进程退出了等情况，这又叫[[lazy write]]。
+            - 另外，Write Back实现逻辑比较复杂，因为他需要track有哪数据是被更新了的，需要刷到持久层上。操作系统的write back会在仅当这个cache需要失效的时候，才会被真正持久起来，比如，内存不够了，或是进程退出了等情况，这又叫[lazy write](<lazy write.md>)。
