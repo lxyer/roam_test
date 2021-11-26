@@ -82714,5 +82714,235 @@
     "edit-time": 1637831064400,
     "title": "lazy write",
     "uid": "7r-EcMGcB"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "children": [
+      {
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1637890109454,
+            "edit-time": 1637890122788,
+            "string": "**Pagico 10**  PGCOX-F4FEFD-6781",
+            "uid": "sp9nPTmp7"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1637890123572,
+            "edit-time": 1637890139922,
+            "string": "**XSplit VCam Premium**  6b7b24fe-c793-4d99-bf37-e0fee3ceb714",
+            "uid": "WGE0fM_vk"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1637890140260,
+            "edit-time": 1637890153090,
+            "string": "**Flame Painter 4** 4C5A0-EE4MW-AAM0F",
+            "uid": "t4Hyn71oN"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1637890153085,
+            "edit-time": 1637890164666,
+            "string": "**PDF Reader Pro** 0C84-DEDB-D909-992B",
+            "uid": "CRS3w5oZ0"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1637890164688,
+            "edit-time": 1637890179714,
+            "string": " **Sticky Password Premium** DA01PN-254D8B-210669",
+            "uid": "lIcSb0Vky"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1637890179707,
+            "edit-time": 1637890193954,
+            "string": "**CloudMounter**  E0F1F-CF7CE-86607-8F35D-D3344",
+            "uid": "2oOEWUPcC"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637892999039,
+                "string": "**Licence key**",
+                "uid": "VjODu8k7P"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1637892999039,
+                "string": "DC9ABF54-8814F0DB-42CC87D9-F4E0BFE6-150AA676",
+                "uid": "_nVDnYxbz"
+              }
+            ],
+            "create-time": 1637890194129,
+            "edit-time": 1637892993024,
+            "string": "**Scapple** Stack21SCAPPLE-03A763D8  ",
+            "uid": "rKZ0IgFPa"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1637890204353,
+            "edit-time": 1637890216487,
+            "string": "**BuhoCleaner Family Plan** H2303-T625F-PF010-R55D3-MMFS",
+            "uid": "0UxOUv2qg"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1637890216481,
+            "edit-time": 1637890226703,
+            "string": "**RealVPN** FEILQY9ARGHYYILG",
+            "uid": "TwZmVcMt8"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1637890226748,
+            "edit-time": 1637890237641,
+            "string": "**AppGameKit Studio** N3DVZ-B4RTN-5IBN0",
+            "uid": "AqFQK4E9Q"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1637890237748,
+            "edit-time": 1637890248249,
+            "string": "**Filmage Screen Pro** 0ACF-E0C5-4A10-5AE0",
+            "uid": "KgNNzfHNL"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1637890248289,
+            "edit-time": 1637890258745,
+            "string": "**TextSniper** 1A3EBCB8-74E0FEDB-BDB8E3E8-10AA28C6-9CE4FDE3",
+            "uid": "om-2UIqQT"
+          }
+        ],
+        "create-time": 1637890062937,
+        "edit-time": 1637890109460,
+        "string": "\u9ed1\u4e94\u8d2d\u4e70\u4e86https://stacksocial.com/ \u8f6f\u4ef6\u5305 18 \u7f8e\u5143",
+        "uid": "WRwZl2kye"
+      },
+      {
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "edit-time": 1637903699346,
+        "string": "\u786e\u5b9e\uff0cKarabiner Elements \u5c5e\u4e8e\u5e95\u5c42\u952e\u76d8\u6620\u5c04\uff0c\u6539\u5efa\u66f4\u7a33\u5b9a\u9ad8\u6548\u3002",
+        "uid": "twxoeEKIz"
+      },
+      {
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "edit-time": 1637903699346,
+        "string": "\u5e78\u597d Karabiner \u514d\u8d39\uff0c\u559c\u6b22\u6298\u817e Mac \u6548\u7387\u5de5\u5177\u7684",
+        "uid": "2VInwd1hP"
+      },
+      {
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "edit-time": 1637903699346,
+        "string": "Karabiner + Keyboard Maestro + Alfred \u4e09\u5251\u5ba2\u65e0\u654c",
+        "uid": "sZqyVyDDJ"
+      },
+      {
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "edit-time": 1637903699346,
+        "string": "\u73a9\u597d\u89e6\u63a7\u677f\uff0c\u9009\u914d BetterTouchTool",
+        "uid": "v3r27dfZn"
+      },
+      {
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "edit-time": 1637903699346,
+        "string": "\u7a0b\u5e8f\u5458\u8fdb\u9636\uff0c\u73a9\u8f6c Hammerspoon",
+        "uid": "Potc1rr55"
+      }
+    ],
+    "create-time": 1637887211494,
+    "edit-time": 1637887211494,
+    "title": "November 26th, 2021",
+    "uid": "11-26-2021"
   }
 ]

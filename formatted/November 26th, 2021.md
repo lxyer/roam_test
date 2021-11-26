@@ -1,0 +1,20 @@
+- 黑五购买了https://stacksocial.com/ 软件包 18 美元
+    - **Pagico 10**  PGCOX-F4FEFD-6781
+    - **XSplit VCam Premium**  6b7b24fe-c793-4d99-bf37-e0fee3ceb714
+    - **Flame Painter 4** 4C5A0-EE4MW-AAM0F
+    - **PDF Reader Pro** 0C84-DEDB-D909-992B
+    -  **Sticky Password Premium** DA01PN-254D8B-210669
+    - **CloudMounter**  E0F1F-CF7CE-86607-8F35D-D3344
+    - **Scapple** Stack21SCAPPLE-03A763D8  
+        - **Licence key**
+        - DC9ABF54-8814F0DB-42CC87D9-F4E0BFE6-150AA676
+    - **BuhoCleaner Family Plan** H2303-T625F-PF010-R55D3-MMFS
+    - **RealVPN** FEILQY9ARGHYYILG
+    - **AppGameKit Studio** N3DVZ-B4RTN-5IBN0
+    - **Filmage Screen Pro** 0ACF-E0C5-4A10-5AE0
+    - **TextSniper** 1A3EBCB8-74E0FEDB-BDB8E3E8-10AA28C6-9CE4FDE3
+- 确实，Karabiner Elements 属于底层键盘映射，改建更稳定高效。
+- 幸好 Karabiner 免费，喜欢折腾 Mac 效率工具的
+- Karabiner + Keyboard Maestro + Alfred 三剑客无敌
+- 玩好触控板，选配 BetterTouchTool
+- 程序员进阶，玩转 Hammerspoon
