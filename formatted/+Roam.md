@@ -34,6 +34,9 @@
 ## [October 3rd, 2020](<October 3rd, 2020.md>)
 - ____ — via [《会记笔记就会写作》完全版-中](https://mp.weixin.qq.com/s?__biz=MzI1NTA4Nzk5Mw==&mid=2247483814&idx=1&sn=d2371a3016337a6bd66cef2cd80653e9&chksm=ea3a05b0dd4d8ca62a7948c4da3e821c95e3a28a7f8479e42944967ba071ff3a79ee25b75e8e&scene=158[rd](<rd.md>)) [+Roam](<+Roam.md>)
 
+## [R2M](<R2M.md>)
+- ____ — via [【接入必看】业务方使用缓存必看 - 数科技术平台 - 主页面](https://cf.jd.com/pages/viewpage.action?pageId=350685726) [+Roam](<+Roam.md>)
+
 ## [Redis](<Redis.md>)
 - ____ — via [个人吐血系列-总结[Redis](<Redis.md>) - 掘金](https://juejin.cn/post/6844904132868833293?utm_source=gold_browser_extension[heading-8](<heading-8.md>)) [+Roam](<+Roam.md>)
 

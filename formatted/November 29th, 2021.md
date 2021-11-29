@@ -1,0 +1,23 @@
+- Mysql [coalesce](<coalesce.md>)()函数 主要用来返回第一个非空参数;
+    - select coalesce(a,b,c);
+    - 如果a==null,则选择b；如果b==null,则选择c；如果a!=null,则选择a；如果a b c 都为null ，则返回为null（没意义）。
+- [京东中间件](<京东中间件.md>)
+    - [R2M](<R2M.md>)版本
+        - [r2m-web](<r2m-web.md>)
+            - 版本:4.0.2
+            - 描述： r2m 管控台
+        - [r2m-3c](<r2m-3c.md>)
+            - 版本:1.0.4
+            - 描述： r2m客户端配置中心
+        - [r2m-manager](<r2m-manager.md>)
+            - 版本:2.3.0
+            - 描述： manager集中管控，负责agent管理，agent与web通信
+        - [r2m-proxy](<r2m-proxy.md>)
+            - 版本:1.5.6
+            - 描述： 代理模式访问集群中间件
+        - [r2m-port](<r2m-port.md>)
+            - 版本:1.6.5
+            - 描述： R2M数据迁移工具
+        - [r2m-agent](<r2m-agent.md>)
+            - 版本:3.0.0
+            - 描述： 单机管控
