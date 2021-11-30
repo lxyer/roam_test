@@ -2,11 +2,11 @@
 - 一早就[股票](<股票.md>)开户了,选择的[券商](<券商.md>)是[国泰君安](<国泰君安.md>)
 - [API接口防止参数篡改和重放攻击](https://www.toutiao.com/a6825895919972516365/) #[Roam-Highlights](<Roam-Highlights.md>)
     - [API重放攻击](<API重放攻击.md>): 就是把之前窃听到的数据原封不动的重新发送给接收方
-    - timestamp的作用
+    - [timestamp](<timestamp.md>)的作用
         - 后台验证时间戳与当前时间之差,超过预定数值未时间失效,缺点无法防止规定时间内的攻击
     - nonce的作用
         - 随机字符串后台收到后放入到[Redis](<Redis.md>)中,如果发现[Redis](<Redis.md>)中已有值,则判断此次访问无效,可以保证参数访问的一次性有效性.缺点为这个[Redis](<Redis.md>)中的数据会越来越大.
-    - [最佳实践](<最佳实践.md>)结合timestamp和nonce,[Redis](<Redis.md>)中的数据加入过期设置
+    - [最佳实践](<最佳实践.md>)结合[timestamp](<timestamp.md>)和nonce,[Redis](<Redis.md>)中的数据加入过期设置
 - [冒烟测试](<冒烟测试.md>)
 - [开源软件协议](<开源软件协议.md>)
 - [神仙打架：PG 和 MySQL 到底哪个更好用？](https://www.toutiao.com/a6835793897591931400/) [Roam-Highlights](<Roam-Highlights.md>)

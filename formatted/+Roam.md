@@ -26,6 +26,9 @@
 ## [November 25th, 2021](<November 25th, 2021.md>)
 - ____ — via [缓存更新的套路 | 酷 壳 - CoolShell](https://coolshell.cn/articles/17416.html) [+Roam](<+Roam.md>)
 
+## [November 30th, 2021](<November 30th, 2021.md>)
+- — via [MySQL 中 [datetime](<datetime.md>) 和 [timestamp](<timestamp.md>) 的区别与选择 - SegmentFault 思否](https://segmentfault.com/a/1190000017393602) [+Roam](<+Roam.md>)
+
 ## [October 20th, 2020](<October 20th, 2020.md>)
 - ____ — via [《会记笔记就会写作》完全版-中](https://mp.weixin.qq.com/s?__biz=MzI1NTA4Nzk5Mw==&mid=2247483814&idx=1&sn=d2371a3016337a6bd66cef2cd80653e9&chksm=ea3a05b0dd4d8ca62a7948c4da3e821c95e3a28a7f8479e42944967ba071ff3a79ee25b75e8e&scene=158[rd](<rd.md>)) [+Roam](<+Roam.md>)
 
