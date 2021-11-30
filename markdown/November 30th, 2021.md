@@ -1,14 +1,14 @@
 - 数据库问题 #R2M
     - r2m_3c_client 表created_time [[datetime]]类型,但是modified_time 使用了[[timestamp]]类型
     - r2m_3c_config_type表中
-- 
+- VMware Fusion Player – Personal UseH108L-8H2EN-N8TJC-0T9H6-2DYQN
 - — via [MySQL 中 [[datetime]] 和 [[timestamp]] 的区别与选择 - SegmentFault 思否](https://segmentfault.com/a/1190000017393602) [[+Roam]]
     - 占用空间
         - [[datetime]] 8 字节
         - [[timestamp]] 4 字节
     - 表示范围
-    - [[datetime]] '1000-01-01 00:00:00.000000' to '9999-12-31 23:59:59.999999'
-    - [[timestamp]] '1970-01-01 00:00:01.000000' to '2038-01-19 03:14:07.999999'
+        - [[datetime]] '1000-01-01 00:00:00.000000' to '9999-12-31 23:59:59.999999'
+        - [[timestamp]] '1970-01-01 00:00:01.000000' to '2038-01-19 03:14:07.999999'
 - 时区
     - [[timestamp]] 只占 4 个字节，而且是以utc的格式储存， 它会自动检索当前时区并进行转换。
     - [[datetime]]以 8 个字节储存，不会进行时区的检索.
