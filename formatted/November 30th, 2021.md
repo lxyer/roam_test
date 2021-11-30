@@ -1,6 +1,11 @@
 - 数据库问题 [R2M](<R2M.md>)
     - r2m_3c_client 表created_time [datetime](<datetime.md>)类型,但是modified_time 使用了[timestamp](<timestamp.md>)类型
-    - r2m_3c_config_type表中
+    - r2m_3c_config_type表中类型枚举没有注释
+    - r2m_alarm_define中alarm_mode字段使用与运算进行存储
+    - 很多字段使用了 MySQL 的关键字
+    - 部分字段空间过大:例如r2m_alarm_define中的 deleted 字段使用了 int(11)
+    - 有的字段在建表的时候没有设置非空not null
+    - 
 - VMware Fusion Player – Personal UseH108L-8H2EN-N8TJC-0T9H6-2DYQN
 - — via [MySQL 中 [datetime](<datetime.md>) 和 [timestamp](<timestamp.md>) 的区别与选择 - SegmentFault 思否](https://segmentfault.com/a/1190000017393602) [+Roam](<+Roam.md>)
     - 占用空间
@@ -18,3 +23,25 @@
     - 如果在时间上要超过Linux时间的，或者服务器时区不一样的就建议选择 [datetime](<datetime.md>)。
     - 如果是想要使用自动插入时间或者自动更新时间功能的，可以使用[timestamp](<timestamp.md>)。
     - 如果只是想表示年、日期、时间的还可以使用 year、 date、 time，它们分别占据 1、3、3 字节，而[datetime](<datetime.md>)就是它们的集合。
+- ____ — via [【Mysql优化】key和index区别 - QiaoZhi - 博客园](https://www.cnblogs.com/qlqwjy/p/8594798.html) [+Roam](<+Roam.md>)
+    - key 是数据库的物理结构，它包含两层意义，一是约束（偏重于约束和规范数据库的结构完整性），二是索引（辅助查询用的）。包括primary key, unique key, foreign key 等
+        - primary key 有两个作用，一是约束作用（[constraint](<constraint.md>)），用来规范一个存储主键和唯一性，但同时也在此key上建立了一个index；
+        - unique key 也有两个作用，一是约束作用（constraint），规范数据的唯一性，但同时也在这个key上建立了一个index；
+        - foreign key也有两个作用，一是约束作用（constraint），规范数据的引用完整性，但同时也在这个key上建立了一个index；
+        - mysql的key是同时具有constraint和index的意义，这点和其他数据库表现的可能有区别
+    - index是数据库的物理结构，它只是辅助查询的，它创建时会在另外的表空间（mysql中的innodb表空间）以一个类似目录的结构存储。索引要分类的话，分为前缀索引、全文本索引等；
+        - 因此，索引只是索引，它不会去约束索引的字段的行为（那是key要做的事情）
+- MySQL 字段类型使用字符串合适数字好
+    - 性能上差不多,如果使用 MySQL 的枚举类型,如果后面数据库字段增加类型需要对表进行 alert 操作,这个对线上服务影响非常大,不建议使用枚举
+    - 字符串
+        - 优点:对于文档和代码可读性好,不用记忆字数和意思的映射关系.
+        - 在代码中需要对类型就行合法性检验,防止写错.建议代码中使用枚举.
+    - 数字
+        - 优点:可以对于有规律的类型使用<>等条件的方便查询
+        - 如果要设计的时候最好不要使用连续的数字,要为后来需要拓展预留空间.比如设计成 10,20,30.后面新的小类型可以使用 11,12 这样进行拓展.
+- 
+
+# Backlinks
+## [2021-11-29~2021-12-03](<2021-11-29~2021-12-03.md>)
+- [November 30th, 2021](<November 30th, 2021.md>)
+
