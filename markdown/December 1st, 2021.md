@@ -1,6 +1,21 @@
+- r2m_web 项目代码
+    - public @ResponseBody 写法
+    - controller 中做了太多的业务逻辑
+    - @Transactional(rollbackFor = Exception.class)
+        - 在@Transactional注解中如果不配置rollbackFor属性,那么事物只会在遇到RuntimeException的时候才会回滚,加上rollbackFor=Exception.class,可以让事物在遇到非运行时异常时也回滚
+    - @Autowired建议修改为@Resource
+    - maven个别插件没有版本号无法下载
+- controller 层不写业务代码
+    - 控制器，主要负责业务的调度，而业务主要放在service中来实现
+    - 代码都写在controller会看起来很乱！易读性差！
+    - 也是最重要的一条！applicationContext-db.xml中配置的事务配置的事务不会生效！
+    - 如果用 @Transactional注解还会导致接口404
+- 凡事有交代，件件有着落，事事有回音。首先，是做事[[靠谱]]。
 - vir脚本
+    - 停止所有的container（容器），这样才能够删除其中的images：docker stop $(docker ps -aq)
+    - 如果想要删除所有container（容器）的话再加一个指令：docker rm $(docker ps -aq)
     - docker pull luminoleon/epicgames-claimer
-    - docker run -it --name epic luminoleon/epicgames-claimer
+    - docker run -it --name=epic luminoleon/epicgames-claimer
     - docker run -it --name=epicgames -v /你的硬盘/docker/epicgames_claimer/User_Data:/User_Data -e PUSH_SERVERCHAN_SENDKEY=<server酱sendkey> -e RUN_AT=10:00 -e AUTO_UPDATE=true -e TZ=Asia/Shanghai luminoleon/epicgames-claimer:latest -u <epic账号> -p <epic密码>
     - docker run --name=cast -p 8080:8080 -v $(pwd)/data:/app/data/ -v $(pwd)/config.toml:/app/config.toml ghcr.io/fqx/podsync-with-yt-dlp:latest
     - docker pull ghcr.io/fqx/podsync-with-yt-dlp:latest
