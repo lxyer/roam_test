@@ -84919,7 +84919,7 @@
           {
             ":block/refs": [
               {
-                ":block/uid": "9bjNqp_dA"
+                ":block/uid": "wPXDMCITO"
               }
             ],
             ":create/user": {
@@ -84929,26 +84929,14 @@
               ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
             },
             "create-time": 1638256412316,
-            "edit-time": 1638256461964,
+            "edit-time": 1638338165793,
             "refs": [
               {
-                "uid": "9bjNqp_dA"
+                "uid": "wPXDMCITO"
               }
             ],
-            "string": "{{[[TODO]]}} \u719f\u6089 R2M\u7684 MySQL \u6570\u636e\u5e93",
+            "string": "{{[[DONE]]}} \u719f\u6089 R2M\u7684 MySQL \u6570\u636e\u5e93",
             "uid": "2KeaeMvTM"
-          },
-          {
-            ":create/user": {
-              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-            },
-            ":edit/user": {
-              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-            },
-            "create-time": 1638256464485,
-            "edit-time": 1638256474489,
-            "string": "",
-            "uid": "y9VIq2kJP"
           }
         ],
         "create-time": 1638256398584,
@@ -84960,6 +84948,64 @@
         ],
         "string": "[[November 30th, 2021]]",
         "uid": "aAHhSQSxn"
+      },
+      {
+        ":block/refs": [
+          {
+            ":block/uid": "12-01-2021"
+          }
+        ],
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":block/refs": [
+              {
+                ":block/uid": "wPXDMCITO"
+              }
+            ],
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1638338172968,
+            "edit-time": 1638338206374,
+            "refs": [
+              {
+                "uid": "wPXDMCITO"
+              }
+            ],
+            "string": "{{[[DONE]]}} \u5b8c\u6210 2021H2\u7ee9\u6548\u5236\u5b9a",
+            "uid": "BSDkAkcOu"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1638338203076,
+            "edit-time": 1638338203076,
+            "string": "",
+            "uid": "6IY02Ekeo"
+          }
+        ],
+        "create-time": 1638256464485,
+        "edit-time": 1638338172974,
+        "refs": [
+          {
+            "uid": "12-01-2021"
+          }
+        ],
+        "string": "[[December 1st, 2021]]",
+        "uid": "y9VIq2kJP"
       }
     ],
     "create-time": 1638256393156,
@@ -84974,6 +85020,120 @@
     ":edit/user": {
       ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
     },
+    "children": [
+      {
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1638320641259,
+            "edit-time": 1638320654778,
+            "string": "docker pull luminoleon/epicgames-claimer",
+            "uid": "AFmbvY8mg"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1638320654953,
+            "edit-time": 1638336122568,
+            "string": "docker run -it --name epic luminoleon/epicgames-claimer",
+            "uid": "cznWcSIQd"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1638339369999,
+            "edit-time": 1638339371275,
+            "string": "docker run -it --name=epicgames -v /\u4f60\u7684\u786c\u76d8/docker/epicgames_claimer/User_Data:/User_Data -e PUSH_SERVERCHAN_SENDKEY=<server\u9171sendkey> -e RUN_AT=10:00 -e AUTO_UPDATE=true -e TZ=Asia/Shanghai luminoleon/epicgames-claimer:latest -u <epic\u8d26\u53f7> -p <epic\u5bc6\u7801>",
+            "uid": "yqmabQEb-"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1638320665637,
+            "edit-time": 1638320692322,
+            "string": "docker run --name=cast -p 8080:8080 -v $(pwd)/data:/app/data/ -v $(pwd)/config.toml:/app/config.toml ghcr.io/fqx/podsync-with-yt-dlp:latest",
+            "uid": "XRxyPV0gD"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1638320693637,
+            "edit-time": 1638320723130,
+            "string": "docker pull ghcr.io/fqx/podsync-with-yt-dlp:latest",
+            "uid": "Sp5_KszB_"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1638320723614,
+            "edit-time": 1638320736523,
+            "string": "sudo apt-get install docker-ce",
+            "uid": "6aLrNIYjz"
+          }
+        ],
+        "create-time": 1638320632769,
+        "edit-time": 1638320641264,
+        "string": "vir\u811a\u672c",
+        "uid": "DCKq8R54h"
+      },
+      {
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1638323523510,
+            "edit-time": 1638323539273,
+            "string": "```javascript\n[server]\nport = 8080\nhostname = \"http://cast.yibishe.com:8080\" # \u6b64\u5904\u586b\u5199 IP \u5730\u5740\u6216\u8005\u57df\u540d\uff0c\u5982\u679c\u6709HTTPS\u8bc1\u4e66\u7684\u8bdd\u8bb0\u5f97\u6539\u6210 https://\ndata_dir = \"/app/data\" # \u4e0d\u8981\u6539\u52a8\u8fd9\u4e2a\u5730\u65b9\uff01\n\n# Tokens from `Access tokens` section\n[tokens]\nyoutube = \"AIzaSyBN0356XIPQHPS4LjJM2fwSrNBWBhtOjiI\" # \u5f15\u53f7\u5185\u586b\u5199 YouTube API Key.\n\n[feeds]\n  [feeds.ID1]\n  # ID1 \u4e3a\u6700\u7ec8\u751f\u6210\u7684RSS\u6587\u4ef6\u7684\u540d\u79f0\uff0c\u53ef\u4ee5\u4fee\u6539\n  url = \"www.youtube.com/channel/UCtAIPjABiQD3qjlEl1T5VpA\" # \u6587\u662d \u5f15\u53f7\u5185\u586b\u5199Youtube\u9891\u9053/\u7ec4\u7ec7/\u7528\u6237/\u64ad\u653e\u5217\u8868\u7684\u94fe\u63a5\uff0c\u6ce8\u610f\u4e0d\u8981\u6709 http:// \u90e8\u5206\uff01\uff01\uff01\n  page_size = 3 # \u6bcf\u6b21\u66f4\u65b0\u8282\u76ee\u65f6\u7684\u5206\u9875\u5927\u5c0f\n  update_period = \"20h\" # \u66f4\u65b0\u5468\u671f\uff0c\u4f8b\u5982: \"60m\", \"4h\", \"2h45m\"\n  quality = \"low\" # \u6587\u4ef6\u54c1\u8d28\u9ad8-high\uff0c\u6216\u4f4e-low\n  format = \"audio\" # \u6587\u4ef6\u7c7b\u578b\u97f3\u9891-audio\uff0c\u89c6\u9891-video\uff0c\u901a\u5e38\u64ad\u5ba2\u4f7f\u7528\u97f3\u9891\u7c7b\u578b\u5373\u53ef\n  # filters = { title = \"111\", not_title = \"222\", description = \"333\", not_description = \"444\" } # [\u53ef\u9009\u9879\uff0c\u4f7f\u7528\u65f6\u53bb\u9664\u884c\u9996\u4e95\u53f7]\u8fc7\u6ee4\u8282\u76ee\uff0c\u53ea\u4fdd\u7559\u300c\u6807\u9898\u542b\u6709111\uff0c\u4e0d\u542b222\uff0c\u63cf\u8ff0\u5305\u542b 333\uff0c\u4e0d\u542b 444 \u7684\u8282\u76ee\u300d\n  clean = { keep_last = 3 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n  # \u53ef\u4ee5\u914d\u7f6e\u591a\u4e2a feeds\n  [feeds.ID2]\n  url = \"www.youtube.com/channel/UC2IpIQXiLrMV3EAMjfKbcUw\" # \u96ea\u77f3\u770b\u4e16\u754c\n  page_size = 3\n  update_period = \"1h\"\n  quality = \"low\"\n  format = \"audio\"\n  clean = { keep_last = 5 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID3]\n  url = \"www.youtube.com/channel/UCJncdiH3BQUBgCroBmhsUhQ\" # GuanchaNews\u89c2\u5bdf\u8005\u7f51\n  page_size = 3\n  update_period = \"3h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 3 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID4]\n  url = \"www.youtube.com/channel/UCghLs6s95LrBWOdlZUCH4qw\" # stone\u8bb0\n  page_size = 3\n  update_period = \"1h\"\n  quality = \"low\"\n  format = \"audio\"\n  clean = { keep_last = 3 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID5]\n  url = \"www.youtube.com/channel/UCr_F4Y9iboUKlg_ZPm4jkVQ\" # \u8001\u6881\n  page_size = 3\n  update_period = \"13h\"\n  quality = \"low\"\n  format = \"video\"\n  clean = { keep_last = 3 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID6]\n  url = \"www.youtube.com/channel/UC-RJVvzcNw4_nMmTRYta3Qw\" # \u5766\u514b\u732b\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"low\"\n  format = \"audio\"\n  clean = { keep_last = 3 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID7]\n  url = \"www.youtube.com/channel/UCiOR3zQCU-tLza5g1MuqABA\" # \u5bf0\u5b87\u5168\u8996\u754c\n  page_size = 3\n  update_period = \"1h\"\n  quality = \"low\"\n  format = \"video\"\n  clean = { keep_last = 5 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID8]\n  url = \"www.youtube.com/channel/UCa6ERCDt3GzkvLye32ar89w\" # \u6c5f\u5cf0\u65f6\u523b\n  page_size = 3\n  update_period = \"12h\"\n  quality = \"low\"\n  format = \"audio\"\n  clean = { keep_last = 3 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID9]\n  url = \"www.youtube.com/channel/UCS1kMgt4igpfjL5lhGvo-fw\" # SchelleyYuki\n  page_size = 3\n  update_period = \"40h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 2 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID10]\n  url = \"www.youtube.com/channel/UCSs4A6HYKmHA2MG_0z-F0xw\" # \u674e\u6c38\u4e50\u8001\u5e08\n  page_size = 3\n  update_period = \"24h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 2 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID11]\n  url = \"www.youtube.com/channel/UCIXOIjR2mp8tHz78DE0vj2A\" # \u5f90\u6653\u51ac\u5317\u4eac\u683c\u6597\u72c2\u4eba\n  page_size = 3\n  update_period = \"20h\"\n  quality = \"low\"\n  format = \"video\"\n  clean = { keep_last = 2 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID12]\n  url = \"www.youtube.com/channel/UCTmkJjSjrtpH2HAIpZ-qFRQ\" # Zhou's Talkshow \u5468\u5468\u4f83\n  page_size = 3\n  update_period = \"13h\"\n  quality = \"low\"\n  format = \"audio\"\n  clean = { keep_last = 3 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID13]\n  url = \"www.youtube.com/channel/UCii04BCvYIdQvshrdNDAcww\" # WukongDaily\n  page_size = 3\n  update_period = \"20h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 2 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID14]\n  url = \"www.youtube.com/channel/UCLZBXiS9ZrIXgKBs_SMfGBQ\" # \u5c11\u5eb7\u6230\u60c5\u5ba4\n  page_size = 3\n  update_period = \"1h\"\n  quality = \"low\"\n  format = \"video\"\n  clean = { keep_last = 5 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID15]\n  url = \"www.youtube.com/channel/UCpPswAyGzdRwWmiW5oTNnvA\" # BIGDONGDONG\n  page_size = 2\n  update_period = \"24h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 1 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID16]\n  url = \"www.youtube.com/channel/UCG6ADYIl4GxaQib1HKIsRNg\" # \u5927\u5eb7\u6709\u8bdd\u8bf4\n  page_size = 3\n  update_period = \"1h\"\n  quality = \"low\"\n  format = \"audio\"\n  clean = { keep_last = 2 } # \u81ea\u52a8\u6e05\u7406\uff0c\u53ea\u4fdd\u7559\u6700\u8fd110\u671f\u8282\u76ee\n\n  [feeds.ID17]\n  url = \"www.youtube.com/channel/UCAq_xQV8pJ2Q_KOszzaYPBg\" # \u5d14\u6c38\u5143\n  page_size = 3\n  update_period = \"20h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 2 }\n\n  [feeds.ID18]\n  url = \"www.youtube.com/channel/UC9Q8KmHEHhDl_2LSiQNGLaQ\" # \u5927\u5289\u8aaa\u8aaa\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"low\"\n  format = \"video\"\n  clean = { keep_last = 5 }\n\n  [feeds.ID19]\n  url = \"www.youtube.com/channel/UCaMih5WXqoXq7Hg0S_XJdOg\" # Vedio Talk\n  page_size = 3\n  update_period = \"8h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 2 }\n\n  [feeds.ID20]\n  url = \"www.youtube.com/channel/UC5uh3zVGmvyQoks_LxBJ-5Q\" # \u4e2d\u56fd\u9752\u5e74\u90d1\u56fd\u6210\n  page_size = 3\n  update_period = \"2h\"\n  quality = \"low\"\n  format = \"audio\"\n  clean = { keep_last = 10 }\n\n  [feeds.ID21]\n  url = \"www.youtube.com/channel/UCPMqbkR35zZV1ysWGXJPW-w\" # \u65b0\u805e\u770b\u9ede \u674e\u6c90\u967d\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"low\"\n  format = \"video\"\n  clean = { keep_last = 6 }\n\n  [feeds.ID22]\n  url = \"www.youtube.com/channel/UCThvTxQ-zF_ENso9LD_uHOQ\" # \u72d7\u54e5\u72d7\u54e5DogChinaShow\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"low\"\n  format = \"audio\"\n  clean = { keep_last = 5 }\n\n  [feeds.ID23]\n  url = \"www.youtube.com/channel/UCuCELS5-48uP1plTxlOJZQQ\" # \u7121\u8272\u89ba\u9192\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"low\"\n  format = \"audio\"\n  clean = { keep_last = 5 }\n\n  [feeds.ID24]\n  url = \"www.youtube.com/channel/UC2cRwTuSWxxEtrRnT4lrlQA\" # Mediastorm\u5f71\u89c6\u98d3\u98ce\n  page_size = 3\n  update_period = \"12h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 1 }\n\n  [feeds.ID25]\n  url = \"www.youtube.com/channel/UCt5zpwa264A0B-gaYtv1IpA\" # \u7f8e\u56fd\u4e4b\u97f3\u4e2d\u6587\u7f51\n  page_size = 3\n  update_period = \"1h\"\n  quality = \"low\"\n  format = \"video\"\n  clean = { keep_last = 10 }\n\n  [feeds.ID26]\n  url = \"www.youtube.com/channel/UCiLtBk8dChPldOho8uTZHhQ\" # \u963f\u96f7\u79d1\u6280\n  page_size = 2\n  update_period = \"24h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 1 }\n\n  [feeds.ID27]\n  url = \"www.youtube.com/channel/UCT1YrR_CLpwosODYagzhm7Q\" # Vincent Zhong\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 1 }\n\n  [feeds.ID28]\n  url = \"www.youtube.com/channel/UCYfJG6cGfW84FVLuy7semEg\" # Guan Video\u89c2\u89c6\u9891\u5de5\u4f5c\u5ba4\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 3 }\n\n  [feeds.ID29]\n  url = \"www.youtube.com/channel/UCf4YPrRO2clAH-zJcomJaGw\" # \u5148\u770b\u8bc4\u6d4b\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 2 }\n\n  [feeds.ID30]\n  url = \"www.youtube.com/channel/UCAC204niCVvtDRDFYSiK7Cg\" # \u79d1\u6280\u7f8e\u5b66\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 1 }\n\n  [feeds.ID31]\n  url = \"www.youtube.com/channel/UC6ISXkvMtP_Je1ITiYIJSSA\" # FView Official Channel\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 1 }\n\n  [feeds.ID32]\n  url = \"www.youtube.com/channel/UCc_eHNe78W0fLFOXswOdnzw\" # \u563f\u4e1d\u79d1\u6280\u5b98\u65b9\u9891\u9053\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 1 }\n\n  [feeds.ID33]\n  url = \"www.youtube.com/channel/UC9v3JGut2Z1PxrXEpGzgEAA\" # TESTV\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 1 }\n\n  [feeds.ID34]\n  url = \"www.youtube.com/channel/UCq2RQ6j_e7dbEwnvQjCKMkA\" # Yu Qian chat\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"low\"\n  format = \"video\"\n  clean = { keep_last = 2 }\n\n  [feeds.ID35]\n  url = \"www.youtube.com/channel/UCM33VtveeEmfA6LC7tH30Xw\" # \u8881\u817e\u98de\n  page_size = 3\n  update_period = \"4h\"\n  quality = \"low\"\n  format = \"video\"\n  clean = { keep_last = 2 }\n\n  [feeds.ID36]\n  url = \"www.youtube.com/channel/UCnyPxKrdrXDjlBBucRAIuuA\" # \u6ce2\u58eb\u987f\u81ea\u5e72\u4e94-\u5706\u8138\u4f20\u5a92\n  page_size = 3\n  update_period = \"1h\"\n  quality = \"low\"\n  format = \"video\"\n  clean = { keep_last = 2 }\n\n  [feeds.ID37]\n  url = \"www.youtube.com/channel/UCJMEiNh1HvpopPU3n9vJsMQ\" # \u7406\u79d1\u7537\u58ebK\u4e00\u7c73\n  page_size = 3\n  update_period = \"1h\"\n  quality = \"high\"\n  format = \"video\"\n  clean = { keep_last = 3 }\n\n\n\n[database]\n  badger = { truncate = true, file_io = true } # \u6570\u636e\u5e93\u914d\u7f6e\uff0c\u65e0\u9700\u6539\u52a8\n\n[downloader]\nself_update = true # \u81ea\u52a8\u66f4\u65b0\u4e0b\u8f7d\u7a0b\u5e8f\n\n# \u7a0b\u5e8f\u8fd0\u884c\u65e5\u5fd7\u914d\u7f6e\uff0c\u65e0\u9700\u6539\u52a8\n[log]\nfilename = \"podsync.log\"\nmax_size = 50 # MB\nmax_age = 30 # days\nmax_backups = 7\ncompress = true```",
+            "uid": "wrcXB3ZNV"
+          }
+        ],
+        "create-time": 1638323515380,
+        "edit-time": 1638323552515,
+        "string": "cast \u811a\u672c config.toml",
+        "uid": "t4VCzUa4-"
+      }
+    ],
     "create-time": 1638288002328,
     "edit-time": 1638288002328,
     "title": "December 1st, 2021",
