@@ -5,6 +5,8 @@
 
 - {{[DONE](<DONE.md>)}
 
+- {{[DONE](<DONE.md>)}
+
 ## [August 10th, 2020](<August 10th, 2020.md>)
 - {{{[DONE](<DONE.md>)}
 

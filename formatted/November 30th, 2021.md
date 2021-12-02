@@ -5,6 +5,7 @@
     - 很多字段使用了 MySQL 的关键字
     - 部分字段空间过大:例如r2m_alarm_define中的 deleted 字段使用了 int(11)
     - 有的字段在建表的时候没有设置非空not null
+    - 部分表使用了外键
 - VMware Fusion Player – Personal UseH108L-8H2EN-N8TJC-0T9H6-2DYQN
 - — via [MySQL 中 [datetime](<datetime.md>) 和 [timestamp](<timestamp.md>) 的区别与选择 - SegmentFault 思否](https://segmentfault.com/a/1190000017393602) [+Roam](<+Roam.md>)
     - 占用空间

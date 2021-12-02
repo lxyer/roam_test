@@ -1,0 +1,3 @@
+- 测速脚本
+    - wget -qO- git.io/superbench.sh | bash
+    - 
