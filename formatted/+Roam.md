@@ -12,6 +12,9 @@
 
 - ____ — via [抖音是怎么检测搬运视频，是不是原创作品 - 知乎](https://zhuanlan.zhihu.com/p/134132388) [+Roam](<+Roam.md>)
 
+## [December 3rd, 2021](<December 3rd, 2021.md>)
+-  ____ — via [有效的学习：组织知识的20条原则](https://github.com/Quorafind/SMDoc-CN/blob/master/%E6%A6%82%E8%BF%B0/20rules.md) [+Roam](<+Roam.md>)
+
 ## [February 18th, 2021](<February 18th, 2021.md>)
 - ____ — via [内卷化效应 - MBA智库百科](https://wiki.mbalib.com/wiki/%E5%86%85%E5%8D%B7%E5%8C%96%E6%95%88%E5%BA%94) [+Roam](<+Roam.md>)
 

@@ -85478,7 +85478,10 @@
       {
         ":block/refs": [
           {
-            ":block/uid": "WuCDVBWwz"
+            ":block/uid": "MPgS9hx46"
+          },
+          {
+            ":block/uid": "qPPtrvZ9Y"
           }
         ],
         ":create/user": {
@@ -85487,14 +85490,195 @@
         ":edit/user": {
           ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
         },
-        "create-time": 1638408087175,
-        "edit-time": 1638408123365,
-        "refs": [
+        "children": [
           {
-            "uid": "WuCDVBWwz"
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u4e00\uff1a\u4e0d\u7406\u89e3\uff0c\u4e0d\u8981\u5b66",
+            "uid": "tNntYUQbz"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u4e8c\uff1a\u5148\u5b66\u4e60\uff0c\u518d\u8bb0\u5fc6",
+            "uid": "ms0DRaUJR"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u4e09\uff1a\u6784\u5efa\u4e8e\u57fa\u7840",
+            "uid": "19aA2CYOn"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u56db\uff1a\u9075\u5faa\u6700\u5c0f\u4fe1\u606f\u539f\u5219",
+            "uid": "7akQoIOsY"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u4e94\uff1a\u586b\u7a7a\u9898\u7b80\u5355\u800c\u6709\u6548",
+            "uid": "3TeQVj-pn"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u516d\uff1a\u4f7f\u7528\u56fe\u7247",
+            "uid": "4prAQ164w"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u4e03\uff1a\u4f7f\u7528\u52a9\u8bb0\u6280\u5de7",
+            "uid": "fMjYMX9Hs"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u516b\uff1a\u4f7f\u7528\u56fe\u8c61\u586b\u7a7a",
+            "uid": "9wGX4hq7T"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u4e5d\uff1a\u907f\u514d\u4f7f\u7528\u96c6\u5408",
+            "uid": "fvyyZLFzf"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\uff1a\u907f\u514d\u4f7f\u7528\u679a\u4e3e",
+            "uid": "vW_pmKwqv"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\u4e00\uff1a\u4e0e\u5e72\u6270\u505a\u6597\u4e89",
+            "uid": "7z51e3dC-"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\u4e8c\uff1a\u4f18\u5316\u63aa\u8f9e",
+            "uid": "ixkyA_n8t"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\u4e09\uff1a\u8054\u60f3\u5176\u4ed6\u8bb0\u5fc6",
+            "uid": "mMEg3J6Ui"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\u56db\uff1a\u8ba9\u6750\u6599\u4e0e\u4f60\u4e2a\u4eba\u76f8\u5173\u5e76\u4e14\u7ed9\u51fa\u4f8b\u5b50",
+            "uid": "GQ_N4-9RJ"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\u4e94\uff1a\u501f\u52a9\u60c5\u7eea\u7684\u72b6\u6001",
+            "uid": "LVr3iIz7k"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\u516d\uff1a \u5229\u7528\u4e0a\u4e0b\u6587\u7b80\u5316item\u7684\u5199\u6cd5",
+            "uid": "SuODVT8Hf"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\u4e03\uff1a\u5197\u4f59\u4f46\u4e0d\u8fdd\u80cc\u6700\u5c0f\u4fe1\u606f\u539f\u5219",
+            "uid": "dTKTmbiAx"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\u516d\uff1a\u53c2\u8003\u63d0\u793a\u7b80\u5316\u4e86\u63aa\u8f9e",
+            "uid": "SQRUiwYzr"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\u4e03\uff1a\u5197\u4f59\u4e0e\u6700\u4f4e\u4fe1\u606f\u539f\u5219\u5e76\u4e0d\u77db\u76fe",
+            "uid": "4G4aVuINf"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\u516b\uff1a\u63d0\u4f9b\u4fe1\u606f\u6765\u6e90",
+            "uid": "Wwf1MT3CW"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u5341\u4e5d\uff1a\u63d0\u4f9b\u65f6\u95f4\u6233\u6807\u8bb0",
+            "uid": "Hzjp1kIYg"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638513074571,
+            "string": "\u539f\u5219\u4e8c\u5341\uff1a\u786e\u5b9a\u4f18\u5148\u987a\u5e8f",
+            "uid": "OIMZz-ebG"
           }
         ],
-        "string": " {{[[\u2206]]:1+2}}",
+        "create-time": 1638408087175,
+        "edit-time": 1638513098296,
+        "refs": [
+          {
+            "uid": "MPgS9hx46"
+          },
+          {
+            "uid": "qPPtrvZ9Y"
+          }
+        ],
+        "string": " ____ \u2014 via [\u6709\u6548\u7684\u5b66\u4e60\uff1a\u7ec4\u7ec7\u77e5\u8bc6\u768420\u6761\u539f\u5219](https://github.com/Quorafind/SMDoc-CN/blob/master/%E6%A6%82%E8%BF%B0/20rules.md) [[+Roam]] #Supermemo",
         "uid": "4eVCqo2F4"
       }
     ],
@@ -85502,17 +85686,5 @@
     "edit-time": 1638408123352,
     "title": "December 3rd, 2021",
     "uid": "12-03-2021"
-  },
-  {
-    ":create/user": {
-      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-    },
-    ":edit/user": {
-      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-    },
-    "create-time": 1638408123366,
-    "edit-time": 1638408123366,
-    "title": "\u2206",
-    "uid": "WuCDVBWwz"
   }
 ]
