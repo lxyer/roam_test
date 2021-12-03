@@ -1,9 +1,6 @@
 - 
 
 # Backlinks
-## [2021-11-29~2021-12-03](<2021-11-29~2021-12-03.md>)
-- {{[TODO](<TODO.md>)}
-
 ## [August 11th, 2020](<August 11th, 2020.md>)
 - {{[TODO](<TODO.md>)}
 
