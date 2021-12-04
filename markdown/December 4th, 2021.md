@@ -5,4 +5,6 @@
     - ctrl+shift+enter:删除内容
     - ctrl+shift+p:查看属性
     - alt+p:设置优先级
-    - 
+    - ctrl+shift+a:导入网页
+    - ctrl+enter:命令器,split
+    - ctrl+w:排期任务
