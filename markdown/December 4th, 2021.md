@@ -1,0 +1,8 @@
+- #Supermemo #快捷键
+    - alt+c:定位到当前元素所在位置
+    - ctrl+d:忽略但是保留元素内容
+    - ctrl+shift+i:忽略
+    - ctrl+shift+enter:删除内容
+    - ctrl+shift+p:查看属性
+    - alt+p:设置优先级
+    - 
