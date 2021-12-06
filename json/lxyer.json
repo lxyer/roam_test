@@ -85920,6 +85920,218 @@
     ":edit/user": {
       ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
     },
+    "children": [
+      {
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638784070871,
+                "string": "1\u3001npm\u00a0cache\u00a0clean\u00a0--force",
+                "uid": "PFiVMikRh"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638784070871,
+                "string": "2\u3001rm\u00a0-rf\u00a0node_modules",
+                "uid": "tvw3bNLgE"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638784070871,
+                "string": "3\u3001rm\u00a0-rf\u00a0package-lock.json\uff08\u53ef\u6709\u53ef\u65e0\uff09",
+                "uid": "Zr9631GzF"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638784070871,
+                "string": "4\u3001npm\u00a0install",
+                "uid": "ap0ybhiG2"
+              }
+            ],
+            "create-time": 1638784038051,
+            "edit-time": 1638784064699,
+            "string": "node_modules\u5b89\u88c5\u7684\u6709\u95ee\u9898\uff0c\u57fa\u672c\u89e3\u51b3\u601d\u8def\u5c31\u662f\u6e05\u7f13\u5b58\u3001\u91cd\u65b0install",
+            "uid": "uSjocpiuO"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638784251357,
+                "string": "\u5220\u9664\uff1anode_modules\uff0c",
+                "uid": "V2S1CmtKJ"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638784251357,
+                "string": "\u91cd\u65b0\u5b89\u88c5\uff1anpm install\uff0c",
+                "uid": "OusbkGeKg"
+              },
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "children": [
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1638784259492,
+                    "edit-time": 1638784268094,
+                    "string": "npm i webpack-dev-server@2.9.7 -D",
+                    "uid": "00djNdE2_"
+                  }
+                ],
+                "create-time": 1638784257952,
+                "edit-time": 1638784258848,
+                "string": "\u5b89\u88c5\u7248\u672c\u4f4e\u7684webpack-dev-server",
+                "uid": "u5JUwZaCj"
+              },
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "children": [
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1638784276025,
+                    "edit-time": 1638784281688,
+                    "string": "npm install webpack@3.8.1 -D",
+                    "uid": "MrBlrWMVz"
+                  }
+                ],
+                "create-time": 1638784274805,
+                "edit-time": 1638784275890,
+                "string": "\u672c\u5730\u5b89\u88c5webpack",
+                "uid": "1tny_6XBi"
+              }
+            ],
+            "create-time": 1638784239887,
+            "edit-time": 1638784240783,
+            "string": "\u56e0\u4e3a[webpack](https://so.csdn.net/so/search?from=pc_blog_highlight&q=webpack)-dev-server\u7248\u672c\u8fc7\u9ad8",
+            "uid": "mmzPIOUQR"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638785896238,
+                "string": "Node.js v16.13.1 to /usr/local/bin/node",
+                "uid": "uEVg-6pXQ"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638785896238,
+                "string": "npm v8.1.2 to /usr/local/bin/npm",
+                "uid": "I0VH_m_hQ"
+              }
+            ],
+            "edit-time": 1638785896238,
+            "string": "This package has installed:",
+            "uid": "bDJkQtshL"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638785896238,
+            "string": "Make sure that /usr/local/bin is in your $PATH.",
+            "uid": "RQyOKJtTL"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638787358755,
+                "string": "Node.js v14.18.2 to /usr/local/bin/node",
+                "uid": "8j9wcYwJ-"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638787358755,
+                "string": "npm v6.14.15 to /usr/local/bin/npm",
+                "uid": "PUZTI9dXU"
+              }
+            ],
+            "edit-time": 1638787358755,
+            "string": "This package has installed:",
+            "uid": "zrt9N-kEC"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638787358755,
+            "string": "Make sure that /usr/local/bin is in your $PATH.",
+            "uid": "QRAmKFJIN"
+          }
+        ],
+        "create-time": 1638784016465,
+        "edit-time": 1638784038057,
+        "string": "r2c_web \u524d\u7aef\u9879\u76ee\u542f\u52a8\u62a5\u9519",
+        "uid": "-eZNfFXMe"
+      }
+    ],
     "create-time": 1638721750140,
     "edit-time": 1638721750142,
     "title": "December 6th, 2021",
