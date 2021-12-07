@@ -15,6 +15,9 @@
 ## [December 3rd, 2021](<December 3rd, 2021.md>)
 -  ____ — via [有效的学习：组织知识的20条原则](https://github.com/Quorafind/SMDoc-CN/blob/master/%E6%A6%82%E8%BF%B0/20rules.md) [+Roam](<+Roam.md>)
 
+## [December 7th, 2021](<December 7th, 2021.md>)
+- ____ — via [「Redis」Redis是单线程的，但Redis为什么这么快？](https://www.toutiao.com/a6635954715186184717) [+Roam](<+Roam.md>)
+
 ## [February 18th, 2021](<February 18th, 2021.md>)
 - ____ — via [内卷化效应 - MBA智库百科](https://wiki.mbalib.com/wiki/%E5%86%85%E5%8D%B7%E5%8C%96%E6%95%88%E5%BA%94) [+Roam](<+Roam.md>)
 

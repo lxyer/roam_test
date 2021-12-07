@@ -8,3 +8,4 @@
     - ctrl+shift+a:导入网页
     - ctrl+enter:命令器,split
     - ctrl+w:排期任务
+    - alt+t:添加文章引用(reference)
