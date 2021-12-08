@@ -86068,74 +86068,6 @@
             "edit-time": 1638784240783,
             "string": "\u56e0\u4e3a[webpack](https://so.csdn.net/so/search?from=pc_blog_highlight&q=webpack)-dev-server\u7248\u672c\u8fc7\u9ad8",
             "uid": "mmzPIOUQR"
-          },
-          {
-            ":edit/user": {
-              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-            },
-            "children": [
-              {
-                ":edit/user": {
-                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-                },
-                "edit-time": 1638785896238,
-                "string": "Node.js v16.13.1 to /usr/local/bin/node",
-                "uid": "uEVg-6pXQ"
-              },
-              {
-                ":edit/user": {
-                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-                },
-                "edit-time": 1638785896238,
-                "string": "npm v8.1.2 to /usr/local/bin/npm",
-                "uid": "I0VH_m_hQ"
-              }
-            ],
-            "edit-time": 1638785896238,
-            "string": "This package has installed:",
-            "uid": "bDJkQtshL"
-          },
-          {
-            ":edit/user": {
-              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-            },
-            "edit-time": 1638785896238,
-            "string": "Make sure that /usr/local/bin is in your $PATH.",
-            "uid": "RQyOKJtTL"
-          },
-          {
-            ":edit/user": {
-              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-            },
-            "children": [
-              {
-                ":edit/user": {
-                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-                },
-                "edit-time": 1638787358755,
-                "string": "Node.js v14.18.2 to /usr/local/bin/node",
-                "uid": "8j9wcYwJ-"
-              },
-              {
-                ":edit/user": {
-                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-                },
-                "edit-time": 1638787358755,
-                "string": "npm v6.14.15 to /usr/local/bin/npm",
-                "uid": "PUZTI9dXU"
-              }
-            ],
-            "edit-time": 1638787358755,
-            "string": "This package has installed:",
-            "uid": "zrt9N-kEC"
-          },
-          {
-            ":edit/user": {
-              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-            },
-            "edit-time": 1638787358755,
-            "string": "Make sure that /usr/local/bin is in your $PATH.",
-            "uid": "QRAmKFJIN"
           }
         ],
         "create-time": 1638784016465,
@@ -86290,6 +86222,236 @@
     ":edit/user": {
       ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
     },
+    "children": [
+      {
+        ":block/refs": [
+          {
+            ":block/uid": "qPPtrvZ9Y"
+          }
+        ],
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "Redis\u5728\u5904\u7406\u5ba2\u6237\u7aef\u7684\u8bf7\u6c42\u65f6\uff0c\u5305\u62ec\u83b7\u53d6 (socket \u8bfb)\u3001\u89e3\u6790\u3001\u6267\u884c\u3001\u5185\u5bb9\u8fd4\u56de (socket \u5199) \u7b49\u90fd\u7531\u4e00\u4e2a\u987a\u5e8f\u4e32\u884c\u7684\u4e3b\u7ebf\u7a0b\u5904\u7406\uff0c\u8fd9\u5c31\u662f\u6240\u8c13\u7684\u201c\u5355\u7ebf\u7a0b\u201d\u3002\u4f46\u5982\u679c\u4e25\u683c\u6765\u8bb2\u4eceRedis4.0\u4e4b\u540e\u5e76\u4e0d\u662f\u5355\u7ebf\u7a0b\uff0c\u9664\u4e86\u4e3b\u7ebf\u7a0b\u5916\uff0c\u5b83\u4e5f\u6709\u540e\u53f0\u7ebf\u7a0b\u5728\u5904\u7406\u4e00\u4e9b\u8f83\u4e3a\u7f13\u6162\u7684\u64cd\u4f5c\uff0c\u4f8b\u5982\u6e05\u7406\u810f\u6570\u636e\u3001\u65e0\u7528\u8fde\u63a5\u7684\u91ca\u653e\u3001\u5927 key \u7684\u5220\u9664\u7b49\u7b49\u3002",
+                "uid": "6KyPxVTqs"
+              }
+            ],
+            "edit-time": 1638934293495,
+            "string": "Redis6.0\u4e4b\u524d\u7684\u7248\u672c\u771f\u7684\u662f\u5355\u7ebf\u7a0b\u5417\uff1f",
+            "uid": "xO_iHgkbp"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "\u63d0\u9ad8\u7f51\u7edc IO \u6027\u80fd\uff0c\u5178\u578b\u7684\u5b9e\u73b0\u6bd4\u5982\u4f7f\u7528 DPDK \u6765\u66ff\u4ee3\u5185\u6838\u7f51\u7edc\u6808\u7684\u65b9\u5f0f",
+                "uid": "4OhuHpevM"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "\u4f7f\u7528\u591a\u7ebf\u7a0b\u5145\u5206\u5229\u7528\u591a\u6838\uff0c\u5178\u578b\u7684\u5b9e\u73b0\u6bd4\u5982 Memcached",
+                "uid": "TnPwyd0yY"
+              }
+            ],
+            "edit-time": 1638934293495,
+            "string": "Redis\u74f6\u9888\u4e3b\u8981\u5728\u4e8e\u7f51\u7edc\u7684 IO \u6d88\u8017, \u4f18\u5316\u4e3b\u8981\u6709\u4e24\u4e2a\u65b9\u5411:",
+            "uid": "uEz9y55Kj"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "\u53ef\u4ee5\u5145\u5206\u5229\u7528\u670d\u52a1\u5668 CPU \u8d44\u6e90\uff0c\u76ee\u524d\u4e3b\u7ebf\u7a0b\u53ea\u80fd\u5229\u7528\u4e00\u4e2a\u6838",
+                "uid": "B-W6wbaog"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "\u591a\u7ebf\u7a0b\u4efb\u52a1\u53ef\u4ee5\u5206\u644a Redis \u540c\u6b65 IO \u8bfb\u5199\u8d1f\u8377",
+                "uid": "wXFgEYcfF"
+              }
+            ],
+            "edit-time": 1638934293495,
+            "string": "redis\u652f\u6301\u591a\u7ebf\u7a0b\u4e3b\u8981\u5c31\u662f\u4e24\u4e2a\u539f\u56e0\uff1a",
+            "uid": "BrDKEnrTa"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638934293495,
+            "string": "Redis6.0\u7684\u591a\u7ebf\u7a0b\u9ed8\u8ba4\u662f\u7981\u7528\u7684\uff0c\u53ea\u4f7f\u7528\u4e3b\u7ebf\u7a0b",
+            "uid": "pa6FCUDe7"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "\u5173\u4e8e\u7ebf\u7a0b\u6570\u7684\u8bbe\u7f6e\uff0c\u5b98\u65b9\u6709\u4e00\u4e2a\u5efa\u8bae\uff1a4\u6838\u7684\u673a\u5668\u5efa\u8bae\u8bbe\u7f6e\u4e3a2\u62163\u4e2a\u7ebf\u7a0b\uff0c8\u6838\u7684\u5efa\u8bae\u8bbe\u7f6e\u4e3a6\u4e2a\u7ebf\u7a0b\uff0c\u7ebf\u7a0b\u6570\u4e00\u5b9a\u8981\u5c0f\u4e8e\u673a\u5668\u6838\u6570\u3002\u8fd8\u9700\u8981\u6ce8\u610f\u7684\u662f\uff0c\u7ebf\u7a0b\u6570\u5e76\u4e0d\u662f\u8d8a\u5927\u8d8a\u597d\uff0c\u5b98\u65b9\u8ba4\u4e3a\u8d85\u8fc7\u4e868\u4e2a\u57fa\u672c\u5c31\u6ca1\u4ec0\u4e48\u610f\u4e49\u4e86\u3002",
+                "uid": "YlzbZNGy8"
+              }
+            ],
+            "edit-time": 1638934293495,
+            "string": "Redis6.0\u591a\u7ebf\u7a0b\u5f00\u542f\u65f6\uff0c\u7ebf\u7a0b\u6570\u5982\u4f55\u8bbe\u7f6e\uff1f",
+            "uid": "mTe6rsP_j"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "IO \u7ebf\u7a0b\u8981\u4e48\u540c\u65f6\u5728\u8bfb socket\uff0c\u8981\u4e48\u540c\u65f6\u5728\u5199\uff0c\u4e0d\u4f1a\u540c\u65f6\u8bfb\u6216\u5199",
+                "uid": "qk7t08XHr"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "IO \u7ebf\u7a0b\u53ea\u8d1f\u8d23\u8bfb\u5199 socket \u89e3\u6790\u547d\u4ee4\uff0c\u4e0d\u8d1f\u8d23\u547d\u4ee4\u5904\u7406",
+                "uid": "WXUjXUBzK"
+              }
+            ],
+            "edit-time": 1638934293495,
+            "string": "Redis6.0\u591a\u7ebf\u7a0b\u8be5\u8bbe\u8ba1\u6709\u5982\u4e0b\u7279\u70b9\uff1a",
+            "uid": "0QNWXIZjR"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "Redis\u7684\u591a\u7ebf\u7a0b\u90e8\u5206\u53ea\u662f\u7528\u6765\u5904\u7406\u7f51\u7edc\u6570\u636e\u7684\u8bfb\u5199\u548c\u534f\u8bae\u89e3\u6790\uff0c\u6267\u884c\u547d\u4ee4\u4ecd\u7136\u662f\u5355\u7ebf\u7a0b\u987a\u5e8f\u6267\u884c\u3002",
+                "uid": "pWxHTRXF9"
+              }
+            ],
+            "edit-time": 1638934293495,
+            "string": "\u5f00\u542f\u591a\u7ebf\u7a0b\u540e\uff0c\u662f\u5426\u4f1a\u5b58\u5728\u7ebf\u7a0b\u5e76\u53d1\u5b89\u5168\u95ee\u9898\uff1f",
+            "uid": "F3Y2fgIwQ"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "\u76f8\u540c\u70b9\uff1a\u90fd\u91c7\u7528\u4e86 master\u7ebf\u7a0b-worker \u7ebf\u7a0b\u7684\u6a21\u578b",
+                "uid": "yJZzKvdLM"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "\u4e0d\u540c\u70b9\uff1aMemcached \u6267\u884c\u4e3b\u903b\u8f91\u4e5f\u662f\u5728 worker \u7ebf\u7a0b\u91cc\uff0c\u6a21\u578b\u66f4\u52a0\u7b80\u5355\uff0c\u5b9e\u73b0\u4e86\u771f\u6b63\u7684\u7ebf\u7a0b\u9694\u79bb\uff0c\u7b26\u5408\u6211\u4eec\u5bf9\u7ebf\u7a0b\u9694\u79bb\u7684\u5e38\u89c4\u7406\u89e3\u3002\u800c Redis \u628a\u5904\u7406\u903b\u8f91\u4ea4\u8fd8\u7ed9 master \u7ebf\u7a0b\uff0c\u867d\u7136\u4e00\u5b9a\u7a0b\u5ea6\u4e0a\u589e\u52a0\u4e86\u6a21\u578b\u590d\u6742\u5ea6\uff0c\u4f46\u4e5f\u89e3\u51b3\u4e86\u7ebf\u7a0b\u5e76\u53d1\u5b89\u5168\u7b49\u95ee\u9898\u3002",
+                "uid": "X6xRJ1-Cy"
+              }
+            ],
+            "edit-time": 1638934293495,
+            "string": "Redis6.0\u4e0eMemcached\u591a\u7ebf\u7a0b\u6a21\u578b\u5bf9\u6bd4\uff1a",
+            "uid": "6bSEgkTng"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "\u591a\u8def\u6307\u7684\u662f\u591a\u4e2asocket\u8fde\u63a5\uff0c\u590d\u7528\u6307\u7684\u662f\u590d\u7528\u4e00\u4e2a\u7ebf\u7a0b\u3002",
+                "uid": "S2i9Gs5CY"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "\u591a\u8def\u590d\u7528\u4e3b\u8981\u6709\u4e09\u79cd\u6280\u672f\uff1aselect\uff0cpoll\uff0cepoll",
+                "uid": "0RhIlP4zw"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1638934293495,
+                "string": "epoll\u662f\u6700\u65b0\u7684\u4e5f\u662f\u76ee\u524d\u6700\u597d\u7684\u591a\u8def\u590d\u7528\u6280\u672f\u3002\u91c7\u7528\u591a\u8def I/O \u590d\u7528\u6280\u672f\u53ef\u4ee5\u8ba9\u5355\u4e2a\u7ebf\u7a0b\u9ad8\u6548\u7684\u5904\u7406\u591a\u4e2a\u8fde\u63a5\u8bf7\u6c42",
+                "uid": "EIIvlDaG_"
+              }
+            ],
+            "edit-time": 1638934293495,
+            "string": "Redis\u7ebf\u7a0b\u4e2d\u7ecf\u5e38\u63d0\u5230IO\u591a\u8def\u590d\u7528\uff0c\u5982\u4f55\u7406\u89e3\uff1f",
+            "uid": "h61zize76"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1638938198470,
+            "string": "Redis\u7684\u5f69\u86cb\u547d\u4ee4LOLWUT\uff0c\u53ef\u4ee5\u8f93\u51fa\u4e00\u4e2a\u5145\u6ee1\u827a\u672f\u6c14\u606f\u7684\u56fe\u5f62\u548cRedis\u7248\u672c",
+            "uid": "kratCO4ww"
+          }
+        ],
+        "edit-time": 1638934336295,
+        "refs": [
+          {
+            "uid": "qPPtrvZ9Y"
+          }
+        ],
+        "string": "____ \u2014 via [Redis 6.0 \u65b0\u7279\u6027-\u591a\u7ebf\u7a0b\u8fde\u73af13\u95ee\uff01](https://getpocket.com/read/3498674643) [[+Roam]]",
+        "uid": "typy9RSEb"
+      }
+    ],
     "create-time": 1638892805400,
     "edit-time": 1638892805410,
     "title": "December 8th, 2021",
