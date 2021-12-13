@@ -85869,8 +85869,8 @@
               ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
             },
             "create-time": 1638858305888,
-            "edit-time": 1638858331468,
-            "string": "alt+t:\u6dfb\u52a0\u6587\u7ae0\u5f15\u7528(reference)",
+            "edit-time": 1639391178293,
+            "string": "\u9009\u4e2d\u6587\u5b57 alt+t:\u6dfb\u52a0\u6587\u7ae0\u5f15\u7528(reference)",
             "uid": "A1PptfmcS"
           }
         ],
@@ -86780,16 +86780,118 @@
     },
     "children": [
       {
-        ":create/user": {
-          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-        },
+        ":block/refs": [
+          {
+            ":block/uid": "qPPtrvZ9Y"
+          }
+        ],
         ":edit/user": {
           ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
         },
-        "create-time": 1639363472680,
-        "edit-time": 1639363472680,
-        "string": "",
-        "uid": "9cBCstQs0"
+        "children": [
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1639390702356,
+            "string": "Redis\u7684string\u7c7b\u578b\u4e00\u5171\u6709\u4e09\u79cd\u5b58\u50a8\u65b9\u5f0f\uff0c\u5f53\u5b57\u7b26\u4e32\u957f\u5ea6\u5c0f\u4e8e\u7b49\u4e8e44\uff0c\u5e95\u5c42\u91c7\u7528embstr;\u5f53\u5b57\u7b26\u4e32\u957f\u5ea6\u5927\u4e8e44\uff0c\u5e95\u5c42\u91c7\u7528raw;\u5f53\u8bbe\u7f6e\u662f\u6574\u6570\uff0c\u5e95\u5c42\u5219\u91c7\u7528int\u3002",
+            "uid": "zbb800Cef"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1639390702356,
+            "string": "\u6240\u6709\u7c7b\u578b\u7684\u6570\u636e\u7ed3\u6784\u6700\u5916\u5c42\u90fd\u662fRedisObject",
+            "uid": "R9uTRKi6p"
+          },
+          {
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "children": [
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1639390702356,
+                    "string": "\u5728\u539f\u6765\u7684\u5b57\u7b26\u6570\u7ec4\u5916\u9762\u589e\u52a0\u603b\u957f\u5ea6\uff0c\u548c\u5df2\u7528\u957f\u5ea6\uff0c\u8fd9\u6837\u6bcf\u6b21\u76f4\u63a5\u83b7\u53d6\u5df2\u7528\u957f\u5ea6\u5373\u53ef\u3002\u590d\u6742\u5ea6\u4e3aO(1)\u3002",
+                    "uid": "aNltgCETR"
+                  }
+                ],
+                "edit-time": 1639390702356,
+                "string": "\u66f4\u5feb\u901f\u7684\u83b7\u53d6\u5b57\u7b26\u4e32\u957f\u5ea6",
+                "uid": "ca8LlLdIE"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "children": [
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1639390702356,
+                    "string": "\u5982\u679c\u4f20\u7edf\u5b57\u7b26\u4e32\u4fdd\u5b58\u56fe\u7247\uff0c\u89c6\u9891\u7b49\u4e8c\u8fdb\u5236\u6587\u4ef6\uff0c\u4e2d\u95f4\u53ef\u80fd\u51fa\u73b0'\\0'\uff0c\u5982\u679c\u6309\u7167\u539f\u6765\u7684\u903b\u8f91\uff0c\u4f1a\u9020\u6210\u6570\u636e\u4e22\u5931\u3002\u6240\u4ee5\u53ef\u4ee5\u7528\u5df2\u7528\u957f\u5ea6\u6765\u8868\u793a\u662f\u5426\u5b57\u7b26\u6570\u7ec4\u5df2\u7ed3\u675f\u3002",
+                    "uid": "6vWljvwFx"
+                  }
+                ],
+                "edit-time": 1639390702356,
+                "string": "\u6570\u636e\u5b89\u5168\uff0c\u4e0d\u4f1a\u622a\u65ad",
+                "uid": "4v5pWmBgK"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1639390702356,
+                "string": "String\u7c7b\u578b\u7684\u5220\u9664\u5e76\u4e0d\u662f\u76f4\u63a5\u56de\u6536\u5185\u5b58\uff0c\u800c\u662f\u4fee\u6539\u5b57\u7b26\uff0c\u8ba9\u5176\u4e3a\u7a7a\u5b57\u7b26\uff0c\u8fd9\u5176\u5b9e\u662f\u60f0\u6027\u91ca\u653e\uff0c\u7b49\u5f85\u5c06\u6765\u4f7f\u7528\u3002\u5728\u8c03\u7528sdsempty\u65b9\u6cd5\u65f6\uff0c\u518d\u6b21\u8c03\u7528\u4e0a\u9762\u7684sdsnewlen\u65b9\u6cd5\u3002",
+                "uid": "qGN1llXFY"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1639390702356,
+                "string": "\u5982\u679c\u7a7a\u95f2\u7a7a\u95f4\u5927\u4e8e\u8981\u6dfb\u52a0\u7684\u5b57\u7b26\u4e32t\u7684\u957f\u5ea6\uff0c\u5219\u76f4\u63a5\u8fd4\u56de\uff0c\u4e0d\u9700\u8981\u6269\u5bb9\u3002",
+                "uid": "Q0KUxN-si"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1639390702356,
+                "string": "\u5982\u679c\u76ee\u524d\u7684\u5b57\u7b26\u4e32\u5c0f\u4e8e1M\uff0c\u5219\u76f4\u63a5\u6269\u5bb9\u53cc\u500d",
+                "uid": "eAzAgbwwu"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1639390702356,
+                "string": "\u5982\u679c\u76ee\u524d\u7684\u5b57\u7b26\u4e32\u5927\u4e8e1M\uff0c\u5219\u76f4\u63a5\u6dfb\u52a01M",
+                "uid": "A2lEuMNzQ"
+              }
+            ],
+            "edit-time": 1639390702356,
+            "string": "SDS\u7684\u4f18\u52bf",
+            "uid": "c0Qch51wy"
+          }
+        ],
+        "edit-time": 1639390702356,
+        "refs": [
+          {
+            "uid": "qPPtrvZ9Y"
+          }
+        ],
+        "string": "____ \u2014 via [Redis\u5185\u90e8\u6570\u636e\u7ed3\u6784SDS\u8be6\u89e3 - 51CTO.COM](https://stor.51cto.com/art/202006/619769.htm) [[+Roam]]",
+        "uid": "NtjZ6vpDp"
       }
     ],
     "create-time": 1639356193163,
