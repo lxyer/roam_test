@@ -15,6 +15,9 @@
 ## [December 13th, 2021](<December 13th, 2021.md>)
 - ____ — via [Redis内部数据结构SDS详解 - 51CTO.COM](https://stor.51cto.com/art/202006/619769.htm) [+Roam](<+Roam.md>)
 
+## [December 23rd, 2021](<December 23rd, 2021.md>)
+- ____ — via [在 SuperMemo 中如何按目录顺序阅读一本书？ - 知乎](https://www.zhihu.com/question/487800944) [+Roam](<+Roam.md>)
+
 ## [December 3rd, 2021](<December 3rd, 2021.md>)
 -  ____ — via [有效的学习：组织知识的20条原则](https://github.com/Quorafind/SMDoc-CN/blob/master/%E6%A6%82%E8%BF%B0/20rules.md) [+Roam](<+Roam.md>)
 

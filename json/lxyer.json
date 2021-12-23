@@ -87782,6 +87782,30 @@
     ":edit/user": {
       ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
     },
+    "children": [
+      {
+        ":block/refs": [
+          {
+            ":block/uid": "qPPtrvZ9Y"
+          }
+        ],
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "create-time": 1640222614711,
+        "edit-time": 1640222626049,
+        "refs": [
+          {
+            "uid": "qPPtrvZ9Y"
+          }
+        ],
+        "string": "____ \u2014 via [\u5728 SuperMemo \u4e2d\u5982\u4f55\u6309\u76ee\u5f55\u987a\u5e8f\u9605\u8bfb\u4e00\u672c\u4e66\uff1f - \u77e5\u4e4e](https://www.zhihu.com/question/487800944) [[+Roam]]",
+        "uid": "0rpssR6hp"
+      }
+    ],
     "create-time": 1640188803230,
     "edit-time": 1640188803248,
     "title": "December 23rd, 2021",
