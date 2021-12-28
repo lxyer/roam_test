@@ -18,6 +18,9 @@
 ## [December 23rd, 2021](<December 23rd, 2021.md>)
 - ____ — via [在 SuperMemo 中如何按目录顺序阅读一本书？ - 知乎](https://www.zhihu.com/question/487800944) [+Roam](<+Roam.md>)
 
+## [December 27th, 2021](<December 27th, 2021.md>)
+- ____ — via [即兴发言的万能模板（建议收藏） - 知乎](https://zhuanlan.zhihu.com/p/361249123) [+Roam](<+Roam.md>)
+
 ## [December 3rd, 2021](<December 3rd, 2021.md>)
 -  ____ — via [有效的学习：组织知识的20条原则](https://github.com/Quorafind/SMDoc-CN/blob/master/%E6%A6%82%E8%BF%B0/20rules.md) [+Roam](<+Roam.md>)
 

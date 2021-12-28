@@ -1,0 +1,4 @@
+- mac redis 启动
+    - brew services start redis
+    - redis-cli
+    - 进 redis-cli 后 shutdown 关闭
