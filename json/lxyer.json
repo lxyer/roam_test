@@ -88392,6 +88392,18 @@
             "edit-time": 1640661069210,
             "string": "\u8fdb redis-cli \u540e shutdown \u5173\u95ed",
             "uid": "SVo9ckM_C"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1641281194613,
+            "edit-time": 1641281215429,
+            "string": "\u5173\u95ed Redis: brew services stop redis",
+            "uid": "LiB73-pW7"
           }
         ],
         "create-time": 1640660982241,
@@ -88644,11 +88656,6 @@
     },
     "children": [
       {
-        ":block/refs": [
-          {
-            ":block/uid": "Ltg68qEg3"
-          }
-        ],
         ":create/user": {
           ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
         },
@@ -88656,13 +88663,8 @@
           ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
         },
         "create-time": 1640937882765,
-        "edit-time": 1640937997507,
-        "refs": [
-          {
-            "uid": "Ltg68qEg3"
-          }
-        ],
-        "string": "[[2022 \u5e74\u8bfb\u4e66\u8bb0\u5f55]]",
+        "edit-time": 1641270703853,
+        "string": "2022 \u5e74\u8bfb\u4e66\u8bb0\u5f55",
         "uid": "D-tKoBGcw"
       }
     ],
@@ -88670,32 +88672,6 @@
     "edit-time": 1640937880506,
     "title": "\u5e74\u5ea6\u8bfb\u4e66\u8ba1\u5212",
     "uid": "F6KtU-9-n"
-  },
-  {
-    ":create/user": {
-      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-    },
-    ":edit/user": {
-      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-    },
-    "children": [
-      {
-        ":create/user": {
-          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-        },
-        ":edit/user": {
-          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
-        },
-        "create-time": 1640938000471,
-        "edit-time": 1640938000471,
-        "string": "",
-        "uid": "thel3m7p3"
-      }
-    ],
-    "create-time": 1640937911840,
-    "edit-time": 1640937997507,
-    "title": "2022 \u5e74\u8bfb\u4e66\u8bb0\u5f55",
-    "uid": "Ltg68qEg3"
   },
   {
     ":create/user": {
@@ -88740,9 +88716,207 @@
     ":edit/user": {
       ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
     },
+    "children": [
+      {
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "children": [
+          {
+            ":block/refs": [
+              {
+                ":block/uid": "9bMQIHiwe"
+              }
+            ],
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "edit-time": 1641270751545,
+            "refs": [
+              {
+                "uid": "9bMQIHiwe"
+              }
+            ],
+            "string": "SPI \uff0c\u5168\u79f0\u4e3a [[Service Provider Interface]]\uff0c\u662f\u4e00\u79cd\u670d\u52a1\u53d1\u73b0\u673a\u5236\u3002\u5b83\u901a\u8fc7\u5728ClassPath\u8def\u5f84\u4e0b\u7684META-INF/services\u6587\u4ef6\u5939\u67e5\u627e\u6587\u4ef6\uff0c\u81ea\u52a8\u52a0\u8f7d\u6587\u4ef6\u91cc\u6240\u5b9a\u4e49\u7684\u7c7b\u3002",
+            "uid": "NcE3VVCvy"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1641270764048,
+            "edit-time": 1641270765028,
+            "string": "\u8fd9\u4e00\u673a\u5236\u4e3a\u5f88\u591a\u6846\u67b6\u6269\u5c55\u63d0\u4f9b\u4e86\u53ef\u80fd\uff0c\u6bd4\u5982\u5728Dubbo\u3001JDBC\u4e2d\u90fd\u4f7f\u7528\u5230\u4e86SPI\u673a\u5236\u3002",
+            "uid": "QH2llrVZL"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "create-time": 1641270937662,
+            "edit-time": 1641270938576,
+            "string": "\u53ef\u4ee5\u7528\u6765\u542f\u7528\u6846\u67b6\u6269\u5c55\u548c\u66ff\u6362\u7ec4\u4ef6\u3002\u00a0SPI\u7684\u4f5c\u7528\u5c31\u662f\u4e3a\u8fd9\u4e9b\u88ab\u6269\u5c55\u7684API\u5bfb\u627e\u670d\u52a1\u5b9e\u73b0\u3002",
+            "uid": "D5Kz77aiY"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "create-time": 1641270868899,
+                "edit-time": 1641270868901,
+                "string": "java spi\u7684\u5177\u4f53\u7ea6\u5b9a\u4e3a:\u5f53\u670d\u52a1\u7684\u63d0\u4f9b\u8005\uff0c\u63d0\u4f9b\u4e86\u670d\u52a1\u63a5\u53e3\u7684\u4e00\u79cd\u5b9e\u73b0\u4e4b\u540e\uff0c\u5728jar\u5305\u7684META-INF/services/\u76ee\u5f55\u91cc\u540c\u65f6\u521b\u5efa\u4e00\u4e2a\u4ee5\u670d\u52a1\u63a5\u53e3\u547d\u540d\u7684\u6587\u4ef6\u3002\u8be5\u6587\u4ef6\u91cc\u5c31\u662f\u5b9e\u73b0\u8be5\u670d\u52a1\u63a5\u53e3\u7684\u5177\u4f53\u5b9e\u73b0\u7c7b\u3002\u800c\u5f53\u5916\u90e8\u7a0b\u5e8f\u88c5\u914d\u8fd9\u4e2a\u6a21\u5757\u7684\u65f6\u5019\uff0c\u5c31\u80fd\u901a\u8fc7\u8be5jar\u5305META-INF/services/\u91cc\u7684\u914d\u7f6e\u6587\u4ef6\u627e\u5230\u5177\u4f53\u7684\u5b9e\u73b0\u7c7b\u540d\uff0c\u5e76\u88c5\u8f7d\u5b9e\u4f8b\u5316\uff0c\u5b8c\u6210\u6a21\u5757\u7684\u6ce8\u5165\u3002 \u57fa\u4e8e\u8fd9\u6837\u4e00\u4e2a\u7ea6\u5b9a\u5c31\u80fd\u5f88\u597d\u7684\u627e\u5230\u670d\u52a1\u63a5\u53e3\u7684\u5b9e\u73b0\u7c7b\uff0c\u800c\u4e0d\u9700\u8981\u518d\u4ee3\u7801\u91cc\u5236\u5b9a\u3002jdk\u63d0\u4f9b\u670d\u52a1\u5b9e\u73b0\u67e5\u627e\u7684\u4e00\u4e2a\u5de5\u5177\u7c7b\uff1ajava.util.ServiceLoader",
+                "uid": "yOMO0Ud2x"
+              }
+            ],
+            "create-time": 1641270861665,
+            "edit-time": 1641270862374,
+            "string": "\u5177\u4f53\u7ea6\u5b9a",
+            "uid": "sRAZ2bWN1"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1641271779104,
+                "string": "\u4e0d\u9700\u8981\u6539\u52a8\u6e90\u7801\u5c31\u53ef\u4ee5\u5b9e\u73b0\u6269\u5c55\uff0c\u89e3\u8026\u3002",
+                "uid": "CZWQ2wvcz"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1641271779104,
+                "string": "\u5b9e\u73b0\u6269\u5c55\u5bf9\u539f\u6765\u7684\u4ee3\u7801\u51e0\u4e4e\u6ca1\u6709\u4fb5\u5165\u6027\u3002",
+                "uid": "9SMmJcjzQ"
+              },
+              {
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "edit-time": 1641271779104,
+                "string": "\u53ea\u9700\u8981\u6dfb\u52a0\u914d\u7f6e\u5c31\u53ef\u4ee5\u5b9e\u73b0\u6269\u5c55\uff0c\u7b26\u5408\u5f00\u95ed\u539f\u5219\u3002",
+                "uid": "VqHARntGl"
+              }
+            ],
+            "create-time": 1641271772576,
+            "edit-time": 1641271773698,
+            "string": "spi\u80fd\u5e26\u6765\u7684\u597d\u5904",
+            "uid": "jbIoU3LW7"
+          }
+        ],
+        "create-time": 1641270707622,
+        "edit-time": 1641270724816,
+        "string": "SPI\u673a\u5236",
+        "uid": "vlrBYIi_-"
+      },
+      {
+        ":block/refs": [
+          {
+            ":block/uid": "XawdfPMwO"
+          },
+          {
+            ":block/uid": "FbBKTFsEq"
+          }
+        ],
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "create-time": 1641298016650,
+        "edit-time": 1641298045296,
+        "refs": [
+          {
+            "uid": "XawdfPMwO"
+          },
+          {
+            "uid": "FbBKTFsEq"
+          }
+        ],
+        "string": "redis [[\u5206\u5e03\u5f0f\u9501]]:[[RedLock]]",
+        "uid": "wPTEWzJSs"
+      }
+    ],
     "create-time": 1641257118263,
     "edit-time": 1641257118263,
     "title": "January 4th, 2022",
     "uid": "01-04-2022"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1641270751546,
+    "edit-time": 1641270751560,
+    "title": "Service Provider Interface",
+    "uid": "9bMQIHiwe"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1641298045298,
+    "edit-time": 1641298045299,
+    "title": "\u5206\u5e03\u5f0f\u9501",
+    "uid": "XawdfPMwO"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1641298045298,
+    "edit-time": 1641298045299,
+    "title": "RedLock",
+    "uid": "FbBKTFsEq"
+  },
+  {
+    ":create/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    ":edit/user": {
+      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+    },
+    "create-time": 1641312003976,
+    "edit-time": 1641312003979,
+    "title": "January 5th, 2022",
+    "uid": "01-05-2022"
   }
 ]

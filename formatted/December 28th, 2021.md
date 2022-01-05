@@ -2,3 +2,4 @@
     - brew services start redis
     - redis-cli
     - 进 redis-cli 后 shutdown 关闭
+    - 关闭 Redis: brew services stop redis

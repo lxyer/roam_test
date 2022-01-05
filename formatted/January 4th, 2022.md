@@ -1,5 +1,5 @@
 - SPI机制
-    - SPI ，全称为 [[Service Provider Interface]]，是一种服务发现机制。它通过在ClassPath路径下的META-INF/services文件夹查找文件，自动加载文件里所定义的类。
+    - SPI ，全称为 [Service Provider Interface](<Service Provider Interface.md>)，是一种服务发现机制。它通过在ClassPath路径下的META-INF/services文件夹查找文件，自动加载文件里所定义的类。
     - 这一机制为很多框架扩展提供了可能，比如在Dubbo、JDBC中都使用到了SPI机制。
     - 可以用来启用框架扩展和替换组件。 SPI的作用就是为这些被扩展的API寻找服务实现。
     - 具体约定
@@ -8,4 +8,4 @@
         - 不需要改动源码就可以实现扩展，解耦。
         - 实现扩展对原来的代码几乎没有侵入性。
         - 只需要添加配置就可以实现扩展，符合开闭原则。
-- redis [[分布式锁]]:[[RedLock]]
+- redis [分布式锁](<分布式锁.md>):[RedLock](<RedLock.md>)
