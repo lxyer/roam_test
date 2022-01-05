@@ -88914,6 +88914,20 @@
     ":edit/user": {
       ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
     },
+    "children": [
+      {
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "create-time": 1641379864305,
+        "edit-time": 1641379864305,
+        "string": "",
+        "uid": "1aziIju_z"
+      }
+    ],
     "create-time": 1641312003976,
     "edit-time": 1641312003979,
     "title": "January 5th, 2022",
