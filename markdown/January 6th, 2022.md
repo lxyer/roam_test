@@ -11,6 +11,9 @@
         - idea
             - 如何做一个斜杠青年
             - notion 基础教程
+            - 探索读书输出工作流
+            - supermemo 教程
+            - Roam Research 教程
         - 收集资料
         - 写脚本
         - 文章发布
