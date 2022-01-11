@@ -1,14 +1,5 @@
 
 # Backlinks
-## [2021-11-29~2021-12-03](<2021-11-29~2021-12-03.md>)
-- {{[DONE](<DONE.md>)}
-
-- {{[DONE](<DONE.md>)}
-
-- {{[DONE](<DONE.md>)}
-
-- {{[DONE](<DONE.md>)}
-
 ## [August 10th, 2020](<August 10th, 2020.md>)
 - {{{[DONE](<DONE.md>)}
 
@@ -67,6 +58,12 @@
 - {{[DONE](<DONE.md>)}
 
 ## [June 24th, 2020](<June 24th, 2020.md>)
+- {{[DONE](<DONE.md>)}
+
+## [October 13th, 2020](<October 13th, 2020.md>)
+- {{[DONE](<DONE.md>)}
+
+## [October 14th, 2020](<October 14th, 2020.md>)
 - {{[DONE](<DONE.md>)}
 
 ## [September 13th, 2020](<September 13th, 2020.md>)

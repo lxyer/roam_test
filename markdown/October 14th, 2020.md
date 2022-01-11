@@ -1,4 +1,4 @@
 - [[Vimium]][[快捷键]]
     - ![](https://cdn.sspai.com/attachment/origin/2014/12/16/204008.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
-- {{[[TODO]]}} 学习一下小程序云开发
+- {{[[DONE]]}} 学习一下小程序云开发
 - 晚上去[[张明明]]家吃的晚饭，晚上在她家玩[[麻将]]学了一下

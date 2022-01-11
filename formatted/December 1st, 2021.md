@@ -345,8 +345,3 @@ max_size = 50 # MB
 max_age = 30 # days
 max_backups = 7
 compress = true```
-
-# Backlinks
-## [2021-11-29~2021-12-03](<2021-11-29~2021-12-03.md>)
-- [December 1st, 2021](<December 1st, 2021.md>)
-

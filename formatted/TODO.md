@@ -22,10 +22,7 @@
 ## [August 5th, 2020](<August 5th, 2020.md>)
 - {{[TODO](<TODO.md>)}
 
-## [October 13th, 2020](<October 13th, 2020.md>)
-- {{[TODO](<TODO.md>)}
-
-## [October 14th, 2020](<October 14th, 2020.md>)
+## [January 10th, 2022](<January 10th, 2022.md>)
 - {{[TODO](<TODO.md>)}
 
 ## [todo-list](<todo-list.md>)
