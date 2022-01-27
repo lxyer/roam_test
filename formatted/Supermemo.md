@@ -34,6 +34,11 @@
 ## [Anki](<Anki.md>)
 - 使用的是[Supermemo](<Supermemo.md>)第
 
+## [January 26th, 2022](<January 26th, 2022.md>)
+- 我们的知识一定要在提取之后格式化的存入到笔记中，比如[Roam Research](<Roam Research.md>)中，之后再把笔记中的知识点提取成简单多个的知识点放在记忆软件中，比如[Anki](<Anki.md>)或者[Supermemo](<Supermemo.md>),
+
+- 我们的知识一定要在提取之后格式化的存入到笔记中，比如[Roam Research](<Roam Research.md>)中，之后再把笔记中的知识点提取成简单多个的知识点放在记忆软件中，比如[Anki](<Anki.md>)或者[Supermemo](<Supermemo.md>),不建议直接放到[Supermemo](<Supermemo.md>)中
+
 ## [Marginnote](<Marginnote.md>)
 - 优点是可以方便的对书籍进行摘录,缺点是如果按照[Supermemo](<Supermemo.md>)的
 

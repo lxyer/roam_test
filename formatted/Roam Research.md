@@ -39,6 +39,9 @@
 
 - {[x] }} 完成[Marginnote](<Marginnote.md>)到[Roam Research](<Roam Research.md>)工
 
+## [January 26th, 2022](<January 26th, 2022.md>)
+- 我们的知识一定要在提取之后格式化的存入到笔记中，比如[Roam Research](<Roam Research.md>)中
+
 ## [July 22nd, 2020](<July 22nd, 2020.md>)
 - 听[王树义](<王树义.md>)老师说[Roam Research](<Roam Research.md>)的
 
