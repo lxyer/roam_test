@@ -27,3 +27,4 @@
         - 基于cglib的实现的，其实就是引入了cglib源码做了一些封装，cglib源码痕迹非常清晰，性能参考cglib的BeanCopier
     - ## 4、Orika
         - http://orika-mapper.github.io/orika-docs/index.html
+- 令牌桶限流器，基于时间窗口，可以解决简单计数器限流不平滑的问题
