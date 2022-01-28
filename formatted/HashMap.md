@@ -9,6 +9,8 @@
 ## [January 27th, 2022](<January 27th, 2022.md>)
 - 可以使用[HashMap](<HashMap.md>)、
 
+- [HashMap](<HashMap.md>)：
+
 ## [October 24th, 2020](<October 24th, 2020.md>)
 - [HashMap](<HashMap.md>)
 

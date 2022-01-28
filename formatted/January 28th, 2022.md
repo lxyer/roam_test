@@ -1,29 +1,29 @@
-- #[[Quick Capture]]
-    - [[以终为始]]，想想一下自己的葬礼上，如何介绍你的一生，你为这个世界做出过什么贡献，你是否有成就可以鼓舞自己的后人，成为他们的精神力量
+- #[Quick Capture](<Quick Capture.md>)
+    - [以终为始](<以终为始.md>)，想想一下自己的葬礼上，如何介绍你的一生，你为这个世界做出过什么贡献，你是否有成就可以鼓舞自己的后人，成为他们的精神力量
     - 如何记录读书笔记
     - 电子书和纸质书如何选择
         - 电子书可以方便的做读书笔记，可检索快递定位是读书笔记最为重要的特性，那些在书上划线或者边上写批注亦或者写了几本读书笔记虽然看起来很令人钦佩，但是真的有用吗？那些写下的文字经历过漫长时间变得模糊之后，复用的可能性会非常的低。
         - 我现在读书的前提：是否可以做电子笔记，电子笔记是否可以导出。如果不能同时满足，这个读书的方案一定会被我剔除。
-- [[线程池]]参数配置
-    - 在《Java Concurrency in Practice》一书中，给出了估算[[线程池]]大小的公式：
+- [线程池](<线程池.md>)参数配置
+    - 在《Java Concurrency in Practice》一书中，给出了估算[线程池](<线程池.md>)大小的公式：
     - Nthreads=Ncpu*Ucpu*(1+w/c)Ncpu=CPU核心数
     - Ucpu=cpu使用率，0~1
     - W/C=等待时间与计算时间的比率
     - 比如说, 服务器cpu为4核, 一般cpu使用到80%会引起系统告警, 等待时间估计为 0.2s, 计算时间为 0.1s。
-    - 线程数=4*0.8*(1+0.2/0.1)=9.6，[[线程池]]配置勉强可以配置到10，而且还是单实例部署情况下
+    - 线程数=4*0.8*(1+0.2/0.1)=9.6，[线程池](<线程池.md>)配置勉强可以配置到10，而且还是单实例部署情况下
 - [Bean映射](https://cf.jd.com/pages/viewpage.action?pageId=690678406)
     - ## 1、Spring BeanUtil
-        - `org.springframework.beans.BeanUtils#copyProperties`
+        - `org.springframework.beans.BeanUtils[copyProperties](<copyProperties.md>)`
         - 基于反射做的，性能不高，使用场景不频繁对性能没有要求的可以借用下
     - ## 2、Cglib BeanCopier
-        - `net.sf.cglib.beans.BeanCopier#copy`
+        - `net.sf.cglib.beans.BeanCopier[copy](<copy.md>)`
         - 基于ASM进行字节码操作，编译时生成代理类，运行时直接执行class文件，性能较好
         - 缺点：
         - 1、不支持自定义对象的深拷贝
         - 2、两个对象的属性字段类型、命名、getter|setter方法要保持一致，否则会拷贝失败
         - 3、BigDecimal的拷贝有精度问题
     - ## 3、Spring BeanCopier
-        - `org.springframework.cglib.beans.BeanCopier#copy`
+        - `org.springframework.cglib.beans.BeanCopier[copy](<copy.md>)`
         - 基于cglib的实现的，其实就是引入了cglib源码做了一些封装，cglib源码痕迹非常清晰，性能参考cglib的BeanCopier
     - ## 4、Orika
         - http://orika-mapper.github.io/orika-docs/index.html

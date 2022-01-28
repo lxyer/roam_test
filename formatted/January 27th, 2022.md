@@ -1,21 +1,21 @@
-- 泛化调用
+- [泛化调用](<泛化调用.md>)
     - JSF泛化调用是指在调用方没有服务方提供的API（SDK）的情况下，对服务方进行调用，并且可以拿到调用结果。
         - 什么时候会用到泛化调用？
             - 测试集成平台
             - 网关服务
         - 目前市面上都有哪些熟知的框架使用泛化调用
-            - 是个RPC框架都会使用
-            - 阿里的Dubbo
-            - Thrift
-            - Serverless
-            - JSF
+            - 是个[RPC](<RPC.md>)框架都会使用
+            - 阿里的[Dubbo](<Dubbo.md>)
+            - [Thrift](<Thrift.md>)
+            - [Serverless](<Serverless.md>)
+            - [JSF](<JSF.md>)
 - Redis 中 [HyperLogLog](<HyperLogLog.md>) 的使用场景
-    - HyperLogLog 是一种基数估算算法。所谓基数估算，就是估算在一批数据中，不重复元素的个数有多少。
-    - HyperLogLog 算法的基本思想来自伯努利过程。
-    - HyperLogLog 的基本思想是利用集合中数字的比特串第一个 1 出现位置的最大值来预估整体基数，但是这种预估方法存在较大误差，为了改善误差情况，HyperLogLog中引入分桶平均的概念，计算 m 个桶的调和平均值。下面公式中的const是一个修正常量。
-    - Redis 中 HyperLogLog 一共分了 2^14 个桶，也就是 16384 个桶。每个桶中是一个 6 bit 的数组
+    - [HyperLogLog](<HyperLogLog.md>) 是一种基数估算算法。所谓基数估算，就是估算在一批数据中，不重复元素的个数有多少。
+    - [HyperLogLog](<HyperLogLog.md>) 算法的基本思想来自伯努利过程。
+    - [HyperLogLog](<HyperLogLog.md>) 的基本思想是利用集合中数字的比特串第一个 1 出现位置的最大值来预估整体基数，但是这种预估方法存在较大误差，为了改善误差情况，[HyperLogLog](<HyperLogLog.md>)中引入分桶平均的概念，计算 m 个桶的调和平均值。下面公式中的const是一个修正常量。
+    - Redis 中 [HyperLogLog](<HyperLogLog.md>) 一共分了 2^14 个桶，也就是 16384 个桶。每个桶中是一个 6 bit 的数组
     - 业务场景下，为了节省成本，其实可以只计算出一个大概的值，而没有必要计算出精准的值
-    - 可以使用[HashMap](<HashMap.md>)、[BitMap](<BitMap.md>)和HyperLogLog 来解决。对于这三种解决方案，这边做下对比
-    - HashMap：算法简单，统计精度高，对于少量数据建议使用，但是对于大量的数据会占用很大内存空间；
-    - BitMap：位图算法，具体内容可以参考我的这篇，统计精度高，虽然内存占用要比HashMap少，但是对于大量数据还是会占用较大内存；
-    - HyperLogLog ：存在一定误差，占用内存少，稳定占用 12k 左右内存，可以统计 2^64 个元素，对于上面举例的应用场景，建议使用。
+    - 可以使用[HashMap](<HashMap.md>)、[BitMap](<BitMap.md>)和[HyperLogLog](<HyperLogLog.md>) 来解决。对于这三种解决方案，这边做下对比
+    - [HashMap](<HashMap.md>)：算法简单，统计精度高，对于少量数据建议使用，但是对于大量的数据会占用很大内存空间；
+    - [BitMap](<BitMap.md>)：位图算法，具体内容可以参考我的这篇，统计精度高，虽然内存占用要比HashMap少，但是对于大量数据还是会占用较大内存；
+    - [HyperLogLog](<HyperLogLog.md>) ：存在一定误差，占用内存少，稳定占用 12k 左右内存，可以统计 2^64 个元素，对于上面举例的应用场景，建议使用。
