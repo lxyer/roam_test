@@ -77,4 +77,6 @@ ctrl+u 向上翻半页
         - 0光标跳转到开头，包含缩进空白
         - zc折叠代码ctrl + - 全部折叠Ctrl + Shift + -
         - zo打开代码ctrl + + 全部打开Ctrl + Shift + +
+    - Find Action的对应快捷键ctrl+shift+a
+    - 
 - 
