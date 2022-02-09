@@ -38,6 +38,9 @@
 ## [IO](<IO.md>)
 - ____ — via [15分钟读懂进程[线程](<线程.md>)、同步异步、阻塞非阻塞、并发并行，太实用了！ - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1592939) [+Roam](<+Roam.md>)
 
+## [January 21st, 2022](<January 21st, 2022.md>)
+- ____ — via [(66条消息) IDEA使用ideaVim_sunny潘先生的博客-CSDN博客](https://blog.csdn.net/qq_42239765/article/details/103874859) [+Roam](<+Roam.md>)
+
 ## [July 14th, 2021](<July 14th, 2021.md>)
 - via [想要做好MVP设计，需要注意哪些问题？ | 人人都是产品经理](http://www.woshipm.com/pmd/3994223.html) [+Roam](<+Roam.md>)
 
