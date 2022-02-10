@@ -21,6 +21,13 @@
         - [r2m-agent](<r2m-agent.md>)
             - 版本:3.0.0
             - 描述： 单机管控
+            - 打包172.24.2.13服务器
+            - ```shell
+sudo su
+su - dev
+/export/project/lxyer
+sh build.sh ex
+```
 - go 的指针:
     - 类型 *T 是指向 T 类型值的指针。其零值为 nil。
     - & 操作符会生成一个指向其操作数的指针。 &先套上,与指针进行关联
