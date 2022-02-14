@@ -30,6 +30,9 @@
 ## [December 8th, 2021](<December 8th, 2021.md>)
 - ____ — via [Redis 6.0 新特性-多线程连环13问！](https://getpocket.com/read/3498674643) [+Roam](<+Roam.md>)
 
+## [February 14th, 2022](<February 14th, 2022.md>)
+- ____ — via [开放API网关实践(二) —— 重放攻击及防御 - SegmentFault 思否](https://segmentfault.com/a/1190000020036097) [+Roam](<+Roam.md>)
+
 ## [February 18th, 2021](<February 18th, 2021.md>)
 - ____ — via [内卷化效应 - MBA智库百科](https://wiki.mbalib.com/wiki/%E5%86%85%E5%8D%B7%E5%8C%96%E6%95%88%E5%BA%94) [+Roam](<+Roam.md>)
 

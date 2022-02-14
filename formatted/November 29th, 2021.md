@@ -12,6 +12,11 @@
         - [r2m-manager](<r2m-manager.md>)
             - 版本:2.3.0
             - 描述： manager集中管控，负责agent管理，agent与web通信
+            - 本地编译
+                - ```shell
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags "-X r2m_manager/version.Buildstamp=`date '+%Y-%m-%dT%H:%M:%S-%Z'` -X r2m_manager/version.Githash=`git rev-parse HEAD` -X r2m_manager/version.Version=`git rev-parse --abbrev-ref HEAD` " -o output/bin/r2m_manager ./cmd/r2m_manager
+```
+            - 
         - [r2m-proxy](<r2m-proxy.md>)
             - 版本:1.5.6
             - 描述： 代理模式访问集群中间件
