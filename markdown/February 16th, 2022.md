@@ -1,0 +1,1 @@
+- Linux 批量删除文件：find . -name "a_20100703*" | xargs rm

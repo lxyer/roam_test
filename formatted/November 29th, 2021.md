@@ -32,7 +32,8 @@ sudo su
 su - dev
 /export/project/lxyer
 sh build.sh ex
-```
+
+服务器编译后，先要压缩之后再上传下载 rz/sz -be xxx 否则文件 md5值都改变了，无法执行```
 - go 的指针:
     - 类型 *T 是指向 T 类型值的指针。其零值为 nil。
     - & 操作符会生成一个指向其操作数的指针。 &先套上,与指针进行关联

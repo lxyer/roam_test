@@ -1,1 +1,5 @@
 - Log4j/Log4j2自定义[[Appender]]来实现日志级别计数统计及监控
+- Maven $JAVA_HOME is not defined correctly on Mac OS 问题
+    - vim ~/.zshrc
+    - export JAVA_HOME=$(/usr/libexec/java_home)
+    - source ~/.zshrc
