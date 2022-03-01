@@ -20,6 +20,7 @@ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags "-X r2m_manager/version.
         - [[r2m-proxy]]
             - 版本:1.5.6
             - 描述： 代理模式访问集群中间件
+            - 部署：本地编译不通过，需要使用 Linux 进行编译，如果使用交叉编译需要在 makefile文件中添加 CGO_ENABLED=0 GOOS=linux GOARCH=amd64
         - [[r2m-port]]
             - 版本:1.6.5
             - 描述： R2M数据迁移工具
