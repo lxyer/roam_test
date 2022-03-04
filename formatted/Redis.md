@@ -228,6 +228,15 @@
 
 - [Redis](<Redis.md>)各
 
+## [March 2nd, 2022](<March 2nd, 2022.md>)
+- 随机字符串后台收到后放入到[Redis](<Redis.md>)中
+
+- 随机字符串后台收到后放入到[Redis](<Redis.md>)中,如果发现[Redis](<Redis.md>)中
+
+- 随机字符串后台收到后放入到[Redis](<Redis.md>)中,如果发现[Redis](<Redis.md>)中已有值,则判断此次访问无效,可以保证参数访问的一次性有效性.缺点为这个[Redis](<Redis.md>)中
+
+- [最佳实践](<最佳实践.md>)结合[timestamp](<timestamp.md>)和nonce,[Redis](<Redis.md>)中
+
 ## [October 24th, 2020](<October 24th, 2020.md>)
 - [Redis](<Redis.md>)
 
