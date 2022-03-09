@@ -1,0 +1,6 @@
+- 分布式事务 XA 模式
+    - XA 协议是由 X/Open 组织提出的分布式事务处理规范，主要定义了事务管理器 TM 和局部资源管理器 RM 之间的接口。目前主流的数据库，比如 oracle、DB2 都是支持 XA 协议的。
+    - mysql 从 5.0 版本开始，innoDB 存储引擎已经支持 XA 协议
+    - 跟 TCC 和 SAGA 模式需要在业务代码中实现
+    - prepare/commit/rollback 逻辑相比，XA 模式对业务代码无侵入。
+    - mysql-connector-java.jar 包中的 MysqlXAConnection 类实例，它封装了 mysql 提供的 XA 协议接口。
