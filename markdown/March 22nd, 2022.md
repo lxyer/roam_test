@@ -1,0 +1,18 @@
+- 下载教材
+    - 教师之家
+        - https://www.renjiaoshe.com/shuxue/
+    - 1
+        - https://www.eduyun.cn/
+- 
+- 知犀 #思维导图
+    - https://www.zhixi.com/
+- https://free3d.com/  #3D
+- 演示软件
+    - PPT
+    - Keynote
+    - prezi
+    - https://www.laihua.com/
+- 
+- deadline是第一生产力
+- 什么样的视频才会收藏
+- 
