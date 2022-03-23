@@ -32,3 +32,7 @@
                     - 就比如说“性”话题，这个注定只能小范围
                     - 就算做成爆款，也有明显的天花板上限，但是有一个好处就是受众很精，都是精准粉丝。
                 - 选题本身有很强的话题性，是个好选题，但是有先天限制，不会成为刷屏式大爆款。
+- [[nginx]]平滑重启原理
+    - master解析配置文件，打开监听端口；worker继承监听端口，处理网络请求，master等待信号。
+    - master 处理reload信号，重新解析配置，建立新的listening socket，fork新的worker，并向旧的worker发送quit消息。
+    - 旧的worker关闭listening socket，处理完所有连接后，退出。
