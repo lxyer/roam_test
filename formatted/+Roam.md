@@ -47,6 +47,9 @@
 ## [July 14th, 2021](<July 14th, 2021.md>)
 - via [想要做好MVP设计，需要注意哪些问题？ | 人人都是产品经理](http://www.woshipm.com/pmd/3994223.html) [+Roam](<+Roam.md>)
 
+## [March 23rd, 2022](<March 23rd, 2022.md>)
+- ____ — via [2021年，如何做短视频赚钱？（收藏级） - 知乎](https://zhuanlan.zhihu.com/p/402468260) [+Roam](<+Roam.md>)
+
 ## [November 25th, 2021](<November 25th, 2021.md>)
 - ____ — via [缓存更新的套路 | 酷 壳 - CoolShell](https://coolshell.cn/articles/17416.html) [+Roam](<+Roam.md>)
 
