@@ -22070,6 +22070,78 @@
             "edit-time": 1595403555279,
             "string": "[\u8bfe\u7a0b\u8003\u8bd5\u7f34\u8d39\u7f51\u7ad9](https://tdxl.ruc.edu.cn/netpay/enter.asp)",
             "uid": "apWCrt690"
+          },
+          {
+            ":create/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            ":edit/user": {
+              ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+            },
+            "children": [
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "create-time": 1648798219626,
+                "edit-time": 1648798220281,
+                "string": "\u8ba1\u7b97\u673a\u6570\u636e\u5e93\u5b89\u5168\u7ba1\u7406\u7814\u7a76  https://d.wanfangdata.com.cn/periodical/ChlQZXJpb2RpY2FsQ0hJTmV3UzIwMjIwMzIyEhpRS0JKQkQyMDIxMjAyMTExMjYwMDAxNzQ1NBoIY2U1eTM2ajk%3D",
+                "uid": "v5J3qgK-7"
+              },
+              {
+                ":create/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                ":edit/user": {
+                  ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                },
+                "children": [
+                  {
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "edit-time": 1648798231362,
+                    "string": "{{[[pdf]]: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FjaN5It0gvE.pdf?alt=media&token=960ec87a-9a85-41de-9ff0-db585a9ae8cf}}",
+                    "uid": "Zh1iZQxeg"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1648798270782,
+                    "edit-time": 1648798278207,
+                    "string": "![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Flxyer%2FMXAdCyvKOc.png?alt=media&token=f28ca6eb-772d-41ff-91c0-c2cd94b6c7fa)",
+                    "uid": "-6uZkZ40-"
+                  },
+                  {
+                    ":create/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    ":edit/user": {
+                      ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+                    },
+                    "create-time": 1648798281933,
+                    "edit-time": 1648798281933,
+                    "string": "",
+                    "uid": "JfIbUxY0W"
+                  }
+                ],
+                "create-time": 1648798221207,
+                "edit-time": 1648798221207,
+                "string": "",
+                "uid": "DrWpPgLoa"
+              }
+            ],
+            "create-time": 1648798203589,
+            "edit-time": 1648798212720,
+            "string": "\u8bba\u6587",
+            "uid": "J0R4N2VqY"
           }
         ],
         "create-time": 1595403558611,
@@ -107459,6 +107531,20 @@
       ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
     },
     ":log/id": 1648777534127,
+    "children": [
+      {
+        ":create/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        ":edit/user": {
+          ":user/uid": "P2YwG3k1ZCPyVsdL3x7Iuu6Tgej1"
+        },
+        "create-time": 1648798102506,
+        "edit-time": 1648798102506,
+        "string": "",
+        "uid": "tATkd2nxR"
+      }
+    ],
     "create-time": 1648777534129,
     "edit-time": 1648777534129,
     "title": "April 1st, 2022",
