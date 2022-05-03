@@ -1,0 +1,15 @@
+- 自动剪辑视频
+    - https://kolpower.cc/video-editor
+    - Quick Cut
+    - ReCut
+    - 视频大排档
+    - [Auto-Editor](<Auto-Editor.md>)
+- IDM
+    - 基础设置
+        - 安装浏览器插件
+        - 多线程
+        - https://www.idmchina.net/jiaocheng/peizhi-jiqiao.html
+    - 下载视频
+    - 下载百度网盘
+    - 如何下载磁力链接
+    - 当我们遇到BT或磁力链接的资源又想使用IDM进行下载时，我们可以采取折中的方法，将BT或磁力链接通过离线下载的方法存储在一个“中转站”中，再用IDM从这个“中转站”中进行下载。
